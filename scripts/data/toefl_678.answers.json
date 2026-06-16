@@ -1,0 +1,92 @@
+[
+  {
+    "ref": "The rain clouds can be seen in the distance",
+    "answer": 1,
+    "expl": "Salah. Setelah \"but\" subjek klausa kedua memakai \"no\", padahal \"no\" bukan kata ganti subjek yang valid — seharusnya \"none\" (merujuk pada hujan). Konektor \"but\" sudah tepat, tapi subjek klausa keduanya salah: \"...but none has fallen.\"",
+    "flagged": false
+  },
+  {
+    "ref": "The researcher's preliminary findings",
+    "answer": 2,
+    "expl": "Subjek gabungan \"findings ... and ... analysis\" dihubungkan \"and\" sehingga berjumlah jamak, maka verb-nya harus \"have\", bukan \"has\". Seharusnya: \"...the subsequent analysis have a significant impact...\"",
+    "flagged": false
+  },
+  {
+    "ref": "The speaker was engaging",
+    "answer": 2,
+    "expl": "Tiga unsur yang dihubungkan koma + \"and\" harus sejajar bentuknya (parallel structure). \"Engaging\" dan \"informative\" adalah adjective, sedangkan \"inspired many people\" adalah verb phrase — tidak sejajar. Seharusnya bentuk adjective juga, mis. \"inspiring\".",
+    "flagged": false
+  },
+  {
+    "ref": "A bright light appeared in the sky",
+    "answer": 1,
+    "expl": "Pola FANBOYS adalah \"S+V, FANBOYS S+V\" — koma harus diikuti kata penghubung FANBOYS, bukan adverb. \"And\" adalah FANBOYS yang tepat menggabungkan dua klausa lengkap. \"Then\"/\"Later\" adalah adverb yang tidak boleh langsung mengikuti koma (comma splice); \"It\" tidak membentuk konjungsi sama sekali.",
+    "flagged": false
+  },
+  {
+    "ref": "The rain was heavy, so",
+    "answer": 0,
+    "expl": "Setelah FANBOYS \"so\" harus diikuti klausa lengkap (S+V). \"The game was postponed\" (S=the game, V=was postponed) adalah satu-satunya pilihan yang merupakan klausa lengkap; pilihan lain berupa frasa gerund/susunan kata yang tidak gramatikal.",
+    "flagged": false
+  },
+  {
+    "ref": "Their backgrounds are thoroughly investigated",
+    "answer": 1,
+    "expl": "Salah. Klausa setelah \"before\" tidak punya subjek (\"before are admitted...\"). Seharusnya: \"...before they are admitted to the organization.\"",
+    "flagged": false
+  },
+  {
+    "ref": "Although he was tired, but he kept working",
+    "answer": 2,
+    "expl": "Satu kalimat hanya boleh memakai SATU connector. \"Although\" sudah menjadikan klausa pertama sebagai anak kalimat, sehingga \"but\" di depan klausa kedua berlebihan (double connector). Seharusnya salah satu saja: \"Although he was tired, he kept working.\"",
+    "flagged": false
+  },
+  {
+    "ref": "He was tired, because he studied all night",
+    "answer": 0,
+    "expl": "Pada pola \"S+V Connector S+V\" (klausa utama lebih dulu), TIDAK perlu koma sebelum connector. Di kalimat ini ada koma sebelum \"because\" yang seharusnya tidak ada. Seharusnya: \"He was tired because he studied all night.\"",
+    "flagged": false
+  },
+  {
+    "ref": "When the show ended the audience left",
+    "answer": 1,
+    "expl": "Pada pola \"Connector S+V , S+V\" (connector di depan), koma WAJIB dipasang setelah anak kalimat selesai. Di kalimat ini koma setelah \"the show ended\" hilang. Seharusnya: \"When the show ended, the audience left the theater quickly.\"",
+    "flagged": false
+  },
+  {
+    "ref": "The student passed the exam",
+    "answer": 2,
+    "expl": "Hubungan logisnya sebab-akibat: belajar keras (sebab) lalu lulus (akibat). \"Because\" tepat menghubungkan akibat lebih dulu lalu sebabnya. \"So\" akan membalik logika (lulus menyebabkan belajar keras — tidak logis); \"And\"/\"Then\" tidak menyatakan sebab.",
+    "flagged": false
+  },
+  {
+    "ref": "It is impossible to enter that program",
+    "answer": 0,
+    "expl": "Benar. Pola \"S+V Connector S+V\" terpenuhi: klausa utama \"It is impossible to enter that program\" + connector \"if\" (kondisi) + klausa \"you lack experience as a teacher\", tanpa koma karena connector berada di tengah.",
+    "flagged": false
+  },
+  {
+    "ref": "Even though the traffic was heavy, but they managed",
+    "answer": 1,
+    "expl": "Double connector lagi: \"Even though\" dan \"but\" tidak boleh dipakai bersamaan dalam satu kalimat. Seharusnya: \"Even though the traffic was heavy, they managed to arrive on time.\"",
+    "flagged": false
+  },
+  {
+    "ref": "Unless you don't submit the application",
+    "answer": 1,
+    "expl": "\"Unless\" sudah bermakna \"if not\", jadi menambahkan \"don't\" membuat negasi ganda yang membalik makna kalimat. Seharusnya tanpa \"don't\": \"Unless you submit the application by Friday, it will not be considered.\"",
+    "flagged": false
+  },
+  {
+    "ref": "Because the sudden power outage",
+    "answer": 0,
+    "expl": "\"Because\" (connector) harus diikuti klausa lengkap (S+V), sedangkan \"the sudden power outage\" hanya frasa benda tanpa verb. Seharusnya pakai \"Because of\" (preposisi) untuk frasa benda: \"Because of the sudden power outage, all computers shut down unexpectedly.\"",
+    "flagged": false
+  },
+  {
+    "ref": "the presentation ended, the audience asked",
+    "answer": 1,
+    "expl": "Slot ini butuh connector waktu yang diikuti klausa lengkap \"the presentation ended\". \"After\" pas secara makna & struktur. \"During\" adalah preposisi yang butuh frasa benda, bukan klausa; \"So\"/\"The\" tidak gramatikal di posisi ini.",
+    "flagged": false
+  }
+]

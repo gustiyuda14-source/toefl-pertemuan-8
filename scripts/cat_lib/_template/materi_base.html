@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Materi TOEFL Skill 4 & 5 — Present & Past Participle | D Ajiks Akademi</title>
+<style>
+  :root{
+    --bg:#070b11; --glass:rgba(255,255,255,.045); --glass2:rgba(255,255,255,.07);
+    --accent:#34d399; --accent2:#22d3ee; --glow:rgba(52,211,153,.32);
+    --text:#eaf3f0; --muted:#8ba39b;
+    --ok:#34d399; --bad:#fb7185; --warn:#fbbf24;
+    --border:rgba(255,255,255,.09);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh;position:relative;-webkit-font-smoothing:antialiased}
+  body::before{content:"";position:fixed;inset:0;z-index:-2;background:
+      radial-gradient(60% 50% at 12% 8%, rgba(52,211,153,.16), transparent 60%),
+      radial-gradient(55% 50% at 92% 96%, rgba(34,211,238,.14), transparent 60%),
+      linear-gradient(160deg,#070b11,#0a0f16 60%,#070a10)}
+  body::after{content:"";position:fixed;inset:0;z-index:-1;opacity:.5;
+      background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+      background-size:46px 46px;-webkit-mask-image:radial-gradient(circle at 50% 20%,#000,transparent 80%);mask-image:radial-gradient(circle at 50% 20%,#000,transparent 80%)}
+  .wrap{max-width:840px;margin:0 auto;padding:26px 18px 64px}
+  .navbar{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:20px}
+  .btn{display:inline-flex;align-items:center;gap:8px;border:none;border-radius:13px;padding:12px 20px;font-size:.95rem;font-weight:600;cursor:pointer;transition:.18s;text-decoration:none;letter-spacing:.2px}
+  .btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#04140d;box-shadow:0 6px 24px var(--glow)}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 30px var(--glow)}
+  .btn-ghost{background:rgba(255,255,255,.04);border:1px solid var(--border);color:var(--text)}
+  .btn-ghost:hover{background:rgba(255,255,255,.09);border-color:rgba(52,211,153,.4)}
+  /* hero banner */
+  .hero{position:relative;border-radius:22px;overflow:hidden;margin-bottom:22px;height:400px;border:1px solid var(--border);box-shadow:0 10px 40px rgba(0,0,0,.45)}
+  .hero img{width:100%;height:100%;object-fit:cover;object-position:50% 66%;display:block;filter:saturate(1.12) contrast(1.05);transform-origin:50% 66%;will-change:transform;backface-visibility:hidden;animation:heroZoom 30s cubic-bezier(.4,0,.2,1) infinite alternate;image-rendering:auto}
+  /* zoom-out terbesar (gedung + tulisan IPDN + gerbang PKD) lalu zoom-in perlahan ke titik fokus yang sama */
+  @keyframes heroZoom{0%{transform:scale(1.0)}100%{transform:scale(1.3)}}
+  @media(prefers-reduced-motion:reduce){.hero img{animation:none;transform:scale(1.08)}}
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,11,17,.05) 0%,rgba(7,11,17,.35) 45%,rgba(7,11,17,.92) 100%)}
+  .hero-cap{position:absolute;left:22px;bottom:16px;z-index:2}
+  .hero-cap .tag{display:inline-block;font-size:.7rem;letter-spacing:2px;text-transform:uppercase;color:var(--accent);border:1px solid var(--border);background:rgba(7,11,17,.4);padding:3px 10px;border-radius:99px;backdrop-filter:blur(6px);margin-bottom:8px}
+  .hero-cap h1{font-size:1.5rem;text-shadow:0 2px 16px rgba(0,0,0,.6)}
+  h1{font-size:1.6rem;margin-bottom:6px;letter-spacing:-.3px}
+  .sub{color:var(--muted);margin-bottom:24px}
+  .skill-head{position:relative;background:var(--glass);border:1px solid var(--border);border-left:4px solid var(--accent);color:var(--text);border-radius:16px;padding:17px 22px;margin:32px 0 18px;font-size:1.25rem;font-weight:800;letter-spacing:.3px;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 6px 26px rgba(0,0,0,.35)}
+  .skill-head span.k{background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .card{background:var(--glass);border:1px solid var(--border);border-radius:18px;padding:24px;margin-bottom:16px;backdrop-filter:blur(16px) saturate(1.2);-webkit-backdrop-filter:blur(16px) saturate(1.2);box-shadow:0 10px 40px rgba(0,0,0,.35)}
+  .card h3{font-size:1.08rem;color:var(--accent);margin-bottom:8px}
+  .card p{margin-bottom:10px}
+  .ex{background:rgba(255,255,255,.035);border-left:3px solid var(--accent2);border-radius:8px;padding:11px 15px;margin:8px 0;font-style:italic;color:#cfe3dc}
+  .formula{display:inline-block;background:rgba(52,211,153,.12);border:1px solid rgba(52,211,153,.35);border-radius:8px;padding:4px 12px;font-weight:700;color:var(--accent);margin:4px 0;font-style:normal}
+  /* exercise */
+  .ex-block{background:var(--glass);border:1px solid var(--border);border-radius:18px;padding:22px;margin-bottom:16px;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 8px 30px rgba(0,0,0,.3)}
+  .ex-q{font-weight:600;font-size:1.06rem;margin-bottom:15px;line-height:1.5}
+  .ex-q .n{color:var(--accent);font-weight:800;margin-right:6px}
+  .ex-opts{display:flex;flex-direction:column;gap:10px}
+  .ex-opt{display:flex;align-items:center;gap:12px;padding:12px 16px;border:1px solid var(--border);border-radius:13px;cursor:pointer;background:rgba(255,255,255,.03);transition:.15s}
+  .ex-opt:hover{border-color:rgba(52,211,153,.45);background:rgba(255,255,255,.06)}
+  .ex-opt .mk{width:26px;height:26px;border-radius:50%;border:2px solid var(--muted);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.82rem;flex-shrink:0;transition:.15s}
+  .ex-opt.correct{border-color:var(--ok);background:rgba(52,211,153,.14)}
+  .ex-opt.correct .mk{border-color:var(--ok);background:var(--ok);color:#04140d;box-shadow:0 0 12px var(--glow)}
+  .ex-opt.wrong{border-color:var(--bad);background:rgba(251,113,133,.14)}
+  .ex-opt.wrong .mk{border-color:var(--bad);background:var(--bad);color:#1a0508}
+  .ex-opt.locked{cursor:default}
+  .feedback{margin-top:13px;padding:12px 15px;border-radius:10px;font-size:.93rem;display:none}
+  .feedback.show{display:block}
+  .feedback.good{background:rgba(52,211,153,.1);border-left:3px solid var(--ok);color:#a7f3d0}
+  .feedback.bad{background:rgba(251,113,133,.1);border-left:3px solid var(--bad);color:#fecdd3}
+  .retry{margin-top:10px;font-size:.85rem;color:var(--accent);background:none;border:none;cursor:pointer;text-decoration:underline;padding:0}
+  .badge{display:inline-block;font-size:.72rem;padding:2px 9px;border-radius:99px;background:rgba(251,191,36,.14);color:var(--warn);border:1px solid rgba(251,191,36,.4);margin-left:6px}
+  footer{text-align:center;color:var(--muted);font-size:.82rem;margin-top:38px;letter-spacing:.3px}
+  @media(max-width:520px){h1{font-size:1.35rem}.skill-head{font-size:1.08rem}.hero{height:300px}.hero-cap h1{font-size:1.25rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="navbar">
+    <a class="btn btn-ghost" href="index.html">← Kembali ke Tes</a>
+    <a class="btn btn-primary" href="index.html">Mulai Tes →</a>
+  </div>
+
+  <div class="hero">
+    <img src="assets/ipdn-banner.jpg" alt="Kampus IPDN">
+    <div class="hero-cap">
+      <span class="tag">Materi Belajar</span>
+      <h1>TOEFL — Skill 4 &amp; 5</h1>
+    </div>
+  </div>
+
+  <h1>Present &amp; Past Participle</h1>
+  <p class="sub">Pelajari teori lalu uji dengan latihan interaktif (feedback langsung).</p>
+
+  <!-- ===================== SKILL 4 ===================== -->
+  <div class="skill-head"><span class="k">SKILL 4</span> — Present Participle</div>
+
+  <div class="card">
+    <h3>Apa itu Present Participle?</h3>
+    <p>Present participle adalah bentuk kata kerja dengan format <span class="formula">verb + -ing</span>. Bentuk ini punya <b>dua fungsi</b> yang sering diujikan di TOEFL.</p>
+  </div>
+
+  <div class="card">
+    <h3>1. Sebagai Part of a Verb (bagian kata kerja)</h3>
+    <p>Terbentuk ketika verb<i>-ing</i> <b>ditemani to be</b> (am, is, are, was, were).</p>
+    <div class="ex">My mother <b>is baking</b> chocolate cupcakes in the kitchen.</div>
+    <div class="ex">The colleagues <b>are discussing</b> the new project in the meeting room.</div>
+  </div>
+
+  <div class="card">
+    <h3>2. Sebagai Adjective (kata sifat)</h3>
+    <p>Berbeda dengan fungsi sebelumnya, present participle sebagai adjective <b>TIDAK menyertakan to be</b> pada format verb<i>-ing</i>.</p>
+    <div class="ex">The bus <b>arriving</b> at the terminal is two hours late.</div>
+    <div class="ex">The students <b>debating</b> in the class look serious.</div>
+    <p style="color:var(--warn);font-size:.9rem">💡 Kunci: kalau kalimat sudah punya verb utama lain, maka verb<i>-ing</i> berperan sebagai adjective.</p>
+  </div>
+
+  <h3 style="margin:24px 0 14px;color:var(--accent)">📝 Latihan Interaktif — Skill 4</h3>
+  <div id="ex-skill4"></div>
+
+  <!-- ===================== SKILL 5 ===================== -->
+  <div class="skill-head"><span class="k">SKILL 5</span> — Past Participle</div>
+
+  <div class="card">
+    <h3>Apa itu Past Participle?</h3>
+    <p>Past participle (verb bentuk ke-3, mis. <i>written, purchased</i>) bisa membingungkan karena berfungsi sebagai <b>adjective</b> ATAU <b>part of verb</b>. Aturannya mirip present participle:</p>
+    <p>• Diikuti/didahului <b>has, had, have, atau to be</b> → <b>part of verb</b><br>
+       • <b>Tanpa</b> has/had/have/to be → <b>adjective</b></p>
+  </div>
+
+  <div class="card">
+    <h3>1. Sebagai Part of a Verb</h3>
+    <div class="ex">The family <b>has purchased</b> a television.</div>
+    <div class="ex">The poem <b>was written</b> by Paul.</div>
+  </div>
+
+  <div class="card">
+    <h3>2. Sebagai Adjective</h3>
+    <p>Tanpa to be / has / have / had.</p>
+    <div class="ex">The television <b>purchased</b> yesterday was expensive.</div>
+    <div class="ex">The poem <b>written</b> by Paul appeared in magazine.</div>
+  </div>
+
+  <h3 style="margin:24px 0 14px;color:var(--accent)">📝 Latihan Interaktif — Skill 5</h3>
+  <div id="ex-skill5"></div>
+
+  <div class="navbar" style="margin-top:30px">
+    <a class="btn btn-ghost" href="index.html">← Kembali ke Tes</a>
+    <a class="btn btn-primary" href="index.html">Siap! Mulai Tes →</a>
+  </div>
+
+  <footer>© Bimbel D Ajiks Akademi — Materi &amp; Latihan TOEFL</footer>
+</div>
+
+<script>
+/* ============ DATA LATIHAN INTERAKTIF ============ */
+const SKILL4 = [
+  { text:"The concert _____ showing at the stadium is the one I want to attend.",
+    options:["now","is","it","was","Has"], answer:0,
+    expl:"\"showing\" sudah jadi adjective dan verb utamanya \"is\". Slot hanya bisa diisi adverb \"now\". Memilih is/was/has akan membuat verb ganda." },
+  { text:"The film _______ appearing at the local theatre is my favourite.",
+    options:["Now","Is","It","Was","Has"], answer:0,
+    expl:"Sama seperti sebelumnya: \"appearing\" adjective, verb utama \"is\". Hanya \"Now\" (adverb) yang cocok tanpa membuat verb ganda." },
+  { text:"After _______ the assignment, I continue helping my mother cooking for dinner.",
+    options:["Finish","Finishing","Finished","Finishes","Is finishing"], answer:1,
+    expl:"Setelah preposisi \"After\" harus diikuti gerund (verb-ing): \"Finishing\". Preposisi selalu diikuti noun/gerund." },
+  { text:"Who is _______ our coffee?",
+    options:["Set up","Setted up","Set","Setting up","Setting"], answer:3,
+    expl:"\"is\" + present participle = part of verb. Bentuk -ing dari phrasal verb \"set up\" adalah \"setting up\". (\"setting\" saja kehilangan makna menyiapkan.)" },
+  { text:"We see the girl _______ the coconut tree in her yard.",
+    options:["Climbing","Climbs","Was climbing","Is climbing","Climbed"], answer:0,
+    expl:"Verb utama \"see\" sudah ada. \"the girl\" diterangkan present participle sebagai adjective: \"climbing\". Opsi ber-to be membuat verb ganda." },
+];
+
+const SKILL5 = [
+  { text:"The car fixed by the mechanic ______ well.",
+    options:["Runs","Running","It runs","Was fixed","Fixer"], answer:0,
+    expl:"\"fixed by the mechanic\" adalah adjective phrase yang menerangkan car. Subjek butuh verb utama: \"Runs\". \"Was fixed\" membuat verb ganda." },
+  { text:"The topics ______ in the workshop ______ very relevant to our research.",
+    options:["Discussed / was","Discussed / were","Were discussed / were","Discussing / was","Was discussed / were"], answer:1,
+    expl:"Slot 1 = adjective (\"Discussed\"), slot 2 = verb utama. Subjek \"topics\" jamak → \"were\". Maka \"Discussed / were\"." },
+  { text:"The experiment ______ conducted by the scientist failed twice.",
+    options:["Was","It","That","Has","So"], answer:0, flagged:true,
+    expl:"Catatan: secara ideal kalimat benar tanpa kata tambahan (\"The experiment conducted by... failed\"). Dari opsi yang ada, \"Was\" dipilih sebagai jawaban dokumen — sebaiknya verifikasi ke pengajar." },
+  { text:"The new smartphone _____ in Korea _____ a revolutionary camera.",
+    options:["Designed / has","Designed / it has","Was designed / has","Designing / has","Was designed / have"], answer:0,
+    expl:"Slot 1 = adjective (\"Designed in Korea\"), slot 2 = verb utama tunggal → \"has\". Maka \"Designed / has\". Pilihan ber-was membuat verb ganda." },
+  { text:"The lawyer ______ the client's case was very confident.",
+    options:["Presented","Was presented","Presenting","Has presented","Presenter"], answer:0,
+    expl:"Verb utama kalimat \"was very confident\". \"the lawyer\" diterangkan past participle adjective: \"Presented the client's case\". Bandingkan: lawyer yang menyajikan kasus." },
+];
+
+const LETTERS = ["A","B","C","D","E"];
+
+function renderExercises(containerId, data, prefix){
+  const wrap = document.getElementById(containerId);
+  data.forEach((q,idx)=>{
+    const block = document.createElement("div");
+    block.className = "ex-block";
+    const flag = q.flagged ? `<span class="badge">perlu verifikasi</span>` : ``;
+    let optsHtml = "";
+    q.options.forEach((opt,i)=>{
+      optsHtml += `<div class="ex-opt" data-i="${i}"><span class="mk">${LETTERS[i]}</span><span>${opt}</span></div>`;
+    });
+    block.innerHTML = `
+      <div class="ex-q"><span class="n">${idx+1}.</span>${q.text} ${flag}</div>
+      <div class="ex-opts">${optsHtml}</div>
+      <div class="feedback"></div>
+    `;
+    wrap.appendChild(block);
+
+    const optEls = block.querySelectorAll(".ex-opt");
+    const fb = block.querySelector(".feedback");
+    optEls.forEach(el=>{
+      el.addEventListener("click",()=>{
+        if(block.dataset.locked==="1") return;
+        block.dataset.locked = "1";
+        const chosen = parseInt(el.dataset.i,10);
+        optEls.forEach(o=>o.classList.add("locked"));
+        // mark correct
+        optEls[q.answer].classList.add("correct");
+        if(chosen===q.answer){
+          fb.className = "feedback show good";
+          fb.innerHTML = `✓ <b>Benar!</b> ${q.expl}`;
+        }else{
+          el.classList.add("wrong");
+          fb.className = "feedback show bad";
+          fb.innerHTML = `✗ <b>Kurang tepat.</b> Jawaban benar: <b>${LETTERS[q.answer]}. ${q.options[q.answer]}</b>.<br>${q.expl}`;
+        }
+        // add retry button once
+        if(!block.querySelector(".retry")){
+          const rt = document.createElement("button");
+          rt.className = "retry";
+          rt.textContent = "↻ Coba lagi";
+          rt.onclick = ()=>{
+            block.dataset.locked = "";
+            optEls.forEach(o=>o.classList.remove("locked","correct","wrong"));
+            fb.className = "feedback";
+            fb.innerHTML = "";
+            rt.remove();
+          };
+          fb.after(rt);
+        }
+      });
+    });
+  });
+}
+
+renderExercises("ex-skill4", SKILL4, "s4");
+renderExercises("ex-skill5", SKILL5, "s5");
+</script>
+</body>
+</html>

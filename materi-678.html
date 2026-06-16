@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Materi TOEFL Skill 6, 7 & 8 — Coordinate &amp; Adverb Connectors | D Ajiks Akademi</title>
+<style>
+  :root{
+    --bg:#070b11; --glass:rgba(255,255,255,.045); --glass2:rgba(255,255,255,.07);
+    --accent:#34d399; --accent2:#22d3ee; --glow:rgba(52,211,153,.32);
+    --text:#eaf3f0; --muted:#8ba39b;
+    --ok:#34d399; --bad:#fb7185; --warn:#fbbf24;
+    --border:rgba(255,255,255,.09);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.7;min-height:100vh;position:relative;-webkit-font-smoothing:antialiased}
+  body::before{content:"";position:fixed;inset:0;z-index:-2;background:
+      radial-gradient(60% 50% at 12% 8%, rgba(52,211,153,.16), transparent 60%),
+      radial-gradient(55% 50% at 92% 96%, rgba(34,211,238,.14), transparent 60%),
+      linear-gradient(160deg,#070b11,#0a0f16 60%,#070a10)}
+  body::after{content:"";position:fixed;inset:0;z-index:-1;opacity:.5;
+      background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);
+      background-size:46px 46px;-webkit-mask-image:radial-gradient(circle at 50% 20%,#000,transparent 80%);mask-image:radial-gradient(circle at 50% 20%,#000,transparent 80%)}
+  .wrap{max-width:840px;margin:0 auto;padding:26px 18px 64px}
+  .navbar{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:20px}
+  .btn{display:inline-flex;align-items:center;gap:8px;border:none;border-radius:13px;padding:12px 20px;font-size:.95rem;font-weight:600;cursor:pointer;transition:.18s;text-decoration:none;letter-spacing:.2px}
+  .btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#04140d;box-shadow:0 6px 24px var(--glow)}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 30px var(--glow)}
+  .btn-ghost{background:rgba(255,255,255,.04);border:1px solid var(--border);color:var(--text)}
+  .btn-ghost:hover{background:rgba(255,255,255,.09);border-color:rgba(52,211,153,.4)}
+  /* hero banner */
+  .hero{position:relative;border-radius:22px;overflow:hidden;margin-bottom:22px;height:400px;border:1px solid var(--border);box-shadow:0 10px 40px rgba(0,0,0,.45)}
+  .hero img{width:100%;height:100%;object-fit:cover;object-position:50% 66%;display:block;filter:saturate(1.12) contrast(1.05);transform-origin:50% 66%;will-change:transform;backface-visibility:hidden;animation:heroZoom 30s cubic-bezier(.4,0,.2,1) infinite alternate;image-rendering:auto}
+  /* zoom-out terbesar (gedung + tulisan IPDN + gerbang PKD) lalu zoom-in perlahan ke titik fokus yang sama */
+  @keyframes heroZoom{0%{transform:scale(1.0)}100%{transform:scale(1.3)}}
+  @media(prefers-reduced-motion:reduce){.hero img{animation:none;transform:scale(1.08)}}
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,11,17,.05) 0%,rgba(7,11,17,.35) 45%,rgba(7,11,17,.92) 100%)}
+  .hero-cap{position:absolute;left:22px;bottom:16px;z-index:2}
+  .hero-cap .tag{display:inline-block;font-size:.7rem;letter-spacing:2px;text-transform:uppercase;color:var(--accent);border:1px solid var(--border);background:rgba(7,11,17,.4);padding:3px 10px;border-radius:99px;backdrop-filter:blur(6px);margin-bottom:8px}
+  .hero-cap h1{font-size:1.5rem;text-shadow:0 2px 16px rgba(0,0,0,.6)}
+  h1{font-size:1.6rem;margin-bottom:6px;letter-spacing:-.3px}
+  .sub{color:var(--muted);margin-bottom:24px}
+  .skill-head{position:relative;background:var(--glass);border:1px solid var(--border);border-left:4px solid var(--accent);color:var(--text);border-radius:16px;padding:17px 22px;margin:32px 0 18px;font-size:1.25rem;font-weight:800;letter-spacing:.3px;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);box-shadow:0 6px 26px rgba(0,0,0,.35)}
+  .skill-head span.k{background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+  .card{background:var(--glass);border:1px solid var(--border);border-radius:18px;padding:24px;margin-bottom:16px;backdrop-filter:blur(16px) saturate(1.2);-webkit-backdrop-filter:blur(16px) saturate(1.2);box-shadow:0 10px 40px rgba(0,0,0,.35)}
+  .card h3{font-size:1.08rem;color:var(--accent);margin-bottom:8px}
+  .card p{margin-bottom:10px}
+  .ex{background:rgba(255,255,255,.035);border-left:3px solid var(--accent2);border-radius:8px;padding:11px 15px;margin:8px 0;font-style:italic;color:#cfe3dc}
+  .formula{display:inline-block;background:rgba(52,211,153,.12);border:1px solid rgba(52,211,153,.35);border-radius:8px;padding:4px 12px;font-weight:700;color:var(--accent);margin:4px 0;font-style:normal}
+  /* exercise */
+  .ex-block{background:var(--glass);border:1px solid var(--border);border-radius:18px;padding:22px;margin-bottom:16px;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 8px 30px rgba(0,0,0,.3)}
+  .ex-q{font-weight:600;font-size:1.06rem;margin-bottom:15px;line-height:1.5}
+  .ex-q .n{color:var(--accent);font-weight:800;margin-right:6px}
+  .ex-opts{display:flex;flex-direction:column;gap:10px}
+  .ex-opt{display:flex;align-items:center;gap:12px;padding:12px 16px;border:1px solid var(--border);border-radius:13px;cursor:pointer;background:rgba(255,255,255,.03);transition:.15s}
+  .ex-opt:hover{border-color:rgba(52,211,153,.45);background:rgba(255,255,255,.06)}
+  .ex-opt .mk{width:26px;height:26px;border-radius:50%;border:2px solid var(--muted);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.82rem;flex-shrink:0;transition:.15s}
+  .ex-opt.correct{border-color:var(--ok);background:rgba(52,211,153,.14)}
+  .ex-opt.correct .mk{border-color:var(--ok);background:var(--ok);color:#04140d;box-shadow:0 0 12px var(--glow)}
+  .ex-opt.wrong{border-color:var(--bad);background:rgba(251,113,133,.14)}
+  .ex-opt.wrong .mk{border-color:var(--bad);background:var(--bad);color:#1a0508}
+  .ex-opt.locked{cursor:default}
+  .feedback{margin-top:13px;padding:12px 15px;border-radius:10px;font-size:.93rem;display:none}
+  .feedback.show{display:block}
+  .feedback.good{background:rgba(52,211,153,.1);border-left:3px solid var(--ok);color:#a7f3d0}
+  .feedback.bad{background:rgba(251,113,133,.1);border-left:3px solid var(--bad);color:#fecdd3}
+  .retry{margin-top:10px;font-size:.85rem;color:var(--accent);background:none;border:none;cursor:pointer;text-decoration:underline;padding:0}
+  .badge{display:inline-block;font-size:.72rem;padding:2px 9px;border-radius:99px;background:rgba(251,191,36,.14);color:var(--warn);border:1px solid rgba(251,191,36,.4);margin-left:6px}
+  footer{text-align:center;color:var(--muted);font-size:.82rem;margin-top:38px;letter-spacing:.3px}
+  @media(max-width:520px){h1{font-size:1.35rem}.skill-head{font-size:1.08rem}.hero{height:300px}.hero-cap h1{font-size:1.25rem}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="navbar">
+    <a class="btn btn-ghost" href="index-678.html">← Kembali ke Tes</a>
+    <a class="btn btn-primary" href="index-678.html">Mulai Tes →</a>
+  </div>
+
+  <div class="hero">
+    <img src="assets/ipdn-banner.jpg" alt="Kampus IPDN">
+    <div class="hero-cap">
+      <span class="tag">Materi Belajar</span>
+      <h1>TOEFL — Skill 6, 7 & 8</h1>
+    </div>
+  </div>
+
+  <h1>Coordinate &amp; Adverb Connectors</h1>
+  <p class="sub">Pelajari teori lalu uji dengan latihan interaktif (feedback langsung).</p>
+
+  <!-- ===================== SKILL 6 ===================== -->
+  <div class="skill-head"><span class="k">SKILL 6</span> — Coordinate Connectors</div>
+
+  <div class="card">
+    <h3>Coordinate Connectors</h3>
+    <p>Coordinate connectors, sesuai namanya, diaplikasikan sebagai penghubung satu klausa dengan klausa lainnya. Tanpa penghubung tersebut, maka struktur kalimat akan berantakan, sebab ada dua subjek dan kata kerja di dalamnya. Ada beberapa jenis coordinate connectors yang diaplikasikan pada kalimat-kalimat bahasa Inggris. Yang paling sering digunakan dalam tes TOEFL biasa disebut dengan “FANBOYS”</p>
+    <div class="formula">Rumus umum : S + V, FANBOYS S + V</div>
+    <p style="color:var(--accent);font-weight:600;margin-top:14px">Contoh:</p>
+    <div class="ex">It was raining, so the game was canceled.</div>
+    <div class="ex">She studied, and she passed.</div>
+  </div>
+
+  <h3 style="margin:24px 0 14px;color:var(--accent)">📝 Latihan Interaktif — Skill 6</h3>
+  <div id="ex-skill6"></div>
+
+  <!-- ===================== SKILL 7 ===================== -->
+  <div class="skill-head"><span class="k">SKILL 7</span> — Used Adverb Of Time And Cause Connectors</div>
+
+  <div class="card">
+    <h3>Used Adverb Of Time And Cause Connectors</h3>
+    <p>Adverb Connectors (Konektor Adverbial) adalah kata yang mengubah sebuah klausa penuh (S+V) menjadi anak kalimat (dependent clause). Karena statusnya “anak”, ia tidak bisa berdiri sendiri dan harus “menempel” pada induk kalimat (independent clause) untuk membentuk kalimat yang utuh.</p>
+    <p style="color:var(--accent);font-weight:600;margin-top:14px">Contoh:</p>
+    <div class="ex">He passed the exam because he studied hard.</div>
+    <div class="ex">Because he studied hard, he passed the exam.</div>
+    <div class="ex">The players left when the rain started</div>
+    <div class="ex">When the rain started, the players left.</div>
+    <div class="formula">Pola Umum</div>
+    <div class="formula">S + V Connector S + V</div>
+    <div class="formula">Connector S + V , S + V</div>
+  </div>
+
+  <h3 style="margin:24px 0 14px;color:var(--accent)">📝 Latihan Interaktif — Skill 7</h3>
+  <div id="ex-skill7"></div>
+
+  <!-- ===================== SKILL 8 ===================== -->
+  <div class="skill-head"><span class="k">SKILL 8</span> — Used Other Adverb Connector Correctly</div>
+
+  <div class="card">
+    <h3>Used Other Adverb Connector Correctly</h3>
+    <p>Skill 8 ini membahas dinamika yang lebih kompleks: syarat-syarat jadian (Kondisi), perbedaan karakter (Kontras), cara (Manner), dan tempat (Place).</p>
+    <p style="color:var(--accent);font-weight:600;margin-top:14px">Contoh:</p>
+    <div class="ex">He passed the exam although he did not study.</div>
+    <div class="ex">Although he did not study, he passed the exam.</div>
+    <div class="ex">You can enter if you have a ticket.</div>
+    <div class="ex">If you have a ticket, you can enter.</div>
+    <div class="formula">Pola umum : sama dengan skill 7</div>
+  </div>
+
+  <h3 style="margin:24px 0 14px;color:var(--accent)">📝 Latihan Interaktif — Skill 8</h3>
+  <div id="ex-skill8"></div>
+
+  <div class="navbar" style="margin-top:30px">
+    <a class="btn btn-ghost" href="index-678.html">← Kembali ke Tes</a>
+    <a class="btn btn-primary" href="index-678.html">Siap! Mulai Tes →</a>
+  </div>
+
+  <footer>© Bimbel D Ajiks Akademi — Materi &amp; Latihan TOEFL</footer>
+
+<script>
+/* ============ DATA LATIHAN INTERAKTIF ============ */
+const SKILL6 = [
+  {
+    "text": "The rain clouds can be seen in the distance, but no has fallen",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 1,
+    "expl": "Salah. Setelah \"but\" subjek klausa kedua memakai \"no\", padahal \"no\" bukan kata ganti subjek yang valid — seharusnya \"none\" (merujuk pada hujan). Konektor \"but\" sudah tepat, tapi subjek klausa keduanya salah: \"...but none has fallen.\""
+  },
+  {
+    "text": "The researcher’s preliminary findings(A) and(B) the subsequent analysis has(C) a significant impact on the field(D).",
+    "options": [
+      "Findings",
+      "And",
+      "Has",
+      "on the field"
+    ],
+    "answer": 2,
+    "expl": "Subjek gabungan \"findings ... and ... analysis\" dihubungkan \"and\" sehingga berjumlah jamak, maka verb-nya harus \"have\", bukan \"has\". Seharusnya: \"...the subsequent analysis have a significant impact...\""
+  },
+  {
+    "text": "The speaker was engaging(A), informative(B), and inspired(C) many people(D).",
+    "options": [
+      "Engaging",
+      "Informative",
+      "Inspired",
+      "Many people"
+    ],
+    "answer": 2,
+    "expl": "Tiga unsur yang dihubungkan koma + \"and\" harus sejajar bentuknya (parallel structure). \"Engaging\" dan \"informative\" adalah adjective, sedangkan \"inspired many people\" adalah verb phrase — tidak sejajar. Seharusnya bentuk adjective juga, mis. \"inspiring\"."
+  },
+  {
+    "text": "A bright light appeared in the sky, _______ a loud explosion was heard.",
+    "options": [
+      "Then",
+      "And",
+      "Later",
+      "It"
+    ],
+    "answer": 1,
+    "expl": "Pola FANBOYS adalah \"S+V, FANBOYS S+V\" — koma harus diikuti kata penghubung FANBOYS, bukan adverb. \"And\" adalah FANBOYS yang tepat menggabungkan dua klausa lengkap. \"Then\"/\"Later\" adalah adverb yang tidak boleh langsung mengikuti koma (comma splice); \"It\" tidak membentuk konjungsi sama sekali."
+  },
+  {
+    "text": "The rain was heavy, so _______.",
+    "options": [
+      "The game was postponed",
+      "Postponing the game",
+      "Was postponed the game",
+      "The game postponing"
+    ],
+    "answer": 0,
+    "expl": "Setelah FANBOYS \"so\" harus diikuti klausa lengkap (S+V). \"The game was postponed\" (S=the game, V=was postponed) adalah satu-satunya pilihan yang merupakan klausa lengkap; pilihan lain berupa frasa gerund/susunan kata yang tidak gramatikal."
+  }
+];
+
+const SKILL7 = [
+  {
+    "text": "Their backgrounds are thoroughly investigated before are admitted to the organization",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 1,
+    "expl": "Salah. Klausa setelah \"before\" tidak punya subjek (\"before are admitted...\"). Seharusnya: \"...before they are admitted to the organization.\""
+  },
+  {
+    "text": "Although(A) he was tired,(B) but(C) he kept working(D).",
+    "options": [
+      "Although",
+      "Tired,",
+      "But",
+      "Working"
+    ],
+    "answer": 2,
+    "expl": "Satu kalimat hanya boleh memakai SATU connector. \"Although\" sudah menjadikan klausa pertama sebagai anak kalimat, sehingga \"but\" di depan klausa kedua berlebihan (double connector). Seharusnya salah satu saja: \"Although he was tired, he kept working.\""
+  },
+  {
+    "text": "He was tired,(A) because(B) he(C) studied(D) all night.",
+    "options": [
+      "Tired,",
+      "Because",
+      "He",
+      "Studied"
+    ],
+    "answer": 0,
+    "expl": "Pada pola \"S+V Connector S+V\" (klausa utama lebih dulu), TIDAK perlu koma sebelum connector. Di kalimat ini ada koma sebelum \"because\" yang seharusnya tidak ada. Seharusnya: \"He was tired because he studied all night.\""
+  },
+  {
+    "text": "When(A) the show ended(B) the audience left(C) the theater quickly(D).",
+    "options": [
+      "When",
+      "Ended",
+      "Left",
+      "Quickly"
+    ],
+    "answer": 1,
+    "expl": "Pada pola \"Connector S+V , S+V\" (connector di depan), koma WAJIB dipasang setelah anak kalimat selesai. Di kalimat ini koma setelah \"the show ended\" hilang. Seharusnya: \"When the show ended, the audience left the theater quickly.\""
+  },
+  {
+    "text": "The student passed the exam ____ he studied very hard",
+    "options": [
+      "So",
+      "And",
+      "Because",
+      "Then"
+    ],
+    "answer": 2,
+    "expl": "Hubungan logisnya sebab-akibat: belajar keras (sebab) lalu lulus (akibat). \"Because\" tepat menghubungkan akibat lebih dulu lalu sebabnya. \"So\" akan membalik logika (lulus menyebabkan belajar keras — tidak logis); \"And\"/\"Then\" tidak menyatakan sebab."
+  }
+];
+
+const SKILL8 = [
+  {
+    "text": "It is impossible to enter that program if you lack experience as a teacher",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 0,
+    "expl": "Benar. Pola \"S+V Connector S+V\" terpenuhi: klausa utama \"It is impossible to enter that program\" + connector \"if\" (kondisi) + klausa \"you lack experience as a teacher\", tanpa koma karena connector berada di tengah."
+  },
+  {
+    "text": "Even though(A) the traffic was heavy, but(B) they managed(C) to arrive(D) on time.",
+    "options": [
+      "Even though",
+      "But",
+      "they managed",
+      "to arrive"
+    ],
+    "answer": 1,
+    "expl": "Double connector lagi: \"Even though\" dan \"but\" tidak boleh dipakai bersamaan dalam satu kalimat. Seharusnya: \"Even though the traffic was heavy, they managed to arrive on time.\""
+  },
+  {
+    "text": "Unless(A) you don’t(B) submit the application by Friday(C), it will not be(D) considered.",
+    "options": [
+      "Unless",
+      "you don’t",
+      "by Friday",
+      "it will not be"
+    ],
+    "answer": 1,
+    "expl": "\"Unless\" sudah bermakna \"if not\", jadi menambahkan \"don't\" membuat negasi ganda yang membalik makna kalimat. Seharusnya tanpa \"don't\": \"Unless you submit the application by Friday, it will not be considered.\""
+  },
+  {
+    "text": "Because(A) the sudden power outage,(B) all computers shut down(C) unexpectedly(D)",
+    "options": [
+      "Because",
+      "power outage,",
+      "shut down",
+      "unexpectedly"
+    ],
+    "answer": 0,
+    "expl": "\"Because\" (connector) harus diikuti klausa lengkap (S+V), sedangkan \"the sudden power outage\" hanya frasa benda tanpa verb. Seharusnya pakai \"Because of\" (preposisi) untuk frasa benda: \"Because of the sudden power outage, all computers shut down unexpectedly.\""
+  },
+  {
+    "text": "           the presentation ended, the audience asked numerous questions.",
+    "options": [
+      "The",
+      "After",
+      "So",
+      "During"
+    ],
+    "answer": 1,
+    "expl": "Slot ini butuh connector waktu yang diikuti klausa lengkap \"the presentation ended\". \"After\" pas secara makna & struktur. \"During\" adalah preposisi yang butuh frasa benda, bukan klausa; \"So\"/\"The\" tidak gramatikal di posisi ini."
+  }
+];
+
+const LETTERS = ["A","B","C","D","E"];
+
+function renderExercises(containerId, data, prefix){
+  const wrap = document.getElementById(containerId);
+  data.forEach((q,idx)=>{
+    const block = document.createElement("div");
+    block.className = "ex-block";
+    const flag = q.flagged ? `<span class="badge">perlu verifikasi</span>` : ``;
+    let optsHtml = "";
+    q.options.forEach((opt,i)=>{
+      optsHtml += `<div class="ex-opt" data-i="${i}"><span class="mk">${LETTERS[i]}</span><span>${opt}</span></div>`;
+    });
+    block.innerHTML = `
+      <div class="ex-q"><span class="n">${idx+1}.</span>${q.text} ${flag}</div>
+      <div class="ex-opts">${optsHtml}</div>
+      <div class="feedback"></div>
+    `;
+    wrap.appendChild(block);
+
+    const optEls = block.querySelectorAll(".ex-opt");
+    const fb = block.querySelector(".feedback");
+    optEls.forEach(el=>{
+      el.addEventListener("click",()=>{
+        if(block.dataset.locked==="1") return;
+        block.dataset.locked = "1";
+        const chosen = parseInt(el.dataset.i,10);
+        optEls.forEach(o=>o.classList.add("locked"));
+        // mark correct
+        optEls[q.answer].classList.add("correct");
+        if(chosen===q.answer){
+          fb.className = "feedback show good";
+          fb.innerHTML = `✓ <b>Benar!</b> ${q.expl}`;
+        }else{
+          el.classList.add("wrong");
+          fb.className = "feedback show bad";
+          fb.innerHTML = `✗ <b>Kurang tepat.</b> Jawaban benar: <b>${LETTERS[q.answer]}. ${q.options[q.answer]}</b>.<br>${q.expl}`;
+        }
+        // add retry button once
+        if(!block.querySelector(".retry")){
+          const rt = document.createElement("button");
+          rt.className = "retry";
+          rt.textContent = "↻ Coba lagi";
+          rt.onclick = ()=>{
+            block.dataset.locked = "";
+            optEls.forEach(o=>o.classList.remove("locked","correct","wrong"));
+            fb.className = "feedback";
+            fb.innerHTML = "";
+            rt.remove();
+          };
+          fb.after(rt);
+        }
+      });
+    });
+  });
+}
+
+renderExercises("ex-skill6", SKILL6, "s6");
+renderExercises("ex-skill7", SKILL7, "s7");
+renderExercises("ex-skill8", SKILL8, "s8");
+</script>
+</body>
+</html>

@@ -1,0 +1,154 @@
+[
+  {
+    "ref": "The software should be used on a laptop computer",
+    "answer": 0,
+    "expl": "Benar secara struktur: \"S+V, and S+V\" — kedua klausa lengkap dan dihubungkan FANBOYS \"and\" dengan koma yang tepat.",
+    "flagged": true,
+    "flagNote": "Isi kalimat agak berputar/redundan secara makna (\"this computer is a laptop\"), tapi soal Structure TOEFL menilai gramatikal bukan logika isi. Sebaiknya dikonfirmasi ke pengajar."
+  },
+  {
+    "ref": "They are trying to sell their house",
+    "answer": 1,
+    "expl": "Salah. Dua klausa lengkap (\"they are trying...\" dan \"it has been...\") hanya dihubungkan koma tanpa FANBOYS — comma splice. Seharusnya: \"...their house, and it has been in the market...\"",
+    "flagged": false
+  },
+  {
+    "ref": "So the quality of the print was not good",
+    "answer": 1,
+    "expl": "Salah. FANBOYS \"so\" harus berada DI ANTARA dua klausa (S+V, so S+V), bukan di awal kalimat. Seharusnya: \"The quality of the print was not good, so I changed the typewriter ribbon.\"",
+    "flagged": false
+  },
+  {
+    "ref": "The lifeguard will warn you about the riptides",
+    "answer": 0,
+    "expl": "Benar. Pola \"S+V, FANBOYS S+V\" terpenuhi sempurna: dua klausa lengkap dihubungkan koma + \"or\".",
+    "flagged": false
+  },
+  {
+    "ref": "Since the bank closes in less than an hour",
+    "answer": 0,
+    "expl": "Benar. Pola \"Connector S+V, S+V\": \"Since\" memimpin anak kalimat, diikuti koma, lalu klausa utama — sesuai aturan.",
+    "flagged": false
+  },
+  {
+    "ref": "Their backgrounds are thoroughly investigated",
+    "answer": 1,
+    "expl": "Salah. Anak kalimat setelah \"before\" tidak punya subjek (\"before are admitted...\"). Seharusnya: \"...before they are admitted to the organization.\"",
+    "flagged": false
+  },
+  {
+    "ref": "The citizens are becoming more and more incensed",
+    "answer": 0,
+    "expl": "Benar. Pola \"S+V Connector S+V\": klausa utama lebih dulu, lalu \"whenever\" + anak kalimat, tanpa koma — sesuai aturan karena connector tidak memimpin kalimat.",
+    "flagged": false
+  },
+  {
+    "ref": "The ground had been prepared",
+    "answer": 1,
+    "expl": "Salah. Dua klausa lengkap hanya dihubungkan koma tanpa FANBOYS — comma splice. Seharusnya tambahkan \"and\": \"...had been prepared, and the seedlings were carefully planted.\"",
+    "flagged": false
+  },
+  {
+    "ref": "The commandant left strict orders about the passes",
+    "answer": 1,
+    "expl": "Salah. Comma splice — dua klausa lengkap hanya dihubungkan koma. Seharusnya: \"...about the passes, but several soldiers left the post anyway.\"",
+    "flagged": false
+  },
+  {
+    "ref": "No one is admitted to the academy",
+    "answer": 1,
+    "expl": "Salah. Anak kalimat setelah \"unless\" tidak punya verb (\"he or she the education requirements\"). Seharusnya ada verb, mis. \"...unless he or she meets the education requirements.\"",
+    "flagged": false
+  },
+  {
+    "ref": "While most students turned the assignment in on time",
+    "answer": 0,
+    "expl": "Benar. Pola \"Connector S+V, S+V\": \"While\" memimpin anak kalimat, diikuti koma, lalu klausa utama — sesuai aturan.",
+    "flagged": false
+  },
+  {
+    "ref": "I will take you wherever need to go",
+    "answer": 1,
+    "expl": "Salah. Anak kalimat setelah \"wherever\" tidak punya subjek (\"wherever need to go\"). Seharusnya: \"...wherever you need to go...\"",
+    "flagged": false
+  },
+  {
+    "ref": "The engine performed well during the test",
+    "answer": 2,
+    "expl": "Kesalahan di \"the designed\" — seharusnya kata benda \"the design\" (bukan bentuk verb/participle \"designed\") karena posisi ini menjadi subjek klausa kedua: \"...the design had a minor flaw.\"",
+    "flagged": false
+  },
+  {
+    "ref": "The manager reviewed the reports, and submitted",
+    "answer": 1,
+    "expl": "Kesalahan pada koma sebelum \"and\". Ini bukan dua klausa independen, melainkan dua verb (\"reviewed...and submitted...\") dengan SATU subjek \"the manager\" (compound predicate) — tidak perlu koma. Seharusnya: \"The manager reviewed the reports and submitted them to the director.\"",
+    "flagged": false
+  },
+  {
+    "ref": "The experiment was a success but the team",
+    "answer": 1,
+    "expl": "Kesalahan: koma hilang sebelum FANBOYS \"but\". Pola \"S+V, FANBOYS S+V\" wajib pakai koma di depan FANBOYS. Seharusnya: \"The experiment was a success, but the team still needed more data.\"",
+    "flagged": false
+  },
+  {
+    "ref": "He finished the report then he emailed it",
+    "answer": 2,
+    "expl": "\"Then\" bukan FANBOYS dan tidak bisa menggabungkan dua klausa lengkap tanpa tanda baca yang tepat. Seharusnya pakai koma+and atau titik koma: \"He finished the report, and then he emailed it to the team.\"",
+    "flagged": false
+  },
+  {
+    "ref": "We can start the conference now that",
+    "answer": 3,
+    "expl": "Setelah connector \"now that\" dibutuhkan klausa lengkap dengan verb berkala (finite verb), tapi \"the participants arriving\" hanya participle tanpa auxiliary. Seharusnya: \"...now that all the participants are arriving\" atau \"have arrived\".",
+    "flagged": false
+  },
+  {
+    "ref": "As soon as the final whistle blew",
+    "answer": 1,
+    "expl": "Pola \"Connector S+V, S+V\": koma wajib setelah anak kalimat \"the final whistle blew\" sebelum klausa utama. Koma tersebut hilang di kalimat ini. Seharusnya: \"As soon as the final whistle blew, the crowd erupted in celebration.\"",
+    "flagged": false
+  },
+  {
+    "ref": "Many species are endangered ,because",
+    "answer": 1,
+    "expl": "Pola \"S+V Connector S+V\" (klausa utama lebih dulu) TIDAK memakai koma sebelum connector, tapi di kalimat ini ada koma sebelum \"because\" yang seharusnya dihapus. Seharusnya: \"Many species are endangered because their natural habitats are being destroyed rapidly.\"",
+    "flagged": false
+  },
+  {
+    "ref": "Since the evidence was inconclusive, so the judge",
+    "answer": 3,
+    "expl": "Double connector: \"Since\" dan \"so\" dipakai bersamaan padahal cukup satu. Seharusnya salah satu saja, mis.: \"Since the evidence was inconclusive, the judge couldn't make a final decision.\"",
+    "flagged": false
+  },
+  {
+    "ref": "The research was complex",
+    "answer": 0,
+    "expl": "Butuh FANBOYS yang menyatakan kontras (\"but\") sekaligus subjek untuk klausa kedua (\"it\" = the research). \"But it\" memenuhi keduanya: \"...complex, but it was ultimately successful.\" Pilihan lain kehilangan subjek atau konektor kontrasnya.",
+    "flagged": false
+  },
+  {
+    "ref": "While the chef was preparing the main course",
+    "answer": 0,
+    "expl": "Setelah anak kalimat \"While the chef was preparing...\" + koma, dibutuhkan klausa utama yang lengkap (S+V). Hanya \"the appetizers were served by the waiter\" yang merupakan klausa lengkap (S=the appetizers, V=were served); pilihan lain berupa frasa gerund yang tidak gramatikal sebagai klausa utama.",
+    "flagged": false
+  },
+  {
+    "ref": "Plants require sunlight because",
+    "answer": 2,
+    "expl": "Setelah connector \"because\" dibutuhkan klausa lengkap yang menjelaskan sebab secara logis. \"They produce their own food\" (S=they, V=produce) lengkap dan menjelaskan alasan tumbuhan butuh sinar matahari (untuk fotosintesis). \"Producing food through photosynthesis\" tidak punya subjek/verb berkala; \"is producing their own food\" tidak punya subjek.",
+    "flagged": true,
+    "flagNote": "\"Food production is vital\" juga berupa klausa lengkap secara gramatikal — perlu konfirmasi pengajar opsi mana yang dimaksud sebagai kunci resmi."
+  },
+  {
+    "ref": "The team celebrated",
+    "answer": 3,
+    "expl": "Hubungan sebab-akibat: menang (sebab) lalu merayakan (akibat). \"Because\" tepat menghubungkan akibat lebih dulu lalu sebabnya. \"So\" akan membalik logika; \"Later\"/\"And\" tidak menyatakan sebab.",
+    "flagged": false
+  },
+  {
+    "ref": "you finish your homework, you cannot watch television",
+    "answer": 0,
+    "expl": "\"Unless\" (=\"if not\") pas secara makna kondisional: jika TIDAK selesai mengerjakan PR, tidak boleh menonton TV. \"While\"/\"Whereas\" menyatakan kontras/waktu, bukan kondisi; \"Because\" menyatakan sebab, bukan syarat.",
+    "flagged": false
+  }
+]
