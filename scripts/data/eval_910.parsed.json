@@ -1,0 +1,291 @@
+{
+  "skills": [
+    {
+      "number": null,
+      "title": "EVALUASI SKILL 9 DAN SKILL 10",
+      "theory": [],
+      "exercises": [
+        {
+          "type": "ci",
+          "text": "When the season starts is determined by the weather",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The manual how the device should be built",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The schedule indicated if the teams would be playing in the final game",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "He refused to enter a plea could not be determined by the lawyer",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Talked about where we should go for lunch",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The game show contestant was able to respond to whatever was asked",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "You should find out which the best physics department",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The employee was unhappy about what was added to his job description",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Whoever wants to take the desert tour during spring break signing up at the office",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The motorist was unable to discover who he had struck his car",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "err",
+          "text": "The police could not determine(A) that who(B) had committed(C) the crime(D).",
+          "options": [
+            "could not determine",
+            "that who",
+            "had committed",
+            "the crime"
+          ]
+        },
+        {
+          "type": "err",
+          "text": "It is important to know(A) what is the schedule(B) for(C) the upcoming conference(D).",
+          "options": [
+            "to know",
+            "what is the schedule",
+            "for",
+            "the upcoming conference"
+          ]
+        },
+        {
+          "type": "err",
+          "text": "Why did the company decide(A) to relocate(B) its headquarters remains(C) a secret(D).",
+          "options": [
+            "Why did the company decide",
+            "to relocate",
+            "its headquarters remains",
+            "a secret"
+          ]
+        },
+        {
+          "type": "err",
+          "text": "The witness stated(A) that(B) what did she see(C) during(D) the incident.",
+          "options": [
+            "stated",
+            "that",
+            "what did she see",
+            "uring"
+          ]
+        },
+        {
+          "type": "err",
+          "text": "Whether(A) the new policy it will be(B) effective or not(C) is(D) still under discussion.",
+          "options": [
+            "Whether",
+            "it will be",
+            "or not",
+            "is"
+          ]
+        },
+        {
+          "type": "err",
+          "text": "The manager will promote(A) whoever he(B) completes(C) the training program successfully(D).",
+          "options": [
+            "will promote",
+            "whoever he",
+            "completes",
+            "the training program successfully"
+          ]
+        },
+        {
+          "type": "err",
+          "text": "What it(A) was written in the ancient manuscript(B) is(C) difficult to decipher(D).",
+          "options": [
+            "What it",
+            "in the ancient manuscript",
+            "is",
+            "to decipher"
+          ]
+        },
+        {
+          "type": "err",
+          "text": "The committee must choose(A) which(B) proposal it seems(C) most promising(D).",
+          "options": [
+            "must choose",
+            "which",
+            "it seems",
+            "most promising"
+          ]
+        },
+        {
+          "type": "err",
+          "text": "We(A) are unsure about(B) who he(C) is responsible for(D) the security breach",
+          "options": [
+            "We",
+            "about",
+            "who he",
+            "for"
+          ]
+        },
+        {
+          "type": "err",
+          "text": "Whatever(A) are presented during(B) the conference should be(C) relevant(D) to the main topic.",
+          "options": [
+            "Whatever",
+            "during",
+            "should be",
+            "relevant"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "           was responsible for the mistake is still unknown.",
+          "options": [
+            "Who",
+            "The person who",
+            " It was who",
+            "That who"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "The professor explained            dinosaurs became extinct.",
+          "options": [
+            "how did",
+            "how",
+            "how that",
+            "how dinosaurs"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "We are concerned about            the project on time.",
+          "options": [
+            "whether they will finish",
+            "will they finish",
+            "whether will they finish",
+            "they will finish"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "           the proposal requires further revision is clear.",
+          "options": [
+            "Because",
+            "Although",
+            "That",
+            "What"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "I need to find out           .",
+          "options": [
+            "where is the nearest post office",
+            "where the nearest post office is",
+            "the nearest post office is where",
+            "is where the nearest post office"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "The police are investigating            caused the accident on the highway.",
+          "options": [
+            "What",
+            "what it",
+            "it what",
+            "that what"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "           arrives first will get the best seat.",
+          "options": [
+            "Who",
+            "The person",
+            "Whoever",
+            "It is who"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "We need to decide            is the most suitable option for the project.",
+          "options": [
+            "it which",
+            "which",
+            "which it",
+            "that which"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "           was discussed in the meeting remains confidential.",
+          "options": [
+            "What",
+            "It was what",
+            "That",
+            "What it"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "She will accept            is offered to her.",
+          "options": [
+            "Whatever",
+            "That",
+            "whatever it",
+            "it"
+          ]
+        }
+      ]
+    }
+  ]
+}

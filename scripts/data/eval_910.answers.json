@@ -1,0 +1,182 @@
+[
+  {
+    "ref": "When the season starts is determined by the weather",
+    "answer": 0,
+    "expl": "Benar. Noun clause 'When the season starts' berfungsi sebagai subjek kalimat; verb utamanya 'is determined'. Tidak ada pronoun subject yang redundan.",
+    "flagged": false
+  },
+  {
+    "ref": "The manual how the device should be built",
+    "answer": 1,
+    "expl": "Salah. Kalimat tidak memiliki verb utama. 'The manual' adalah subjek, tetapi tidak ada predikat/verb. Seharusnya: 'The manual shows how the device should be built.' (perlu verb utama seperti 'shows' atau 'explains').",
+    "flagged": false
+  },
+  {
+    "ref": "The schedule indicated if the teams would be playing",
+    "answer": 0,
+    "expl": "Benar. 'The schedule' = subjek, 'indicated' = verb utama, 'if the teams would be playing in the final game' = noun clause objek dari 'indicated'. Struktur lengkap dan benar.",
+    "flagged": false
+  },
+  {
+    "ref": "He refused to enter a plea could not be determined",
+    "answer": 1,
+    "expl": "Salah. Kalimat ini punya dua verb phrase ('refused to enter' dan 'could not be determined') tanpa connector yang menghubungkannya. Seharusnya: 'That he refused to enter a plea could not be determined by the lawyer.' (tambahkan 'that' sebagai noun clause connector).",
+    "flagged": false
+  },
+  {
+    "ref": "Talked about where we should go for lunch",
+    "answer": 1,
+    "expl": "Salah. Kalimat tidak memiliki subjek; langsung dimulai dengan verb 'Talked'. Seharusnya ada subjek: 'We talked about where we should go for lunch.' atau 'They talked about where...'",
+    "flagged": false
+  },
+  {
+    "ref": "The game show contestant was able to respond to whatever",
+    "answer": 0,
+    "expl": "Benar. 'Whatever was asked' adalah noun clause dengan 'whatever' sebagai konektor sekaligus subjek. Noun clause ini menjadi objek preposisi 'to'. Struktur lengkap.",
+    "flagged": false
+  },
+  {
+    "ref": "You should find out which the best physics department",
+    "answer": 1,
+    "expl": "Salah. Noun clause 'which the best physics department' tidak memiliki verb. Seharusnya: 'which is the best physics department' ('which' sebagai subjek, 'is' sebagai verb dalam noun clause).",
+    "flagged": false
+  },
+  {
+    "ref": "The employee was unhappy about what was added",
+    "answer": 0,
+    "expl": "Benar. 'What was added to his job description' adalah noun clause dengan 'what' sebagai konektor+subjek dari 'was added'. Noun clause menjadi objek preposisi 'about'. Struktur benar.",
+    "flagged": false
+  },
+  {
+    "ref": "Whoever wants to take the desert tour during spring break signing",
+    "answer": 1,
+    "expl": "Salah. Kalimat ini tidak memiliki verb utama yang finite. 'Signing up' adalah present participle yang tidak bisa menjadi verb utama tanpa auxiliary. Seharusnya: 'Whoever wants to take the desert tour... should sign up at the office.'",
+    "flagged": false
+  },
+  {
+    "ref": "The motorist was unable to discover who he had struck his car",
+    "answer": 1,
+    "expl": "Salah. Dalam noun clause 'who he had struck his car', terdapat pronoun 'he' yang redundan. 'Who' sudah berfungsi sebagai subjek. Seharusnya: 'who had struck his car' (tanpa 'he') atau distrukturisasi ulang.",
+    "flagged": false
+  },
+  {
+    "ref": "The police",
+    "answer": 1,
+    "expl": "Kesalahan pada (B) 'that who'. 'That' dan 'who' tidak bisa keduanya mengawali noun clause yang sama. Pilih salah satu: 'that' (menjadikan klausa sebagai noun clause tanpa subjek who) atau 'who' saja (sebagai konektor+subjek). Seharusnya: '...could not determine who had committed the crime.'",
+    "flagged": false
+  },
+  {
+    "ref": "It is important",
+    "answer": 1,
+    "expl": "Kesalahan pada (B) 'what is the schedule'. Dalam noun clause (indirect question), urutan kata harus normal (S+V), bukan inverted seperti pertanyaan langsung. Seharusnya: '...to know what the schedule is for the upcoming conference.'",
+    "flagged": false
+  },
+  {
+    "ref": "Why did the company decide",
+    "answer": 0,
+    "expl": "Kesalahan pada (A) 'Why did the company decide'. Ini adalah indirect question (noun clause subjek), sehingga tidak boleh ada auxiliary inversion ('did'). Seharusnya: 'Why the company decided to relocate its headquarters remains a secret.'",
+    "flagged": false
+  },
+  {
+    "ref": "The witness",
+    "answer": 2,
+    "expl": "Kesalahan pada (C) 'what did she see'. Dalam noun clause setelah 'that', urutan kata harus normal (S+V). 'what did she see' menggunakan inverted word order pertanyaan langsung. Seharusnya: '...that what she saw during the incident.' (ubah ke past tense, hilangkan 'did').",
+    "flagged": false
+  },
+  {
+    "ref": "Whether(A)",
+    "answer": 1,
+    "expl": "Kesalahan pada (B) 'it will be'. Pronoun 'it' redundan karena 'the new policy' sudah menjadi subjek dari noun clause 'whether the new policy will be effective or not'. Seharusnya: 'Whether the new policy will be effective or not is still under discussion.'",
+    "flagged": false
+  },
+  {
+    "ref": "The manager",
+    "answer": 1,
+    "expl": "Kesalahan pada (B) 'whoever he'. 'Whoever' berfungsi sebagai konektor sekaligus subjek dari 'completes', sehingga 'he' adalah pronoun subjek yang redundan. Seharusnya: '...will promote whoever completes the training program successfully.'",
+    "flagged": false
+  },
+  {
+    "ref": "What it(A)",
+    "answer": 0,
+    "expl": "Kesalahan pada (A) 'What it'. 'What' sudah berfungsi sebagai konektor sekaligus subjek dari 'was written', sehingga 'it' adalah pronoun subjek yang redundan. Seharusnya: 'What was written in the ancient manuscript is difficult to decipher.'",
+    "flagged": false
+  },
+  {
+    "ref": "The committee",
+    "answer": 2,
+    "expl": "Kesalahan pada (C) 'it seems'. 'Which proposal' sudah menjadi subjek dari 'seems', sehingga 'it' adalah pronoun subjek yang redundan. Seharusnya: '...choose which proposal seems most promising.'",
+    "flagged": false
+  },
+  {
+    "ref": "We(A)",
+    "answer": 2,
+    "expl": "Kesalahan pada (C) 'who he'. 'Who' berfungsi sebagai konektor sekaligus subjek dari 'is responsible', sehingga 'he' adalah pronoun subjek yang redundan. Seharusnya: '...unsure about who is responsible for the security breach.'",
+    "flagged": false
+  },
+  {
+    "ref": "Whatever(A)",
+    "answer": 0,
+    "expl": "Kesalahan pada (A) 'Whatever are presented'. 'Whatever' sebagai indefinite pronoun/connector yang bertindak sebagai subjek biasanya diperlakukan singular, sehingga verbnya harus 'is': 'Whatever is presented during the conference should be relevant...'",
+    "flagged": false
+  },
+  {
+    "ref": "was responsible for the mistake is still unknown",
+    "answer": 0,
+    "expl": "'Who was responsible for the mistake is still unknown.' — 'who' sebagai konektor+subjek noun clause yang berfungsi sebagai subjek kalimat. 'The person who' adalah noun phrase biasa (relative clause), bukan noun clause connector; 'It was who' dan 'That who' tidak gramatikal.",
+    "flagged": false
+  },
+  {
+    "ref": "The professor explained",
+    "answer": 1,
+    "expl": "'How' adalah noun clause connector yang tepat untuk indirect question tentang cara/sebab. Tidak ada auxiliary inversion ('how did' salah); 'how that' adalah double connector; 'how dinosaurs' membentuk frasa benda bukan noun clause.",
+    "flagged": false
+  },
+  {
+    "ref": "We are concerned about",
+    "answer": 0,
+    "expl": "'Whether they will finish the project on time' — noun clause dengan 'whether' sebagai connector dan urutan kata normal (S+V). 'Will they finish' menggunakan inversion yang salah untuk indirect question; 'whether will they finish' juga salah (inversion setelah whether).",
+    "flagged": false
+  },
+  {
+    "ref": "the proposal requires further revision is clear",
+    "answer": 2,
+    "expl": "'That the proposal requires further revision is clear.' — 'that' mengawali noun clause sebagai subjek kalimat; 'is clear' adalah predikat. 'Because' dan 'Although' adalah adverb connectors yang tidak bisa jadi subjek; 'What' kurang tepat karena 'what' biasanya merujuk benda.",
+    "flagged": false
+  },
+  {
+    "ref": "I need to find out",
+    "answer": 1,
+    "expl": "'Where the nearest post office is' — urutan normal S+V dalam indirect question. 'Where is the nearest post office' menggunakan inversion pertanyaan langsung yang salah dalam noun clause.",
+    "flagged": false
+  },
+  {
+    "ref": "The police are investigating",
+    "answer": 0,
+    "expl": "'What caused the accident on the highway' — 'What' sebagai konektor+subjek dari 'caused'. Pilihan 'what it' menambahkan pronoun 'it' yang redundan; 'it what' tidak gramatikal; 'that what' juga salah.",
+    "flagged": false
+  },
+  {
+    "ref": "arrives first will get the best seat",
+    "answer": 2,
+    "expl": "'Whoever arrives first will get the best seat.' — 'whoever' sebagai konektor+subjek noun clause yang berfungsi sebagai subjek kalimat. 'Who' bisa digunakan tapi 'whoever' lebih tepat secara idiomatis; 'The person' tanpa connector tidak membentuk noun clause; 'It is who' tidak gramatikal.",
+    "flagged": false
+  },
+  {
+    "ref": "We need to decide",
+    "answer": 1,
+    "expl": "'Which is the most suitable option' — 'which' sebagai konektor+subjek noun clause. Opsi dengan 'it' ('it which', 'which it') menambahkan pronoun redundan; 'that which' tidak gramatikal sebagai connector+subject di sini.",
+    "flagged": false
+  },
+  {
+    "ref": "was discussed in the meeting remains confidential",
+    "answer": 0,
+    "expl": "'What was discussed in the meeting remains confidential.' — 'What' sebagai konektor+subjek noun clause yang menjadi subjek kalimat. 'It was what' menambahkan struktur yang tak perlu; 'That' bisa digunakan tapi maknanya kurang spesifik; 'What it' menambahkan pronoun redundan.",
+    "flagged": false
+  },
+  {
+    "ref": "She will accept",
+    "answer": 0,
+    "expl": "'Whatever is offered to her.' — 'whatever' sebagai konektor+subjek dari 'is offered'. 'That' tidak menyertakan makna 'apapun'; 'whatever it' menambahkan pronoun 'it' yang redundan; 'it' saja tidak membentuk noun clause yang benar.",
+    "flagged": false
+  }
+]

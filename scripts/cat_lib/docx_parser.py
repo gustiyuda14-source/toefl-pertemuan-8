@@ -6,15 +6,16 @@ dikembalikan adalah substring langsung dari paragraph.text milik python-docx.
 import re
 import docx
 
-SKILL_HEADER_RE = re.compile(r"^TOEFL SKILL\s+(\d+)\s*:\s*(.+)$", re.IGNORECASE)
-EVAL_HEADER_RE = re.compile(r"^EVALUATION FOR SKILL\b.*$", re.IGNORECASE)
+SKILL_HEADER_RE = re.compile(r"^(?:TOEFL\s+)?SKILL\s+(\d+)\s*:\s*(.+)$")
+EVAL_HEADER_RE = re.compile(r"^(?:EVALUATION FOR SKILL|EVALUASI SKILL)\b.*$", re.IGNORECASE)
 
 # (regex pola instruksi, type, jumlah opsi). Daftar ini bisa ditambah untuk
 # batch skill berikutnya tanpa mengubah state machine di bawah.
 INSTRUCTION_PATTERNS = [
     (re.compile(r"choose correct or incorrect", re.IGNORECASE), "ci", 2),
     (re.compile(r"incorrect structure", re.IGNORECASE), "err", 4),
-    (re.compile(r"choose a,?\s*b,?\s*c,?\s*or d for the following", re.IGNORECASE), "mcq", 4),
+    (re.compile(r"choose a,?\s*b,?\s*c,?\s*or d\b", re.IGNORECASE), "mcq", 4),
+    (re.compile(r"^latihan\b", re.IGNORECASE), "mcq", 4),
 ]
 
 THEORY_TAG_RE = re.compile(r"^(Contoh|Rumus|Pola)\b", re.IGNORECASE)
