@@ -1,0 +1,152 @@
+[
+  {
+    "ref": "I made an appointment with the doctor",
+    "answer": 0,
+    "expl": "Benar. 'whom you recommended' adalah adjective clause yang menerangkan 'the doctor' ('whom' tepat karena merujuk orang dan berfungsi sebagai objek dari 'recommended'). Kalimat utama 'I made an appointment' lengkap.",
+    "flagged": false
+  },
+  {
+    "ref": "The enthusiasm with which he greeted",
+    "answer": 0,
+    "expl": "Benar. 'with which he greeted me' adalah adjective clause (preposition + which) yang menerangkan 'The enthusiasm', dan verb utama kalimat adalah 'made'. Struktur lengkap dan benar.",
+    "flagged": false
+  },
+  {
+    "ref": "The story that you told me about Bob",
+    "answer": 1,
+    "expl": "Salah. Kalimat tidak memiliki verb utama. 'that you told me about Bob' hanyalah adjective clause yang menerangkan 'The story' — tidak ada predikat untuk subjek 'The story'. Contoh perbaikan: 'The story that you told me about Bob WAS interesting.'",
+    "flagged": false
+  },
+  {
+    "ref": "The men with whom were having",
+    "answer": 1,
+    "expl": "Salah. Setelah 'with whom' seharusnya ada subjek clause, tetapi langsung verb 'were having'. Seharusnya: 'The men with whom WE were having the discussion did not seem very friendly.'",
+    "flagged": false
+  },
+  {
+    "ref": "I'm not really sure about taking part",
+    "answer": 0,
+    "expl": "Benar. 'that we made last night' adalah adjective clause yang menerangkan 'the plans'. Kalimat utama 'I'm not really sure about taking part in the plans' lengkap dan benar.",
+    "flagged": false
+  },
+  {
+    "ref": "The neighbors reported the man",
+    "answer": 0,
+    "expl": "Benar. 'who was trying to break into the car' adalah adjective clause ('who' sebagai connector/subject) yang menerangkan 'the man'. Kalimat utama 'The neighbors reported the man ... to the police' lengkap.",
+    "flagged": false
+  },
+  {
+    "ref": "These plants can only survive",
+    "answer": 1,
+    "expl": "Salah. Ada dua verb ('can survive' dan 'is') tanpa connector. Seharusnya ditambahkan 'that' sebagai connector/subject: '...in an environment THAT is extremely humid.'",
+    "flagged": false
+  },
+  {
+    "ref": "The boss meets with any production workers",
+    "answer": 1,
+    "expl": "Salah. Ada pronoun 'they' yang redundan. 'who' sudah berfungsi sebagai subject dari clause, sehingga seharusnya: '...any production workers who HAVE surpassed their quotas.'",
+    "flagged": false
+  },
+  {
+    "ref": "The salesclerk ran after the woman",
+    "answer": 0,
+    "expl": "Benar. 'who had left her credit card in the store' adalah adjective clause ('who' sebagai connector/subject) yang menerangkan 'the woman'. Verb utama kalimat adalah 'ran'. Struktur benar.",
+    "flagged": false
+  },
+  {
+    "ref": "The shoes which matched the dress",
+    "answer": 1,
+    "expl": "Salah. Kalimat tidak memiliki verb utama. 'which matched the dress' dan 'that was on sale' keduanya adjective clause — subjek 'The shoes' tidak punya predikat. Contoh perbaikan: 'The shoes which matched the dress that was on sale WERE expensive.'",
+    "flagged": false
+  },
+  {
+    "ref": "The artist who the critics praised",
+    "answer": 0,
+    "expl": "Kesalahan pada (A) 'who'. Pronoun ini berfungsi sebagai OBJEK dari 'praised' (yang memuji adalah 'the critics'), sehingga bentuk yang tepat adalah 'whom': 'The artist WHOM the critics praised recently released a new album.'",
+    "flagged": false
+  },
+  {
+    "ref": "The movie which we watched last night",
+    "answer": 3,
+    "expl": "Kesalahan pada (D) 'very interesting'. Kalimat tidak memiliki verb utama — 'which we watched last night' hanyalah adjective clause. Seharusnya: '...last night WAS very interesting.'",
+    "flagged": false
+  },
+  {
+    "ref": "The ideas who were presented",
+    "answer": 0,
+    "expl": "Kesalahan pada (A) 'who'. 'who' hanya untuk orang, sedangkan 'The ideas' adalah benda. Seharusnya 'which' atau 'that': 'The ideas WHICH/THAT were presented during the meeting were quite innovative.'",
+    "flagged": false
+  },
+  {
+    "ref": "The artist drew the portrait",
+    "answer": 0,
+    "expl": "Kesalahan pada (A) 'The artist drew'. Ada dua verb ('drew' dan 'is known') tanpa connector. Seharusnya ditambahkan connector/subject: 'The artist WHO drew the portrait is known for her realistic style.'",
+    "flagged": false
+  },
+  {
+    "ref": "We need to contact the person which",
+    "answer": 0,
+    "expl": "Kesalahan pada (A) 'the person which'. 'which' hanya untuk benda, sedangkan 'the person' adalah orang. Seharusnya 'who': '...the person WHO handles customer complaints...'",
+    "flagged": false
+  },
+  {
+    "ref": "The report which the team they",
+    "answer": 1,
+    "expl": "Kesalahan pada (B) 'the team they'. Pronoun 'they' redundan — subjek clause sudah 'the team'. Seharusnya: 'The report which the team prepared lacked sufficient data.'",
+    "flagged": false
+  },
+  {
+    "ref": "The student whom answered",
+    "answer": 0,
+    "expl": "Kesalahan pada (A) 'whom'. Pronoun ini berfungsi sebagai SUBJEK dari 'answered', sehingga bentuk yang tepat adalah 'who': 'The student WHO answered the professor's question correctly received extra credit.'",
+    "flagged": false
+  },
+  {
+    "ref": "The car which it hit",
+    "answer": 1,
+    "expl": "Kesalahan pada (B) 'it hit'. Pronoun 'it' redundan — 'which' sudah berfungsi sebagai connector/subject dari clause. Seharusnya: 'The car WHICH HIT the fence belongs to my neighbor.'",
+    "flagged": false
+  },
+  {
+    "ref": "The candidates who attends",
+    "answer": 1,
+    "expl": "Kesalahan pada (B) 'attends'. 'who' merujuk pada 'The candidates' (jamak), sehingga verb harus plural: 'The candidates who ATTEND the interview must be qualified.'",
+    "flagged": false
+  },
+  {
+    "ref": "That all police officers have",
+    "answer": 3,
+    "expl": "Kesalahan pada (D) 'is mandating'. Subjek kalimat (noun clause 'That all police officers have ... training') MENERIMA tindakan, sehingga harus pasif: '...IS MANDATED by federal law.'",
+    "flagged": false
+  },
+  {
+    "ref": "I enjoyed the book",
+    "answer": 2,
+    "expl": "Jawaban (C) 'which you recommended'. Adjective clause yang benar untuk benda ('the book') dengan 'which' sebagai objek dari 'recommended'. (A) urutan terbalik, (B) tanpa connector dan ada 'it' redundan, (D) tidak membentuk clause lengkap.",
+    "flagged": false
+  },
+  {
+    "ref": "The house which stands on the hill",
+    "answer": 1,
+    "expl": "Jawaban (B) 'has'. Subjek 'The house' (diterangkan adjective clause 'which stands on the hill') butuh verb utama langsung: 'The house ... HAS magnificent views.' (A) dan (D) menambah pronoun redundan, (C) bukan verb utama.",
+    "flagged": false
+  },
+  {
+    "ref": "The professor",
+    "answer": 0,
+    "expl": "Jawaban (A) 'whom the students admired' — adjective clause dengan 'whom' sebagai objek dari 'admired' yang menerangkan 'The professor', lalu verb utama 'gave' mengikuti. (C) tanpa connector dan ada 'him' redundan, (D) membuat dua verb tanpa connector. Catatan: (B) 'who admired the students' juga gramatikal, tetapi pola yang diuji di skill ini adalah connector sebagai objek clause.",
+    "flagged": true
+  },
+  {
+    "ref": "The report",
+    "answer": 1,
+    "expl": "Jawaban (B) 'which'. 'which' berfungsi sebagai connector sekaligus subject dari 'discusses': 'The report WHICH discusses the recent findings is comprehensive.' (A) 'that it' redundan, (C) menggandakan 'discusses', (D) bukan connector.",
+    "flagged": false
+  },
+  {
+    "ref": "Scientists are now beginning",
+    "answer": 3,
+    "expl": "Jawaban (D) 'How noise pollution can'. Setelah preposition 'on' dibutuhkan noun clause lengkap dengan subject dan modal untuk verb 'trigger': '...experiments on HOW NOISE POLLUTION CAN trigger different sorts of health risks.'",
+    "flagged": false
+  }
+]

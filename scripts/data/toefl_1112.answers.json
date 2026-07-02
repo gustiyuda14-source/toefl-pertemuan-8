@@ -1,0 +1,62 @@
+[
+  {
+    "ref": "It is important to fill out the form",
+    "answer": 0,
+    "expl": "Benar. Kalimat utama 'It is important to fill out the form' sudah lengkap, dan 'that you have been instructed' adalah adjective clause yang menerangkan noun 'the way'. Struktur benar.",
+    "flagged": false
+  },
+  {
+    "ref": "The car which I have been driving",
+    "answer": 1,
+    "expl": "Salah. Subjek 'The car' tidak memiliki verb utama — 'which I have been driving for five years' hanyalah adjective clause. Seharusnya: 'The car which I have been driving for five years IS for sale at a really good price.'",
+    "flagged": false
+  },
+  {
+    "ref": "I just finished reading the novel whom",
+    "answer": 1,
+    "expl": "Salah. 'whom' hanya digunakan untuk orang, sedangkan 'the novel' adalah benda. Seharusnya menggunakan 'which' atau 'that': '...the novel WHICH/THAT the professor suggested...'",
+    "flagged": false
+  },
+  {
+    "ref": "The plane that he was scheduled",
+    "answer": 0,
+    "expl": "Benar. 'that he was scheduled to take to Hawaii' adalah adjective clause yang menerangkan 'The plane', dan verb utama kalimat adalah 'was delayed'. Struktur lengkap dan benar.",
+    "flagged": false
+  },
+  {
+    "ref": "The movie which we watched on cable",
+    "answer": 1,
+    "expl": "Salah. Ada pronoun 'it' yang redundan. Subjek kalimat sudah 'The movie' (diterangkan oleh adjective clause 'which we watched on cable last night'), sehingga verb utama harus langsung mengikuti: '...last night WAS really frightening.'",
+    "flagged": false
+  },
+  {
+    "ref": "The ice cream that is served",
+    "answer": 0,
+    "expl": "Benar. 'that' berfungsi sebagai connector sekaligus subject dari clause 'that is served in the restaurant', dan verb utama kalimat adalah 'has'. Struktur lengkap dan benar.",
+    "flagged": false
+  },
+  {
+    "ref": "The cars are trying to enter",
+    "answer": 1,
+    "expl": "Salah. Ada dua verb ('are trying' dan 'are lined up') tanpa connector yang menghubungkan. Seharusnya: 'The cars THAT are trying to enter the freeway system are lined up for blocks.' ('that' menjadi connector/subject).",
+    "flagged": false
+  },
+  {
+    "ref": "I have a great respect for everyone who",
+    "answer": 1,
+    "expl": "Salah. Clause 'who on the Dean's List' tidak memiliki verb. 'who' di sini berfungsi sebagai connector/subject sehingga butuh verb: '...everyone who IS on the Dean's List.'",
+    "flagged": false
+  },
+  {
+    "ref": "It is going to be very difficult",
+    "answer": 1,
+    "expl": "Salah. 'which' hanya untuk benda, sedangkan 'the man' adalah orang. Seharusnya 'who': '...to work with the man WHO just began working here.'",
+    "flagged": false
+  },
+  {
+    "ref": "The door that leads to the fault",
+    "answer": 1,
+    "expl": "Salah. Ada pronoun 'it' yang redundan. Subjek kalimat sudah 'The door' (diterangkan adjective clause 'that leads to the fault'), sehingga seharusnya: 'The door that leads to the fault WAS tightly locked.'",
+    "flagged": false
+  }
+]

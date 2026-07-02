@@ -2,10 +2,682 @@
 <html lang="id">
 <head>
 <meta charset="UTF-8">
-<meta http-equiv="refresh" content="0;url=index-910.html">
-<title>TOEFL Pertemuan 7 — D Ajiks Akademi</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>D Ajiks Akademi – Evaluasi TOEFL Skill 11 & 12 (CAT)</title>
+<style>
+  :root{
+    --bg:#ffffff; --glass:rgba(52,211,153,.08); --glass2:rgba(52,211,153,.14);
+    --accent:#34d399; --accent2:#22d3ee; --glow:rgba(52,211,153,.32);
+    --text:#1a1a2e; --muted:#3d5f56;
+    --ok:#34d399; --bad:#fb7185; --warn:#fbbf24;
+    --border:rgba(0,0,0,.15);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:'Segoe UI',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh;position:relative;-webkit-font-smoothing:antialiased}
+  /* light backdrop: white base + soft radial glows */
+  body::before{content:"";position:fixed;inset:0;z-index:-2;background:
+      radial-gradient(60% 50% at 12% 8%, rgba(52,211,153,.10), transparent 60%),
+      radial-gradient(55% 50% at 92% 96%, rgba(34,211,238,.08), transparent 60%),
+      #ffffff}
+  /* faint tech grid overlay */
+  body::after{content:"";position:fixed;inset:0;z-index:-1;opacity:.5;
+      background-image:linear-gradient(rgba(0,0,0,.04) 1px,transparent 1px),linear-gradient(90deg,rgba(0,0,0,.04) 1px,transparent 1px);
+      background-size:46px 46px;-webkit-mask-image:radial-gradient(circle at 50% 30%,#000,transparent 80%);mask-image:radial-gradient(circle at 50% 30%,#000,transparent 80%)}
+  .wrap{max-width:840px;margin:0 auto;padding:26px 18px 64px}
+  .hidden{display:none!important}
+  /* hero banner — crisp IPDN photo with gradient fade */
+  .hero{position:relative;border-radius:22px;overflow:hidden;margin-bottom:20px;height:400px;border:1px solid var(--border);box-shadow:0 10px 40px rgba(0,0,0,.45)}
+  .hero img{width:100%;height:100%;object-fit:cover;object-position:50% 66%;display:block;filter:saturate(1.12) contrast(1.05);transform-origin:50% 66%;will-change:transform;backface-visibility:hidden;animation:heroZoom 30s cubic-bezier(.4,0,.2,1) infinite alternate;image-rendering:auto}
+  /* zoom-out terbesar (gedung + tulisan IPDN + gerbang PKD) lalu zoom-in perlahan ke titik fokus yang sama */
+  @keyframes heroZoom{0%{transform:scale(1.0)}100%{transform:scale(1.3)}}
+  @media(prefers-reduced-motion:reduce){.hero img{animation:none;transform:scale(1.08)}}
+  .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,11,17,.05) 0%,rgba(7,11,17,.35) 45%,rgba(7,11,17,.92) 100%)}
+  .hero-cap{position:absolute;left:22px;bottom:16px;z-index:2}
+  .hero-cap .tag{display:inline-block;font-size:.7rem;letter-spacing:2px;text-transform:uppercase;color:var(--accent);border:1px solid var(--border);background:rgba(7,11,17,.4);padding:3px 10px;border-radius:99px;backdrop-filter:blur(6px);margin-bottom:8px}
+  .hero-cap h1{font-size:1.5rem;text-shadow:0 2px 16px rgba(0,0,0,.6);color:#fff}
+  .card{position:relative;background:var(--glass);border:1px solid var(--border);border-radius:22px;padding:28px;backdrop-filter:blur(16px) saturate(1.2);-webkit-backdrop-filter:blur(16px) saturate(1.2);box-shadow:0 10px 40px rgba(0,0,0,.4),inset 0 1px 0 rgba(255,255,255,.06)}
+  h1{font-size:1.65rem;margin-bottom:6px;letter-spacing:-.3px}
+  h2{font-size:1.25rem;margin:18px 0 10px}
+  .sub{color:var(--muted);margin-bottom:22px}
+  .stats{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}
+  .stat{flex:1;min-width:130px;background:var(--glass2);border:1px solid var(--border);border-radius:16px;padding:16px;text-align:center;transition:.2s}
+  .stat:hover{border-color:rgba(52,211,153,.4);transform:translateY(-2px)}
+  .stat b{display:block;font-size:1.6rem;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;font-weight:800}
+  .stat span{color:var(--muted);font-size:.82rem;letter-spacing:.3px}
+  label{display:block;margin:16px 0 7px;font-weight:600;font-size:.92rem;letter-spacing:.2px}
+  input[type=text]{width:100%;padding:13px 16px;border-radius:13px;border:1px solid var(--border);background:rgba(0,0,0,.03);color:var(--text);font-size:1rem;transition:.18s}
+  input[type=text]:focus{outline:none;border-color:var(--accent);box-shadow:0 0 0 3px var(--glow)}
+  .btn{display:inline-flex;align-items:center;gap:8px;border:none;border-radius:13px;padding:13px 22px;font-size:1rem;font-weight:600;cursor:pointer;transition:.18s;text-decoration:none;letter-spacing:.2px}
+  .btn-primary{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#04140d;box-shadow:0 6px 24px var(--glow)}
+  .btn-primary:hover{transform:translateY(-2px);box-shadow:0 10px 30px var(--glow)}
+  .btn-ghost{background:rgba(0,0,0,.04);border:1px solid var(--border);color:var(--text)}
+  .btn-ghost:hover{background:rgba(0,0,0,.07);border-color:rgba(52,211,153,.4)}
+  .btn-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+  .err{color:var(--bad);margin-top:8px;font-size:.9rem;min-height:1.2em}
+  /* test header */
+  .thead{display:flex;justify-content:space-between;align-items:center;gap:12px;background:var(--glass);border:1px solid var(--border);border-radius:18px;padding:15px 20px;margin-bottom:16px;flex-wrap:wrap;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+  .timer{font-size:1.35rem;font-weight:700;color:var(--accent);font-variant-numeric:tabular-nums;text-shadow:0 0 14px var(--glow)}
+  .timer.low{color:var(--bad);text-shadow:0 0 14px rgba(251,113,133,.5)}
+  .progress-info{color:var(--muted);font-size:.9rem}
+  .bar{height:7px;background:rgba(255,255,255,.06);border-radius:99px;overflow:hidden;margin:10px 0 0}
+  .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));width:0;transition:.3s;box-shadow:0 0 12px var(--glow)}
+  .qnum{color:var(--accent);font-weight:700;font-size:.82rem;letter-spacing:1px;text-transform:uppercase}
+  .qtext{font-size:1.18rem;margin:10px 0 20px;font-weight:500;line-height:1.55}
+  .opts{display:flex;flex-direction:column;gap:11px}
+  .opt{display:flex;align-items:center;gap:13px;padding:14px 17px;border:1px solid var(--border);border-radius:14px;cursor:pointer;background:rgba(255,255,255,.03);transition:.15s}
+  .opt:hover{border-color:rgba(52,211,153,.45);background:rgba(255,255,255,.06)}
+  .opt.sel{border-color:var(--accent);background:rgba(52,211,153,.12);box-shadow:0 0 0 1px var(--accent) inset}
+  .opt .mark{width:27px;height:27px;border-radius:50%;border:2px solid var(--muted);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:.85rem;flex-shrink:0;transition:.15s}
+  .opt.sel .mark{border-color:var(--accent);background:var(--accent);color:#04140d;box-shadow:0 0 12px var(--glow)}
+  /* result */
+  .scorebig{text-align:center;margin:14px 0 22px}
+  .scorebig .pct{font-size:3.4rem;font-weight:800;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;line-height:1}
+  .restable{width:100%;border-collapse:collapse;margin-top:12px}
+  .restable th,.restable td{padding:12px;border-bottom:1px solid var(--border);text-align:left}
+  .restable th{color:var(--muted);font-size:.82rem;text-transform:uppercase;letter-spacing:.5px}
+  .restable td.r{text-align:right;font-variant-numeric:tabular-nums}
+  .restable tr.total td{font-weight:700;color:var(--accent);border-top:2px solid var(--border)}
+  /* review */
+  .rev{border:1px solid var(--border);border-radius:16px;padding:18px;margin-bottom:14px;background:rgba(255,255,255,.03)}
+  .rev .qn{font-weight:700;color:var(--muted);font-size:.82rem;letter-spacing:.5px}
+  .rev .qt{margin:8px 0 11px;font-weight:500}
+  .pill{display:inline-block;padding:4px 11px;border-radius:99px;font-size:.82rem;font-weight:600;margin:2px 6px 2px 0}
+  .pill.ok{background:rgba(52,211,153,.14);color:var(--ok);border:1px solid rgba(52,211,153,.4)}
+  .pill.bad{background:rgba(251,113,133,.14);color:var(--bad);border:1px solid rgba(251,113,133,.4)}
+  .pill.neu{background:rgba(255,255,255,.06);color:var(--muted);border:1px solid var(--border)}
+  .expl{margin-top:11px;padding:12px 14px;background:rgba(52,211,153,.07);border-left:3px solid var(--accent);border-radius:8px;font-size:.92rem;color:#1a3d30}
+  .badge{display:inline-block;font-size:.74rem;padding:2px 9px;border-radius:99px;background:rgba(251,191,36,.14);color:var(--warn);border:1px solid rgba(251,191,36,.4);margin-left:6px}
+  footer{text-align:center;color:var(--muted);font-size:.82rem;margin-top:32px;letter-spacing:.3px}
+  @media(max-width:520px){.qtext{font-size:1.05rem}h1{font-size:1.35rem}.hero{height:300px}.hero-cap h1{font-size:1.25rem}.card{padding:22px}}
+</style>
 </head>
 <body>
-<script>window.location.replace("index-910.html");</script>
+<div class="wrap">
+
+  <!-- ============ SCREEN 1: LANDING ============ -->
+  <section id="screen-landing">
+    <div class="hero">
+      <img src="assets/ipdn-banner.jpg" alt="Kampus IPDN">
+      <div class="hero-cap">
+        <span class="tag">D Ajiks Akademi</span>
+        <h1>TOEFL Structure — Skill 11 & 12</h1>
+      </div>
+    </div>
+    <div class="card">
+      <h1>Evaluasi Adjective Clause Connectors</h1>
+      <p class="sub">Uji pemahamanmu • Computer Based Test</p>
+      <div class="stats">
+        <div class="stat"><b>25</b><span>Total Soal</span></div>
+        <div class="stat"><b>2</b><span>Skill Diuji</span></div>
+        <div class="stat"><b>25'</b><span>Durasi</span></div>
+      </div>
+      <p style="color:var(--muted)">Tes ini menguji kemampuanmu menggunakan <em>adjective clause connectors</em> dengan benar — baik sebagai connector saja maupun sebagai connector sekaligus subject dari clause. Belum siap? Pelajari materinya dulu.</p>
+      <label for="nama">Nama Peserta</label>
+      <input type="text" id="nama" placeholder="Tulis nama kamu di sini..." autocomplete="off">
+      <div class="err" id="nameErr"></div>
+      <div class="btn-row">
+        <button class="btn btn-primary" onclick="startTest()">Mulai Tes</button>
+        <a class="btn btn-ghost" href="materi-1112.html">Pelajari Materi Dulu</a>
+      </div>
+    </div>
+    <footer>© Bimbel D Ajiks Akademi — Computer Based Test</footer>
+  </section>
+
+  <!-- ============ SCREEN 2: TEST ENGINE ============ -->
+  <section id="screen-test" class="hidden">
+    <div class="thead">
+      <div>
+        <div style="font-weight:600" id="peserta-label"></div>
+        <div class="progress-info"><span id="progress-text">Soal 1 dari 20</span> • <span id="answered-text">0 dijawab</span></div>
+      </div>
+      <div class="timer" id="timer">20:00</div>
+    </div>
+    <div class="bar"><i id="bar-fill"></i></div>
+    <div class="card" style="margin-top:16px">
+      <div class="qnum" id="q-section">Bagian A</div>
+      <div class="qtext" id="q-text">—</div>
+      <div class="opts" id="q-opts"></div>
+      <div class="btn-row">
+        <button class="btn btn-ghost" id="prev-btn" onclick="goPrev()">← Sebelumnya</button>
+        <button class="btn btn-ghost" id="next-btn" onclick="goNext()">Selanjutnya →</button>
+        <button class="btn btn-primary" id="finish-btn" onclick="finishTest()" style="margin-left:auto">Selesai Tes</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SCREEN 3: RESULT ============ -->
+  <section id="screen-result" class="hidden">
+    <div class="card">
+      <h1>Hasil Tes</h1>
+      <p class="sub" id="result-name"></p>
+      <div class="scorebig">
+        <div class="pct" id="result-pct">0%</div>
+        <div style="color:var(--muted)" id="result-correct">0 dari 20 benar</div>
+      </div>
+      <table class="restable">
+        <thead><tr><th>Bagian</th><th class="r">Benar</th><th class="r">Total</th><th class="r">Skor</th></tr></thead>
+        <tbody id="result-rows"></tbody>
+      </table>
+      <div class="btn-row">
+        <button class="btn btn-primary" onclick="showReview()">Lihat Pembahasan</button>
+        <button class="btn btn-ghost" onclick="retake()">Tes Ulang</button>
+      </div>
+    </div>
+    <footer>© Bimbel D Ajiks Akademi</footer>
+  </section>
+
+  <!-- ============ SCREEN 4: REVIEW ============ -->
+  <section id="screen-review" class="hidden">
+    <div class="card">
+      <h1>Pembahasan</h1>
+      <p class="sub">Periksa kembali jawabanmu beserta penjelasannya.</p>
+      <div id="review-list"></div>
+      <div class="btn-row">
+        <button class="btn btn-ghost" onclick="backToResult()">← Kembali ke Hasil</button>
+      </div>
+    </div>
+    <footer>© Bimbel D Ajiks Akademi</footer>
+  </section>
+
+</div>
+
+<script>
+/* ====================== DATA SOAL: EVALUASI (20) ====================== */
+/* type "ci" = Correct/Incorrect ; type "mcq" = pilihan ganda 5 opsi      */
+const QUESTIONS = [
+  {
+    "section": "A",
+    "type": "ci",
+    "text": "I made an appointment with the doctor whom you recommended",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 0,
+    "expl": "Benar. 'whom you recommended' adalah adjective clause yang menerangkan 'the doctor' ('whom' tepat karena merujuk orang dan berfungsi sebagai objek dari 'recommended'). Kalimat utama 'I made an appointment' lengkap.",
+    "flagged": false
+  },
+  {
+    "section": "A",
+    "type": "ci",
+    "text": "The enthusiasm with which he greeted me made me feel welcome.",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 0,
+    "expl": "Benar. 'with which he greeted me' adalah adjective clause (preposition + which) yang menerangkan 'The enthusiasm', dan verb utama kalimat adalah 'made'. Struktur lengkap dan benar.",
+    "flagged": false
+  },
+  {
+    "section": "A",
+    "type": "ci",
+    "text": "The story that you told me about Bob",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 1,
+    "expl": "Salah. Kalimat tidak memiliki verb utama. 'that you told me about Bob' hanyalah adjective clause yang menerangkan 'The story' — tidak ada predikat untuk subjek 'The story'. Contoh perbaikan: 'The story that you told me about Bob WAS interesting.'",
+    "flagged": false
+  },
+  {
+    "section": "A",
+    "type": "ci",
+    "text": "The men with whom were having the discussion did not seem very friendly",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 1,
+    "expl": "Salah. Setelah 'with whom' seharusnya ada subjek clause, tetapi langsung verb 'were having'. Seharusnya: 'The men with whom WE were having the discussion did not seem very friendly.'",
+    "flagged": false
+  },
+  {
+    "section": "A",
+    "type": "ci",
+    "text": "I’m not really sure about taking part in the plans that we made last night",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 0,
+    "expl": "Benar. 'that we made last night' adalah adjective clause yang menerangkan 'the plans'. Kalimat utama 'I'm not really sure about taking part in the plans' lengkap dan benar.",
+    "flagged": false
+  },
+  {
+    "section": "A",
+    "type": "ci",
+    "text": "The neighbors reported the man who was trying to break into the car to the police",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 0,
+    "expl": "Benar. 'who was trying to break into the car' adalah adjective clause ('who' sebagai connector/subject) yang menerangkan 'the man'. Kalimat utama 'The neighbors reported the man ... to the police' lengkap.",
+    "flagged": false
+  },
+  {
+    "section": "A",
+    "type": "ci",
+    "text": "These plants can only survive in an environment is extremely humid",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 1,
+    "expl": "Salah. Ada dua verb ('can survive' dan 'is') tanpa connector. Seharusnya ditambahkan 'that' sebagai connector/subject: '...in an environment THAT is extremely humid.'",
+    "flagged": false
+  },
+  {
+    "section": "A",
+    "type": "ci",
+    "text": "The boss meets with any production workers who they have surpassed their quotas",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 1,
+    "expl": "Salah. Ada pronoun 'they' yang redundan. 'who' sudah berfungsi sebagai subject dari clause, sehingga seharusnya: '...any production workers who HAVE surpassed their quotas.'",
+    "flagged": false
+  },
+  {
+    "section": "A",
+    "type": "ci",
+    "text": "The salesclerk ran after the woman who had left her credit card in the store",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 0,
+    "expl": "Benar. 'who had left her credit card in the store' adalah adjective clause ('who' sebagai connector/subject) yang menerangkan 'the woman'. Verb utama kalimat adalah 'ran'. Struktur benar.",
+    "flagged": false
+  },
+  {
+    "section": "A",
+    "type": "ci",
+    "text": "The shoes which matched the dress that was on sale",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 1,
+    "expl": "Salah. Kalimat tidak memiliki verb utama. 'which matched the dress' dan 'that was on sale' keduanya adjective clause — subjek 'The shoes' tidak punya predikat. Contoh perbaikan: 'The shoes which matched the dress that was on sale WERE expensive.'",
+    "flagged": false
+  },
+  {
+    "section": "B",
+    "type": "err",
+    "text": "The artist who(A) the critics praised(B) recently(C) released(D) a new album.",
+    "options": [
+      "Who",
+      "the critics praised",
+      "recently",
+      "released"
+    ],
+    "answer": 0,
+    "expl": "Kesalahan pada (A) 'who'. Pronoun ini berfungsi sebagai OBJEK dari 'praised' (yang memuji adalah 'the critics'), sehingga bentuk yang tepat adalah 'whom': 'The artist WHOM the critics praised recently released a new album.'",
+    "flagged": false
+  },
+  {
+    "section": "B",
+    "type": "err",
+    "text": "The movie which(A) we watched(B) last night(C) very interesting(D).",
+    "options": [
+      "Which",
+      "we watched",
+      "last night",
+      "very interesting"
+    ],
+    "answer": 3,
+    "expl": "Kesalahan pada (D) 'very interesting'. Kalimat tidak memiliki verb utama — 'which we watched last night' hanyalah adjective clause. Seharusnya: '...last night WAS very interesting.'",
+    "flagged": false
+  },
+  {
+    "section": "B",
+    "type": "err",
+    "text": "The ideas who(A) were presented during(B) the meeting were(C) quite innovative(D).",
+    "options": [
+      "Who",
+      "During",
+      "the meeting were",
+      "innovative"
+    ],
+    "answer": 0,
+    "expl": "Kesalahan pada (A) 'who'. 'who' hanya untuk orang, sedangkan 'The ideas' adalah benda. Seharusnya 'which' atau 'that': 'The ideas WHICH/THAT were presented during the meeting were quite innovative.'",
+    "flagged": false
+  },
+  {
+    "section": "B",
+    "type": "err",
+    "text": "The artist drew(A) the portrait is(B) known for(C) her realistic style(D).",
+    "options": [
+      "The artist drew",
+      "Is",
+      "known for",
+      "style"
+    ],
+    "answer": 0,
+    "expl": "Kesalahan pada (A) 'The artist drew'. Ada dua verb ('drew' dan 'is known') tanpa connector. Seharusnya ditambahkan connector/subject: 'The artist WHO drew the portrait is known for her realistic style.'",
+    "flagged": false
+  },
+  {
+    "section": "B",
+    "type": "err",
+    "text": "We need to contact the person which(A) handles(B) customer complaints(C) regarding this issue(D).",
+    "options": [
+      "the person which",
+      "handles",
+      "customer complaints",
+      "issue"
+    ],
+    "answer": 0,
+    "expl": "Kesalahan pada (A) 'the person which'. 'which' hanya untuk benda, sedangkan 'the person' adalah orang. Seharusnya 'who': '...the person WHO handles customer complaints...'",
+    "flagged": false
+  },
+  {
+    "section": "B",
+    "type": "err",
+    "text": "The report which(A) the team they(B) prepared lacked(C) sufficient data(D).",
+    "options": [
+      "Which",
+      "the team they",
+      "prepared lacked",
+      "data"
+    ],
+    "answer": 1,
+    "expl": "Kesalahan pada (B) 'the team they'. Pronoun 'they' redundan — subjek clause sudah 'the team'. Seharusnya: 'The report which the team prepared lacked sufficient data.'",
+    "flagged": false
+  },
+  {
+    "section": "B",
+    "type": "err",
+    "text": "The student whom(A) answered(B) the professor's question correctly(C) received extra credit(D).",
+    "options": [
+      "Whom",
+      "Answered",
+      "the professor's question correctly",
+      "received extra credit"
+    ],
+    "answer": 0,
+    "expl": "Kesalahan pada (A) 'whom'. Pronoun ini berfungsi sebagai SUBJEK dari 'answered', sehingga bentuk yang tepat adalah 'who': 'The student WHO answered the professor's question correctly received extra credit.'",
+    "flagged": false
+  },
+  {
+    "section": "B",
+    "type": "err",
+    "text": "The car which(A) it hit(B) the fence(C) belongs(D) to my neighbor.",
+    "options": [
+      "Which",
+      "it hit",
+      "the fence",
+      "belongs"
+    ],
+    "answer": 1,
+    "expl": "Kesalahan pada (B) 'it hit'. Pronoun 'it' redundan — 'which' sudah berfungsi sebagai connector/subject dari clause. Seharusnya: 'The car WHICH HIT the fence belongs to my neighbor.'",
+    "flagged": false
+  },
+  {
+    "section": "B",
+    "type": "err",
+    "text": "The candidates who(A) attends(B) the interview(C) must be qualified(D).",
+    "options": [
+      "Who",
+      "Attends",
+      "the interview",
+      "qualified"
+    ],
+    "answer": 1,
+    "expl": "Kesalahan pada (B) 'attends'. 'who' merujuk pada 'The candidates' (jamak), sehingga verb harus plural: 'The candidates who ATTEND the interview must be qualified.'",
+    "flagged": false
+  },
+  {
+    "section": "B",
+    "type": "err",
+    "text": "That all police officers(A) have(B) at least four hours of hazardous materials response training(C) is mandating(D) by federal law.",
+    "options": [
+      "That all police officers",
+      "Have",
+      "Training",
+      "is mandating"
+    ],
+    "answer": 3,
+    "expl": "Kesalahan pada (D) 'is mandating'. Subjek kalimat (noun clause 'That all police officers have ... training') MENERIMA tindakan, sehingga harus pasif: '...IS MANDATED by federal law.'",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "I enjoyed the book           .",
+    "options": [
+      "that recommended you",
+      "you recommended it",
+      "which you recommended",
+      "whose recommendation"
+    ],
+    "answer": 2,
+    "expl": "Jawaban (C) 'which you recommended'. Adjective clause yang benar untuk benda ('the book') dengan 'which' sebagai objek dari 'recommended'. (A) urutan terbalik, (B) tanpa connector dan ada 'it' redundan, (D) tidak membentuk clause lengkap.",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "The house which stands on the hill _______ magnificent views.",
+    "options": [
+      "it has",
+      "has",
+      "having",
+      "that it has"
+    ],
+    "answer": 1,
+    "expl": "Jawaban (B) 'has'. Subjek 'The house' (diterangkan adjective clause 'which stands on the hill') butuh verb utama langsung: 'The house ... HAS magnificent views.' (A) dan (D) menambah pronoun redundan, (C) bukan verb utama.",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "The professor _______ gave an interesting lecture.",
+    "options": [
+      "whom the students admired",
+      "who admired the students",
+      "the students admired him",
+      "admired the students"
+    ],
+    "answer": 0,
+    "expl": "Jawaban (A) 'whom the students admired' — adjective clause dengan 'whom' sebagai objek dari 'admired' yang menerangkan 'The professor', lalu verb utama 'gave' mengikuti. (C) tanpa connector dan ada 'him' redundan, (D) membuat dua verb tanpa connector. Catatan: (B) 'who admired the students' juga gramatikal, tetapi pola yang diuji di skill ini adalah connector sebagai objek clause.",
+    "flagged": true
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "The report _______ discusses the recent findings is comprehensive.",
+    "options": [
+      "that it",
+      "which",
+      "that discusses",
+      "is discusses"
+    ],
+    "answer": 1,
+    "expl": "Jawaban (B) 'which'. 'which' berfungsi sebagai connector sekaligus subject dari 'discusses': 'The report WHICH discusses the recent findings is comprehensive.' (A) 'that it' redundan, (C) menggandakan 'discusses', (D) bukan connector.",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "Scientists are now beginning to conduct experiments on ______ trigger different sorts of health risks.",
+    "options": [
+      "Noise pollution can",
+      "That noise pollution",
+      "How noise pollution",
+      "How noise pollution can"
+    ],
+    "answer": 3,
+    "expl": "Jawaban (D) 'How noise pollution can'. Setelah preposition 'on' dibutuhkan noun clause lengkap dengan subject dan modal untuk verb 'trigger': '...experiments on HOW NOISE POLLUTION CAN trigger different sorts of health risks.'",
+    "flagged": false
+  }
+];
+
+const SECTION_NAMES = {"A": "Bagian A — Correct/Incorrect", "B": "Bagian B — Identifikasi Kesalahan Struktur", "C": "Bagian C — Pilihan Ganda"};
+
+/* ====================== STATE ====================== */
+let answers = new Array(QUESTIONS.length).fill(null);
+let current = 0;
+let timeLeft = 1500;
+let timerId = null;
+let pesertaName = "";
+
+/* ====================== NAVIGATION SCREENS ====================== */
+function show(id){
+  ["screen-landing","screen-test","screen-result","screen-review"].forEach(s=>{
+    document.getElementById(s).classList.toggle("hidden", s!==id);
+  });
+  window.scrollTo(0,0);
+}
+
+/* ====================== START ====================== */
+function startTest(){
+  const input = document.getElementById("nama");
+  const name = input.value.trim();
+  if(!name){
+    document.getElementById("nameErr").textContent = "Mohon isi nama kamu terlebih dahulu.";
+    input.focus();
+    return;
+  }
+  document.getElementById("nameErr").textContent = "";
+  pesertaName = name;
+  answers = new Array(QUESTIONS.length).fill(null);
+  current = 0;
+  timeLeft = 1500;
+  document.getElementById("peserta-label").textContent = "👤 " + pesertaName;
+  show("screen-test");
+  renderQuestion();
+  startTimer();
+}
+
+/* ====================== TIMER ====================== */
+function startTimer(){
+  clearInterval(timerId);
+  updateTimerDisplay();
+  timerId = setInterval(()=>{
+    timeLeft--;
+    updateTimerDisplay();
+    if(timeLeft<=0){
+      clearInterval(timerId);
+      finishTest(true);
+    }
+  },1000);
+}
+function updateTimerDisplay(){
+  const m = String(Math.floor(timeLeft/60)).padStart(2,"0");
+  const s = String(timeLeft%60).padStart(2,"0");
+  const el = document.getElementById("timer");
+  el.textContent = m+":"+s;
+  el.classList.toggle("low", timeLeft<=60);
+}
+
+/* ====================== RENDER QUESTION ====================== */
+function renderQuestion(){
+  const q = QUESTIONS[current];
+  document.getElementById("q-section").textContent = SECTION_NAMES[q.section];
+  document.getElementById("q-text").textContent = (current+1)+". "+q.text;
+  const letters = ["A","B","C","D","E"];
+  const optsEl = document.getElementById("q-opts");
+  optsEl.innerHTML = "";
+  q.options.forEach((opt,i)=>{
+    const div = document.createElement("div");
+    div.className = "opt" + (answers[current]===i ? " sel":"");
+    div.onclick = ()=>selectOption(i);
+    div.innerHTML = `<span class="mark">${letters[i]}</span><span>${opt}</span>`;
+    optsEl.appendChild(div);
+  });
+  document.getElementById("progress-text").textContent = `Soal ${current+1} dari ${QUESTIONS.length}`;
+  updateAnsweredCount();
+  document.getElementById("bar-fill").style.width = ((current+1)/QUESTIONS.length*100)+"%";
+  document.getElementById("prev-btn").disabled = current===0;
+  document.getElementById("prev-btn").style.opacity = current===0 ? .4 : 1;
+  document.getElementById("next-btn").disabled = current===QUESTIONS.length-1;
+  document.getElementById("next-btn").style.opacity = current===QUESTIONS.length-1 ? .4 : 1;
+}
+function selectOption(i){
+  answers[current] = i;
+  renderQuestion();
+}
+function updateAnsweredCount(){
+  const n = answers.filter(a=>a!==null).length;
+  document.getElementById("answered-text").textContent = n+" dijawab";
+}
+function goPrev(){ if(current>0){current--;renderQuestion();} }
+function goNext(){ if(current<QUESTIONS.length-1){current++;renderQuestion();} }
+
+/* ====================== FINISH & SCORE ====================== */
+function finishTest(auto){
+  const answered = answers.filter(a=>a!==null).length;
+  if(!auto && answered < QUESTIONS.length){
+    if(!confirm(`Masih ada ${QUESTIONS.length-answered} soal belum dijawab. Yakin selesai sekarang?`)) return;
+  }
+  clearInterval(timerId);
+  computeResult();
+  show("screen-result");
+}
+function computeResult(){
+  const groups = { A:{c:0,t:0}, B:{c:0,t:0}, C:{c:0,t:0} };
+  let totalCorrect = 0;
+  QUESTIONS.forEach((q,i)=>{
+    groups[q.section].t++;
+    if(answers[i]===q.answer){ groups[q.section].c++; totalCorrect++; }
+  });
+  const total = QUESTIONS.length;
+  const pct = Math.round(totalCorrect/total*100);
+  document.getElementById("result-name").textContent = "Peserta: " + pesertaName;
+  document.getElementById("result-pct").textContent = pct+"%";
+  document.getElementById("result-correct").textContent = `${totalCorrect} dari ${total} benar`;
+  const rows = document.getElementById("result-rows");
+  rows.innerHTML = "";
+  Object.keys(groups).forEach(k=>{
+    const g = groups[k];
+    const p = Math.round(g.c/g.t*100);
+    rows.innerHTML += `<tr><td>${SECTION_NAMES[k]}</td><td class="r">${g.c}</td><td class="r">${g.t}</td><td class="r">${p}%</td></tr>`;
+  });
+  rows.innerHTML += `<tr class="total"><td>TOTAL</td><td class="r">${totalCorrect}</td><td class="r">${total}</td><td class="r">${pct}%</td></tr>`;
+}
+
+/* ====================== REVIEW ====================== */
+function showReview(){
+  const list = document.getElementById("review-list");
+  list.innerHTML = "";
+  const letters = ["A","B","C","D","E"];
+  QUESTIONS.forEach((q,i)=>{
+    const userAns = answers[i];
+    const isCorrect = userAns===q.answer;
+    const userText = userAns===null ? "— (tidak dijawab)" : `${letters[userAns]}. ${q.options[userAns]}`;
+    const correctText = `${letters[q.answer]}. ${q.options[q.answer]}`;
+    const statusPill = isCorrect
+      ? `<span class="pill ok">✓ Benar</span>`
+      : `<span class="pill bad">✗ Salah</span>`;
+    list.innerHTML += `
+      <div class="rev">
+        <div class="qn">SOAL ${i+1} • ${SECTION_NAMES[q.section]} ${statusPill}${q.flagged ? ' <span class="badge">perlu verifikasi</span>' : ''}</div>
+        <div class="qt">${q.text}</div>
+        <div>
+          <span class="pill ${isCorrect?'ok':'bad'}">Jawabanmu: ${userText}</span>
+          ${!isCorrect ? `<span class="pill neu">Kunci: ${correctText}</span>` : ``}
+        </div>
+        <div class="expl">${q.expl}</div>
+      </div>`;
+  });
+  show("screen-review");
+}
+function backToResult(){ show("screen-result"); }
+
+/* ====================== RETAKE ====================== */
+function retake(){
+  clearInterval(timerId);
+  document.getElementById("nama").value = "";
+  show("screen-landing");
+}
+
+/* Enter key on name field starts test */
+document.getElementById("nama").addEventListener("keydown",e=>{ if(e.key==="Enter") startTest(); });
+</script>
 </body>
 </html>

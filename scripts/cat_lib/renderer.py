@@ -145,6 +145,11 @@ def _theory_html(theory_items):
     parts = []
     for item in theory_items:
         text = item["text"]
+        if item["tag"] == "img":
+            alt = item.get("alt", "")
+            parts.append(f'<img src="{text}" alt="{alt}" style="max-width:100%;border-radius:10px;margin:14px 0;display:block">')
+            mode = "intro"
+            continue
         if item["tag"] == "label":
             if re.match(r"^Contoh\b", text, re.IGNORECASE):
                 mode = "examples"
@@ -163,6 +168,10 @@ def _theory_html(theory_items):
             parts.append(f'<div class="formula">{text}</div>')
         else:
             parts.append(f"<p>{text}</p>")
+            # Paragraf teori yang diakhiri "Contoh :" menandakan baris-baris
+            # berikutnya adalah kalimat contoh (tanpa baris label terpisah).
+            if re.search(r"Contoh\s*:\s*$", text, re.IGNORECASE):
+                mode = "examples"
     return "\n    ".join(parts)
 
 
