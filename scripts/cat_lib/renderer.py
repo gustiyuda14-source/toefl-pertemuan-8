@@ -68,6 +68,23 @@ def _replace_once(pattern, repl_text, text, flags=0):
     return new_text
 
 
+def _build_og_meta(config, title, description, page_href):
+    """Meta Open Graph/Twitter agar link menampilkan preview card (mis. saat
+    dibagikan di grup WhatsApp) alih-alih tautan polos."""
+    site_url = config["site_url"].rstrip("/")
+    image_url = f'{site_url}/{config.get("og_image", "assets/og-preview.jpg")}'
+    page_url = f"{site_url}/{page_href}" if page_href else f"{site_url}/"
+    return f'''<meta property="og:type" content="website">
+<meta property="og:title" content="{title}">
+<meta property="og:description" content="{description}">
+<meta property="og:image" content="{image_url}">
+<meta property="og:url" content="{page_url}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{title}">
+<meta name="twitter:description" content="{description}">
+<meta name="twitter:image" content="{image_url}">'''
+
+
 # ------------------------------------------------------------------ EVALUATION
 
 def _build_landing_section(config, total_soal):
@@ -109,6 +126,11 @@ def build_evaluation_html(data_path, answers_path, config_path):
     html = INDEX_TEMPLATE_PATH.read_text(encoding="utf-8")
 
     html = _replace_once(r"<title>.*?</title>", f'<title>{config["eval_title"]}</title>', html)
+    html = _replace_once(
+        r"<!-- OG_META -->",
+        _build_og_meta(config, config["eval_title"], config["eval_sub"], ""),
+        html,
+    )
     html = _replace_once(
         r'<section id="screen-landing">.*?</section>',
         _build_landing_section(config, len(questions)),
@@ -255,6 +277,11 @@ def build_materi_html(data_path, answers_path, config_path):
     html = MATERI_TEMPLATE_PATH.read_text(encoding="utf-8")
 
     html = _replace_once(r"<title>.*?</title>", f'<title>{config["materi_title"]}</title>', html)
+    html = _replace_once(
+        r"<!-- OG_META -->",
+        _build_og_meta(config, config["materi_title"], config["materi_sub"], config["materi_href"]),
+        html,
+    )
     html = html.replace('href="index.html"', f'href="{config["index_href"]}"')
 
     body = _build_materi_body(parsed, config)

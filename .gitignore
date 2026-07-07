@@ -5,3 +5,4 @@ __pycache__/
 .claude-flow/
 .claude/
 scripts/data/*_full.parsed.json
+~$*.docx
