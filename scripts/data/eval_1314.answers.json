@@ -1,0 +1,122 @@
+[
+  {
+    "ref": "The suspect can be seen in the photographs",
+    "answer": 1,
+    "expl": "Salah. Reduksi yang benar menghilangkan connector 'which' SEKALIGUS 'were', menyisakan past participle: 'the photographs RELEASED by the police'. Menyisakan 'were' tanpa connector membuat kalimat memiliki dua predikat tanpa penghubung yang jelas.",
+    "flagged": false
+  },
+  {
+    "ref": "The food placing on the picnic table",
+    "answer": 1,
+    "expl": "Salah. Makanan DILETAKKAN (pasif), jadi reduksinya harus memakai past participle 'placed', bukan '-ing' aktif 'placing'. Seharusnya: 'The food PLACED on the picnic table attracted a large number of flies.'",
+    "flagged": false
+  },
+  {
+    "ref": "Impressed with everything she had heard",
+    "answer": 0,
+    "expl": "Benar. 'Impressed with everything she had heard about the course' adalah reduced adjective clause pasif (dari 'who was impressed...') yang difrontkan dan tepat menerangkan subjek utama 'Marie'.",
+    "flagged": false
+  },
+  {
+    "ref": "The passengers in the airport waiting room",
+    "answer": 1,
+    "expl": "Salah. Clause aktif 'who heard the announcement' seharusnya direduksi jadi '-ing' tanpa koma karena bersifat restrictive: 'The passengers ... HEARING the announcement of the cancelled flight groaned audibly.' Penulisan dengan koma dan 'heard' membuat kalimat memiliki dua predikat (heard, groaned) tanpa penghubung yang benar.",
+    "flagged": false
+  },
+  {
+    "ref": "Dissatisfied with the service at the restaurant",
+    "answer": 1,
+    "expl": "Salah. 'Dissatisfied with the service' seharusnya menerangkan ORANG yang merasa tidak puas, bukan 'the meal' — 'the meal' tidak bisa merasa 'dissatisfied'. Ini modifier yang salah sasaran (dangling modifier).",
+    "flagged": false
+  },
+  {
+    "ref": "When purchased at this store, the buyer",
+    "answer": 1,
+    "expl": "Salah. 'When purchased at this store' seharusnya menerangkan barang/items yang dibeli, bukan 'the buyer' — pembelilah yang membeli, bukan yang dibeli. Ini modifier yang salah sasaran (dangling modifier).",
+    "flagged": false
+  },
+  {
+    "ref": "The medicine is not effective unless taken",
+    "answer": 0,
+    "expl": "Benar. 'unless taken as directed' adalah reduced adverb clause pasif (dari 'unless it is taken as directed') — connector 'unless' dipertahankan, subject+be dihilangkan, past participle 'taken' tetap ada.",
+    "flagged": false
+  },
+  {
+    "ref": "You should negotiate a lot before buy",
+    "answer": 1,
+    "expl": "Salah. Setelah connector 'before' pada reduced clause aktif, verb harus berbentuk -ing: seharusnya 'before BUYING a new car', bukan bentuk dasar 'buy'.",
+    "flagged": false
+  },
+  {
+    "ref": "Once purchased, the swimsuits cannot",
+    "answer": 0,
+    "expl": "Benar. 'Once purchased' adalah reduced adverb clause pasif (dari 'Once they are purchased') — connector 'once' dipertahankan, subject+be dihilangkan, past participle 'purchased' tetap ada.",
+    "flagged": false
+  },
+  {
+    "ref": "Though located near the coast, the town",
+    "answer": 0,
+    "expl": "Benar. 'Though located near the coast' adalah reduced adverb clause pasif (dari 'Though it is located...') — connector 'though' dipertahankan, subject+be dihilangkan, past participle 'located' tetap ada.",
+    "flagged": false
+  },
+  {
+    "ref": "When ___ nests during spring nesting season",
+    "answer": 0,
+    "expl": "Benar: 'Building'. Angsa membangun sarang secara aktif, jadi reduced clause-nya memakai -ing aktif: 'When BUILDING nests...'. Opsi lain menyisakan 'be' yang seharusnya sudah dihilangkan, atau memakai past participle pasif yang tidak sesuai makna aktif.",
+    "flagged": false
+  },
+  {
+    "ref": "made the first known ascent of Seward",
+    "answer": 0,
+    "expl": "Benar: 'A remote peak'. Ini adalah appositive hasil reduksi non-restrictive adjective clause ('which is a remote peak') — connector+be dihilangkan, menyisakan noun phrase saja.",
+    "flagged": false
+  },
+  {
+    "ref": "Kokanee Salmon begin to deteriorated",
+    "answer": 1,
+    "expl": "Benar: 'After spawning'. Ikan salmon melakukan spawn secara aktif, jadi reduced adverb clause-nya memakai connector 'after' + verb -ing: 'soon AFTER SPAWNING at the age of four.'",
+    "flagged": false
+  },
+  {
+    "ref": "behind government secrecy for nearly half",
+    "answer": 1,
+    "expl": "Benar: 'Hidden'. Pabrik tersebut DISEMBUNYIKAN (pasif) oleh kerahasiaan pemerintah, sehingga direduksi menjadi past participle 'Hidden' difrontkan di awal kalimat, mirip pola 'Located in Washington, the white house...'.",
+    "flagged": false
+  },
+  {
+    "ref": "Until ___ incorrect, astronomers had assumed",
+    "answer": 3,
+    "expl": "Benar: 'Recently proven'. Bukti tersebut DIBUKTIKAN (pasif) salah, direduksi jadi past participle: 'Until RECENTLY PROVEN incorrect, astronomers had assumed...' — connector 'until' dipertahankan, subject+be dihilangkan.",
+    "flagged": false
+  },
+  {
+    "ref": "artifacts from the early Chinese dynasties",
+    "answer": 3,
+    "expl": "Benar: 'Searching for'. Para arkeolog secara aktif MENCARI artefak, jadi reduced clause-nya memakai -ing aktif: 'SEARCHING FOR artifacts from the early Chinese dynasties, numerous archaeologists have explored...'.",
+    "flagged": false
+  },
+  {
+    "ref": "who could usually be persuaded to speak",
+    "answer": 1,
+    "expl": "Benar: 'While in' (town visiting her son). Reduced adverb clause pasif dari 'while she was in town' — connector 'while' dipertahankan, subject+be dihilangkan, menyisakan frasa preposisi 'in'.",
+    "flagged": false
+  },
+  {
+    "ref": "The National Restaurant ___ Washington",
+    "answer": 3,
+    "expl": "Benar: 'Association, based in'. 'Association' melengkapi nama resmi 'The National Restaurant Association', diikuti reduced non-restrictive adjective clause pasif 'based in Washington' (dari 'which is based in Washington').",
+    "flagged": false
+  },
+  {
+    "ref": "in North American waterways a little over",
+    "answer": 1,
+    "expl": "Benar: 'Although first sighted'. Zebra mussels PERTAMA KALI TERLIHAT (pasif) di perairan Amerika Utara, direduksi dengan connector 'although' dipertahankan + past participle 'first sighted'.",
+    "flagged": false
+  },
+  {
+    "ref": "Small companies may take their goods abroad",
+    "answer": 1,
+    "expl": "Benar: 'A document called'. Dokumen tersebut DISEBUT (pasif) ATA carnet, direduksi menjadi noun + past participle: 'acquiring a document CALLED an ATA carnet'.",
+    "flagged": false
+  }
+]

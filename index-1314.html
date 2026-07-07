@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>D Ajiks Akademi – Evaluasi TOEFL Skill 11 & 12 (CAT)</title>
+<title>D Ajiks Akademi – Evaluasi TOEFL Skill 13 & 14 (CAT)</title>
 <style>
   :root{
     --bg:#ffffff; --glass:rgba(52,211,153,.08); --glass2:rgba(52,211,153,.14);
@@ -100,24 +100,24 @@
       <img src="assets/ipdn-banner.jpg" alt="Kampus IPDN">
       <div class="hero-cap">
         <span class="tag">D Ajiks Akademi</span>
-        <h1>TOEFL Structure — Skill 11 & 12</h1>
+        <h1>TOEFL Structure — Skill 13 & 14</h1>
       </div>
     </div>
     <div class="card">
-      <h1>Evaluasi Adjective Clause Connectors</h1>
+      <h1>Evaluasi Reduced Clauses</h1>
       <p class="sub">Uji pemahamanmu • Computer Based Test</p>
       <div class="stats">
-        <div class="stat"><b>25</b><span>Total Soal</span></div>
+        <div class="stat"><b>20</b><span>Total Soal</span></div>
         <div class="stat"><b>2</b><span>Skill Diuji</span></div>
         <div class="stat"><b>25'</b><span>Durasi</span></div>
       </div>
-      <p style="color:var(--muted)">Tes ini menguji kemampuanmu menggunakan <em>adjective clause connectors</em> dengan benar — baik sebagai connector saja maupun sebagai connector sekaligus subject dari clause. Belum siap? Pelajari materinya dulu.</p>
+      <p style="color:var(--muted)">Tes ini menguji kemampuanmu mereduksi <em>adjective clause</em> dan <em>adverb clause</em> dengan benar — baik dalam bentuk aktif (-ing) maupun pasif (past participle). Belum siap? Pelajari materinya dulu.</p>
       <label for="nama">Nama Peserta</label>
       <input type="text" id="nama" placeholder="Tulis nama kamu di sini..." autocomplete="off">
       <div class="err" id="nameErr"></div>
       <div class="btn-row">
         <button class="btn btn-primary" onclick="startTest()">Mulai Tes</button>
-        <a class="btn btn-ghost" href="materi-1112.html">Pelajari Materi Dulu</a>
+        <a class="btn btn-ghost" href="materi-1314.html">Pelajari Materi Dulu</a>
       </div>
     </div>
     <footer>© Bimbel D Ajiks Akademi — Computer Based Test</footer>
@@ -188,336 +188,266 @@ const QUESTIONS = [
   {
     "section": "A",
     "type": "ci",
-    "text": "I made an appointment with the doctor whom you recommended",
-    "options": [
-      "Correct",
-      "Incorrect"
-    ],
-    "answer": 0,
-    "expl": "Benar. 'whom you recommended' adalah adjective clause yang menerangkan 'the doctor' ('whom' tepat karena merujuk orang dan berfungsi sebagai objek dari 'recommended'). Kalimat utama 'I made an appointment' lengkap.",
-    "flagged": false
-  },
-  {
-    "section": "A",
-    "type": "ci",
-    "text": "The enthusiasm with which he greeted me made me feel welcome.",
-    "options": [
-      "Correct",
-      "Incorrect"
-    ],
-    "answer": 0,
-    "expl": "Benar. 'with which he greeted me' adalah adjective clause (preposition + which) yang menerangkan 'The enthusiasm', dan verb utama kalimat adalah 'made'. Struktur lengkap dan benar.",
-    "flagged": false
-  },
-  {
-    "section": "A",
-    "type": "ci",
-    "text": "The story that you told me about Bob",
+    "text": "The suspect can be seen in the photographs were just released by the police",
     "options": [
       "Correct",
       "Incorrect"
     ],
     "answer": 1,
-    "expl": "Salah. Kalimat tidak memiliki verb utama. 'that you told me about Bob' hanyalah adjective clause yang menerangkan 'The story' — tidak ada predikat untuk subjek 'The story'. Contoh perbaikan: 'The story that you told me about Bob WAS interesting.'",
+    "expl": "Salah. Reduksi yang benar menghilangkan connector 'which' SEKALIGUS 'were', menyisakan past participle: 'the photographs RELEASED by the police'. Menyisakan 'were' tanpa connector membuat kalimat memiliki dua predikat tanpa penghubung yang jelas.",
     "flagged": false
   },
   {
     "section": "A",
     "type": "ci",
-    "text": "The men with whom were having the discussion did not seem very friendly",
+    "text": "The food placing on the picnic table attracted a large number of flies",
     "options": [
       "Correct",
       "Incorrect"
     ],
     "answer": 1,
-    "expl": "Salah. Setelah 'with whom' seharusnya ada subjek clause, tetapi langsung verb 'were having'. Seharusnya: 'The men with whom WE were having the discussion did not seem very friendly.'",
+    "expl": "Salah. Makanan DILETAKKAN (pasif), jadi reduksinya harus memakai past participle 'placed', bukan '-ing' aktif 'placing'. Seharusnya: 'The food PLACED on the picnic table attracted a large number of flies.'",
     "flagged": false
   },
   {
     "section": "A",
     "type": "ci",
-    "text": "I’m not really sure about taking part in the plans that we made last night",
+    "text": "Impressed with everything she had heard about the course, Marie signed her children up for it",
     "options": [
       "Correct",
       "Incorrect"
     ],
     "answer": 0,
-    "expl": "Benar. 'that we made last night' adalah adjective clause yang menerangkan 'the plans'. Kalimat utama 'I'm not really sure about taking part in the plans' lengkap dan benar.",
+    "expl": "Benar. 'Impressed with everything she had heard about the course' adalah reduced adjective clause pasif (dari 'who was impressed...') yang difrontkan dan tepat menerangkan subjek utama 'Marie'.",
     "flagged": false
   },
   {
     "section": "A",
     "type": "ci",
-    "text": "The neighbors reported the man who was trying to break into the car to the police",
-    "options": [
-      "Correct",
-      "Incorrect"
-    ],
-    "answer": 0,
-    "expl": "Benar. 'who was trying to break into the car' adalah adjective clause ('who' sebagai connector/subject) yang menerangkan 'the man'. Kalimat utama 'The neighbors reported the man ... to the police' lengkap.",
-    "flagged": false
-  },
-  {
-    "section": "A",
-    "type": "ci",
-    "text": "These plants can only survive in an environment is extremely humid",
+    "text": "The passengers in the airport waiting room, heard the announcement of the cancelled flight, groaned audibly",
     "options": [
       "Correct",
       "Incorrect"
     ],
     "answer": 1,
-    "expl": "Salah. Ada dua verb ('can survive' dan 'is') tanpa connector. Seharusnya ditambahkan 'that' sebagai connector/subject: '...in an environment THAT is extremely humid.'",
+    "expl": "Salah. Clause aktif 'who heard the announcement' seharusnya direduksi jadi '-ing' tanpa koma karena bersifat restrictive: 'The passengers ... HEARING the announcement of the cancelled flight groaned audibly.' Penulisan dengan koma dan 'heard' membuat kalimat memiliki dua predikat (heard, groaned) tanpa penghubung yang benar.",
     "flagged": false
   },
   {
     "section": "A",
     "type": "ci",
-    "text": "The boss meets with any production workers who they have surpassed their quotas",
+    "text": "Dissatisfied with the service at the restaurant, the meal really was not really enjoyable",
     "options": [
       "Correct",
       "Incorrect"
     ],
     "answer": 1,
-    "expl": "Salah. Ada pronoun 'they' yang redundan. 'who' sudah berfungsi sebagai subject dari clause, sehingga seharusnya: '...any production workers who HAVE surpassed their quotas.'",
+    "expl": "Salah. 'Dissatisfied with the service' seharusnya menerangkan ORANG yang merasa tidak puas, bukan 'the meal' — 'the meal' tidak bisa merasa 'dissatisfied'. Ini modifier yang salah sasaran (dangling modifier).",
     "flagged": false
   },
   {
     "section": "A",
     "type": "ci",
-    "text": "The salesclerk ran after the woman who had left her credit card in the store",
-    "options": [
-      "Correct",
-      "Incorrect"
-    ],
-    "answer": 0,
-    "expl": "Benar. 'who had left her credit card in the store' adalah adjective clause ('who' sebagai connector/subject) yang menerangkan 'the woman'. Verb utama kalimat adalah 'ran'. Struktur benar.",
-    "flagged": false
-  },
-  {
-    "section": "A",
-    "type": "ci",
-    "text": "The shoes which matched the dress that was on sale",
+    "text": "When purchased at this store, the buyer gets a guarantee on all items",
     "options": [
       "Correct",
       "Incorrect"
     ],
     "answer": 1,
-    "expl": "Salah. Kalimat tidak memiliki verb utama. 'which matched the dress' dan 'that was on sale' keduanya adjective clause — subjek 'The shoes' tidak punya predikat. Contoh perbaikan: 'The shoes which matched the dress that was on sale WERE expensive.'",
+    "expl": "Salah. 'When purchased at this store' seharusnya menerangkan barang/items yang dibeli, bukan 'the buyer' — pembelilah yang membeli, bukan yang dibeli. Ini modifier yang salah sasaran (dangling modifier).",
     "flagged": false
   },
   {
-    "section": "B",
-    "type": "err",
-    "text": "The artist who(A) the critics praised(B) recently(C) released(D) a new album.",
+    "section": "A",
+    "type": "ci",
+    "text": "The medicine is not effective unless taken as directed",
     "options": [
-      "Who",
-      "the critics praised",
-      "recently",
-      "released"
+      "Correct",
+      "Incorrect"
     ],
     "answer": 0,
-    "expl": "Kesalahan pada (A) 'who'. Pronoun ini berfungsi sebagai OBJEK dari 'praised' (yang memuji adalah 'the critics'), sehingga bentuk yang tepat adalah 'whom': 'The artist WHOM the critics praised recently released a new album.'",
+    "expl": "Benar. 'unless taken as directed' adalah reduced adverb clause pasif (dari 'unless it is taken as directed') — connector 'unless' dipertahankan, subject+be dihilangkan, past participle 'taken' tetap ada.",
     "flagged": false
   },
   {
-    "section": "B",
-    "type": "err",
-    "text": "The movie which(A) we watched(B) last night(C) very interesting(D).",
+    "section": "A",
+    "type": "ci",
+    "text": "You should negotiate a lot before buy a new car",
     "options": [
-      "Which",
-      "we watched",
-      "last night",
-      "very interesting"
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 1,
+    "expl": "Salah. Setelah connector 'before' pada reduced clause aktif, verb harus berbentuk -ing: seharusnya 'before BUYING a new car', bukan bentuk dasar 'buy'.",
+    "flagged": false
+  },
+  {
+    "section": "A",
+    "type": "ci",
+    "text": "Once purchased, the swimsuits cannot be returned",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 0,
+    "expl": "Benar. 'Once purchased' adalah reduced adverb clause pasif (dari 'Once they are purchased') — connector 'once' dipertahankan, subject+be dihilangkan, past participle 'purchased' tetap ada.",
+    "flagged": false
+  },
+  {
+    "section": "A",
+    "type": "ci",
+    "text": "Though located near the coast, the town does not get much of an ocean breeze",
+    "options": [
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 0,
+    "expl": "Benar. 'Though located near the coast' adalah reduced adverb clause pasif (dari 'Though it is located...') — connector 'though' dipertahankan, subject+be dihilangkan, past participle 'located' tetap ada.",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "When ___ nests during spring nesting season, Canadian geese are fiercely territorial",
+    "options": [
+      "Building",
+      "Are building",
+      "Built",
+      "Are built"
+    ],
+    "answer": 0,
+    "expl": "Benar: 'Building'. Angsa membangun sarang secara aktif, jadi reduced clause-nya memakai -ing aktif: 'When BUILDING nests...'. Opsi lain menyisakan 'be' yang seharusnya sudah dihilangkan, atau memakai past participle pasif yang tidak sesuai makna aktif.",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "In 1870, Calvin, along with Adirondack hunter Alvah Dunning, made the first known ascent of Seward Mountain, ____ far from roads or trails.",
+    "options": [
+      "A remote peak",
+      "It is a remote peak",
+      "A remote peak is",
+      "Which a remote peak"
+    ],
+    "answer": 0,
+    "expl": "Benar: 'A remote peak'. Ini adalah appositive hasil reduksi non-restrictive adjective clause ('which is a remote peak') — connector+be dihilangkan, menyisakan noun phrase saja.",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "Kokanee Salmon begin to deteriorated and die soon ___ at the age of four.",
+    "options": [
+      "They spawn",
+      "After spawning",
+      "Spawn",
+      "Spawned the salmon"
+    ],
+    "answer": 1,
+    "expl": "Benar: 'After spawning'. Ikan salmon melakukan spawn secara aktif, jadi reduced adverb clause-nya memakai connector 'after' + verb -ing: 'soon AFTER SPAWNING at the age of four.'",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "___ behind government secrecy for nearly half a century, the Hanford plant in central Washington produced plutonium for the nuclear weapons of the cold war.",
+    "options": [
+      "It is hidden",
+      "Hidden",
+      "Which is hidden",
+      "The plant is hiding"
+    ],
+    "answer": 1,
+    "expl": "Benar: 'Hidden'. Pabrik tersebut DISEMBUNYIKAN (pasif) oleh kerahasiaan pemerintah, sehingga direduksi menjadi past participle 'Hidden' difrontkan di awal kalimat, mirip pola 'Located in Washington, the white house...'.",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "Until ___ incorrect, astronomers had assumed that the insides of white dwarfs were uniform",
+    "options": [
+      "They",
+      "Their proof",
+      "The astronomers recently proven",
+      "Recently proven"
     ],
     "answer": 3,
-    "expl": "Kesalahan pada (D) 'very interesting'. Kalimat tidak memiliki verb utama — 'which we watched last night' hanyalah adjective clause. Seharusnya: '...last night WAS very interesting.'",
+    "expl": "Benar: 'Recently proven'. Bukti tersebut DIBUKTIKAN (pasif) salah, direduksi jadi past participle: 'Until RECENTLY PROVEN incorrect, astronomers had assumed...' — connector 'until' dipertahankan, subject+be dihilangkan.",
     "flagged": false
   },
   {
-    "section": "B",
-    "type": "err",
-    "text": "The ideas who(A) were presented during(B) the meeting were(C) quite innovative(D).",
+    "section": "C",
+    "type": "mcq",
+    "text": "___ artifacts from the early Chinese dynasties, numerous archaeologists have explored the southern Silk Road.",
     "options": [
-      "Who",
-      "During",
-      "the meeting were",
-      "innovative"
-    ],
-    "answer": 0,
-    "expl": "Kesalahan pada (A) 'who'. 'who' hanya untuk orang, sedangkan 'The ideas' adalah benda. Seharusnya 'which' atau 'that': 'The ideas WHICH/THAT were presented during the meeting were quite innovative.'",
-    "flagged": false
-  },
-  {
-    "section": "B",
-    "type": "err",
-    "text": "The artist drew(A) the portrait is(B) known for(C) her realistic style(D).",
-    "options": [
-      "The artist drew",
-      "Is",
-      "known for",
-      "style"
-    ],
-    "answer": 0,
-    "expl": "Kesalahan pada (A) 'The artist drew'. Ada dua verb ('drew' dan 'is known') tanpa connector. Seharusnya ditambahkan connector/subject: 'The artist WHO drew the portrait is known for her realistic style.'",
-    "flagged": false
-  },
-  {
-    "section": "B",
-    "type": "err",
-    "text": "We need to contact the person which(A) handles(B) customer complaints(C) regarding this issue(D).",
-    "options": [
-      "the person which",
-      "handles",
-      "customer complaints",
-      "issue"
-    ],
-    "answer": 0,
-    "expl": "Kesalahan pada (A) 'the person which'. 'which' hanya untuk benda, sedangkan 'the person' adalah orang. Seharusnya 'who': '...the person WHO handles customer complaints...'",
-    "flagged": false
-  },
-  {
-    "section": "B",
-    "type": "err",
-    "text": "The report which(A) the team they(B) prepared lacked(C) sufficient data(D).",
-    "options": [
-      "Which",
-      "the team they",
-      "prepared lacked",
-      "data"
-    ],
-    "answer": 1,
-    "expl": "Kesalahan pada (B) 'the team they'. Pronoun 'they' redundan — subjek clause sudah 'the team'. Seharusnya: 'The report which the team prepared lacked sufficient data.'",
-    "flagged": false
-  },
-  {
-    "section": "B",
-    "type": "err",
-    "text": "The student whom(A) answered(B) the professor's question correctly(C) received extra credit(D).",
-    "options": [
-      "Whom",
-      "Answered",
-      "the professor's question correctly",
-      "received extra credit"
-    ],
-    "answer": 0,
-    "expl": "Kesalahan pada (A) 'whom'. Pronoun ini berfungsi sebagai SUBJEK dari 'answered', sehingga bentuk yang tepat adalah 'who': 'The student WHO answered the professor's question correctly received extra credit.'",
-    "flagged": false
-  },
-  {
-    "section": "B",
-    "type": "err",
-    "text": "The car which(A) it hit(B) the fence(C) belongs(D) to my neighbor.",
-    "options": [
-      "Which",
-      "it hit",
-      "the fence",
-      "belongs"
-    ],
-    "answer": 1,
-    "expl": "Kesalahan pada (B) 'it hit'. Pronoun 'it' redundan — 'which' sudah berfungsi sebagai connector/subject dari clause. Seharusnya: 'The car WHICH HIT the fence belongs to my neighbor.'",
-    "flagged": false
-  },
-  {
-    "section": "B",
-    "type": "err",
-    "text": "The candidates who(A) attends(B) the interview(C) must be qualified(D).",
-    "options": [
-      "Who",
-      "Attends",
-      "the interview",
-      "qualified"
-    ],
-    "answer": 1,
-    "expl": "Kesalahan pada (B) 'attends'. 'who' merujuk pada 'The candidates' (jamak), sehingga verb harus plural: 'The candidates who ATTEND the interview must be qualified.'",
-    "flagged": false
-  },
-  {
-    "section": "B",
-    "type": "err",
-    "text": "That all police officers(A) have(B) at least four hours of hazardous materials response training(C) is mandating(D) by federal law.",
-    "options": [
-      "That all police officers",
-      "Have",
-      "Training",
-      "is mandating"
+      "They were searching for",
+      "It was a search for",
+      "Searched for",
+      "Searching for"
     ],
     "answer": 3,
-    "expl": "Kesalahan pada (D) 'is mandating'. Subjek kalimat (noun clause 'That all police officers have ... training') MENERIMA tindakan, sehingga harus pasif: '...IS MANDATED by federal law.'",
+    "expl": "Benar: 'Searching for'. Para arkeolog secara aktif MENCARI artefak, jadi reduced clause-nya memakai -ing aktif: 'SEARCHING FOR artifacts from the early Chinese dynasties, numerous archaeologists have explored...'.",
     "flagged": false
   },
   {
     "section": "C",
     "type": "mcq",
-    "text": "I enjoyed the book           .",
+    "text": "In Hailey, the best-known lecturer was women’s right activist Abigail Scott Duniway of Portland, Oregon, who could usually be persuaded to speak ___ town visiting her son.",
     "options": [
-      "that recommended you",
-      "you recommended it",
-      "which you recommended",
-      "whose recommendation"
-    ],
-    "answer": 2,
-    "expl": "Jawaban (C) 'which you recommended'. Adjective clause yang benar untuk benda ('the book') dengan 'which' sebagai objek dari 'recommended'. (A) urutan terbalik, (B) tanpa connector dan ada 'it' redundan, (D) tidak membentuk clause lengkap.",
-    "flagged": false
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "The house which stands on the hill _______ magnificent views.",
-    "options": [
-      "it has",
-      "has",
-      "having",
-      "that it has"
+      "She was in",
+      "While in’",
+      "While she was",
+      "Was in"
     ],
     "answer": 1,
-    "expl": "Jawaban (B) 'has'. Subjek 'The house' (diterangkan adjective clause 'which stands on the hill') butuh verb utama langsung: 'The house ... HAS magnificent views.' (A) dan (D) menambah pronoun redundan, (C) bukan verb utama.",
+    "expl": "Benar: 'While in' (town visiting her son). Reduced adverb clause pasif dari 'while she was in town' — connector 'while' dipertahankan, subject+be dihilangkan, menyisakan frasa preposisi 'in'.",
     "flagged": false
   },
   {
     "section": "C",
     "type": "mcq",
-    "text": "The professor _______ gave an interesting lecture.",
+    "text": "The National Restaurant ___ Washington, says that federal efforts to regulate workplace smoking would limit restaurants’ ability to respond to the desires of their patrons.",
     "options": [
-      "whom the students admired",
-      "who admired the students",
-      "the students admired him",
-      "admired the students"
-    ],
-    "answer": 0,
-    "expl": "Jawaban (A) 'whom the students admired' — adjective clause dengan 'whom' sebagai objek dari 'admired' yang menerangkan 'The professor', lalu verb utama 'gave' mengikuti. (C) tanpa connector dan ada 'him' redundan, (D) membuat dua verb tanpa connector. Catatan: (B) 'who admired the students' juga gramatikal, tetapi pola yang diuji di skill ini adalah connector sebagai objek clause.",
-    "flagged": true
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "The report _______ discusses the recent findings is comprehensive.",
-    "options": [
-      "that it",
-      "which",
-      "that discusses",
-      "is discusses"
-    ],
-    "answer": 1,
-    "expl": "Jawaban (B) 'which'. 'which' berfungsi sebagai connector sekaligus subject dari 'discusses': 'The report WHICH discusses the recent findings is comprehensive.' (A) 'that it' redundan, (C) menggandakan 'discusses', (D) bukan connector.",
-    "flagged": false
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "Scientists are now beginning to conduct experiments on ______ trigger different sorts of health risks.",
-    "options": [
-      "Noise pollution can",
-      "That noise pollution",
-      "How noise pollution",
-      "How noise pollution can"
+      "Association in",
+      "Association is in",
+      "Association which is in",
+      "Association, based in"
     ],
     "answer": 3,
-    "expl": "Jawaban (D) 'How noise pollution can'. Setelah preposition 'on' dibutuhkan noun clause lengkap dengan subject dan modal untuk verb 'trigger': '...experiments on HOW NOISE POLLUTION CAN trigger different sorts of health risks.'",
+    "expl": "Benar: 'Association, based in'. 'Association' melengkapi nama resmi 'The National Restaurant Association', diikuti reduced non-restrictive adjective clause pasif 'based in Washington' (dari 'which is based in Washington').",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "___ in North American waterways a little over a decade ago, zebra mussels have already earned a nasty reputation for their expensive habit of clogging water pipes in the Great Lakes area.",
+    "options": [
+      "The first sighting",
+      "Although first sighted",
+      "Zebra mussels were first sighted",
+      "First sighting"
+    ],
+    "answer": 1,
+    "expl": "Benar: 'Although first sighted'. Zebra mussels PERTAMA KALI TERLIHAT (pasif) di perairan Amerika Utara, direduksi dengan connector 'although' dipertahankan + past participle 'first sighted'.",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "Small companies may take their goods abroad for trade shows without paying foreign value added taxes by acquiring ___ an ATA carnet.",
+    "options": [
+      "A document calls",
+      "A document called",
+      "Calls a document",
+      "Called a document"
+    ],
+    "answer": 1,
+    "expl": "Benar: 'A document called'. Dokumen tersebut DISEBUT (pasif) ATA carnet, direduksi menjadi noun + past participle: 'acquiring a document CALLED an ATA carnet'.",
     "flagged": false
   }
 ];
 
-const SECTION_NAMES = {"A": "Bagian A — Correct/Incorrect", "B": "Bagian B — Identifikasi Kesalahan Struktur", "C": "Bagian C — Pilihan Ganda"};
+const SECTION_NAMES = {"A": "Bagian A — Correct/Incorrect", "C": "Bagian C — Pilihan Ganda"};
 
 /* ====================== STATE ====================== */
 let answers = new Array(QUESTIONS.length).fill(null);
@@ -620,7 +550,7 @@ function finishTest(auto){
   show("screen-result");
 }
 function computeResult(){
-  const groups = { A:{c:0,t:0}, B:{c:0,t:0}, C:{c:0,t:0} };
+  const groups = { A:{c:0,t:0}, C:{c:0,t:0} };
   let totalCorrect = 0;
   QUESTIONS.forEach((q,i)=>{
     groups[q.section].t++;

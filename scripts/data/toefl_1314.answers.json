@@ -1,0 +1,62 @@
+[
+  {
+    "ref": "We will have to return the merchandise",
+    "answer": 0,
+    "expl": "Benar. 'purchased yesterday at the Broadway' adalah reduced adjective clause pasif (dari 'which was purchased...') yang menerangkan 'the merchandise'. Kalimat utama 'We will have to return the merchandise' sudah lengkap.",
+    "flagged": false
+  },
+  {
+    "ref": "The children sat in the fancy restaurant",
+    "answer": 1,
+    "expl": "Salah. Clause tanpa 'be' ('who sat') harus direduksi dengan menghilangkan connector dan menambahkan -ing pada verb, sehingga seharusnya 'sitting', bukan 'sat'. Seharusnya: 'The children SITTING in the fancy restaurant found it difficult to behave.'",
+    "flagged": false
+  },
+  {
+    "ref": "Serving a term of four years",
+    "answer": 0,
+    "expl": "Benar. 'Serving a term of four years' adalah reduced adjective clause (dari 'who is serving...') yang diantarai koma, difrontkan di depan kalimat utama 'the mayor of the town will face re-election next year'. Struktur sesuai pola.",
+    "flagged": false
+  },
+  {
+    "ref": "The brand new Cadillac, purchasing less",
+    "answer": 1,
+    "expl": "Salah. Cadillac tidak membeli, melainkan DIBELI (pasif), jadi bentuk reduksi yang benar memakai past participle 'purchased', bukan '-ing' aktif 'purchasing'. Seharusnya: 'The brand new Cadillac, PURCHASED less than two weeks ago, was destroyed in the accident.'",
+    "flagged": false
+  },
+  {
+    "ref": "The fans who supporting their team",
+    "answer": 1,
+    "expl": "Salah. Connector 'who' dan bentuk '-ing' tidak boleh dipakai bersamaan — pilih salah satu: clause lengkap 'who support' ATAU reduced 'supporting' (tanpa 'who'). Seharusnya: 'The fans SUPPORTING their team...' atau 'The fans WHO SUPPORT their team...'.",
+    "flagged": false
+  },
+  {
+    "ref": "If not completely satisfied, you can return",
+    "answer": 0,
+    "expl": "Benar. 'If not completely satisfied' adalah reduced adverb clause pasif (dari 'If you are not completely satisfied') — connector dipertahankan, subject+be dihilangkan, past participle 'satisfied' tetap ada.",
+    "flagged": false
+  },
+  {
+    "ref": "Steve has had to learn how to cook",
+    "answer": 1,
+    "expl": "Salah. Clause aktif ('since he left home') direduksi dengan menghilangkan subject dan mengubah verb menjadi -ing, connector tetap ada: seharusnya 'since LEAVING home', bukan 'since left home'.",
+    "flagged": false
+  },
+  {
+    "ref": "The ointment can be applied where needed",
+    "answer": 0,
+    "expl": "Benar. 'where needed' adalah reduced adverb clause pasif (dari 'where it is needed') — connector 'where' dipertahankan, subject+be dihilangkan, past participle 'needed' tetap ada.",
+    "flagged": false
+  },
+  {
+    "ref": "Tom began to look for a job after completing",
+    "answer": 0,
+    "expl": "Benar. 'after completing his master's degree' adalah reduced adverb clause aktif (dari 'after he completed...') — connector 'after' dipertahankan, subject dihilangkan, verb diberi -ing.",
+    "flagged": false
+  },
+  {
+    "ref": "Although not selecting for the team",
+    "answer": 1,
+    "expl": "Salah. Dipilih untuk tim adalah tindakan pasif (dia DIPILIH, bukan memilih), sehingga bentuk reduksi yang benar memakai past participle 'selected', bukan '-ing' aktif 'selecting'. Seharusnya: 'Although not SELECTED for the team, he attends all of the games as a fan.'",
+    "flagged": false
+  }
+]

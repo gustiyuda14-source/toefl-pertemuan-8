@@ -12,9 +12,9 @@ EVAL_HEADER_RE = re.compile(r"^(?:EVALUATION FOR SKILL|EVALUASI SKILL)\b.*$", re
 # (regex pola instruksi, type, jumlah opsi). Daftar ini bisa ditambah untuk
 # batch skill berikutnya tanpa mengubah state machine di bawah.
 INSTRUCTION_PATTERNS = [
-    (re.compile(r"choose correct or incorrect", re.IGNORECASE), "ci", 2),
+    (re.compile(r"choose\s*['\"]?correct['\"]?\s+or\s+['\"]?incorrect['\"]?", re.IGNORECASE), "ci", 2),
     (re.compile(r"incorrect structure", re.IGNORECASE), "err", 4),
-    (re.compile(r"choose a,?\s*b,?\s*c,?\s*or d\b", re.IGNORECASE), "mcq", 4),
+    (re.compile(r"choose a,?\s*b,?\s*c,?\s*(?:or|dan) d\b", re.IGNORECASE), "mcq", 4),
     (re.compile(r"^latihan\b", re.IGNORECASE), "mcq", 4),
 ]
 
@@ -22,7 +22,10 @@ THEORY_TAG_RE = re.compile(r"^(Contoh|Rumus|Pola)\b", re.IGNORECASE)
 
 
 def _normalize_quotes_for_match(s):
-    return s.replace("“", '"').replace("”", '"').replace("’", "'")
+    return (
+        s.replace("“", '"').replace("”", '"')
+        .replace("’", "'").replace("‘", "'")
+    )
 
 
 def _flatten_lines(doc):
@@ -86,7 +89,11 @@ def parse_docx(path):
             start_skill(None, "")
 
         if line.strip().lower() == "exercise":
-            # Marker struktural ("mulai bagian latihan"), bukan konten yang perlu disimpan.
+            # Marker struktural ("mulai bagian latihan"). Beberapa dokumen tidak
+            # menaruh kalimat instruksi eksplisit sesudahnya, jadi default ke
+            # correct/incorrect (opt_count 2) -- kalau ada instruksi eksplisit
+            # menyusul, ia akan menimpa current_group seperti biasa.
+            current_group = {"type": "ci", "opt_count": 2, "pending": []}
             continue
 
         instr = _match_instruction(line)

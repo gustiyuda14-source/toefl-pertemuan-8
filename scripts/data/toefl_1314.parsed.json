@@ -1,0 +1,253 @@
+{
+  "skills": [
+    {
+      "number": 13,
+      "title": "USE ADJECTIVE CLAUSES CORRECTLY",
+      "theory": [
+        {
+          "tag": "text",
+          "text": "SENTENCES WITH REDUCED CLAUSES"
+        },
+        {
+          "tag": "text",
+          "text": "Dalam Bahasa inggris clause dapat hadir dalam bentuk yang lengkap ataupun reduced. Contoh :"
+        },
+        {
+          "tag": "text",
+          "text": "My friend should be on the train which is arriving at the station now"
+        },
+        {
+          "tag": "text",
+          "text": "My friend should be on the train arriving at the station now"
+        },
+        {
+          "tag": "text",
+          "text": "Although it was not really difficult, the exam took a lot of time"
+        },
+        {
+          "tag": "text",
+          "text": "Although not really difficult, the exam took a lot of time"
+        },
+        {
+          "tag": "text",
+          "text": "Dua kalimat pertama menunjukan adjective clause yang di reduced, sedangkan dua kalimat terakhir menunjukan adverb clause yang di reduced."
+        },
+        {
+          "tag": "text",
+          "text": "Dalam bentuk reduced, connector dari adjective clause dan be yang mengikutinya dihilangkan. Contoh :"
+        },
+        {
+          "tag": "text",
+          "text": "The woman who is waving to us is the tour guide"
+        },
+        {
+          "tag": "text",
+          "text": "The woman waving to us is the tour guide"
+        },
+        {
+          "tag": "text",
+          "text": "The letter which was written last week arrived today"
+        },
+        {
+          "tag": "text",
+          "text": "The letter written last week arrived today"
+        },
+        {
+          "tag": "text",
+          "text": "Apabila tidak ada be didalam adjective clause tersebut maka connector dihilangkan dan verb ditambahkan -ing. Contoh :"
+        },
+        {
+          "tag": "text",
+          "text": "I don’t understand the article which appears in today’s paper"
+        },
+        {
+          "tag": "text",
+          "text": "I don’t understand the article appearing in today’s paper"
+        },
+        {
+          "tag": "text",
+          "text": "Apabila adjective clause di antarai oleh {,} maka perubahannya sbb :"
+        },
+        {
+          "tag": "text",
+          "text": "The white house, which is located in Washington, is the home of the president"
+        },
+        {
+          "tag": "text",
+          "text": "Located in Washington, the white house is the home of the president"
+        },
+        {
+          "tag": "text",
+          "text": "The president, who is now preparing to give a speech, is meeting with his advisors"
+        },
+        {
+          "tag": "text",
+          "text": "Now preparing to give a speech, the president is meeting with his advisors"
+        },
+        {
+          "tag": "text",
+          "text": "INGAT!! Apabila connetornya tidak menjadi subject dari adjevtive clause tersebut, maka clause tersebut tidak boleh di reduced. Contoh :"
+        },
+        {
+          "tag": "text",
+          "text": "The woman that I just met is the tour guide"
+        },
+        {
+          "tag": "text",
+          "text": "The letter which you sent me arrived yesterday"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "ci",
+          "text": "We will have to return the merchandise purchased yesterday at the Broadway",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The children sat in the fancy restaurant found it difficult to behave",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Serving a term of four years, the mayor of the town will face re-election next year",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The brand new Cadillac, purchasing less than two weeks ago, was destroyed in the accident",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The fans who supporting their team always come out to the games in large numbers",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "title": "USE REDUCED ADVERB CLAUSES CORRECTLY",
+      "theory": [
+        {
+          "tag": "text",
+          "text": "Adverb clause juga dapat di reduce. Ketika di reduced, connectorsnya tidak hilang, yang hilang hanya subject dan be. Contoh :"
+        },
+        {
+          "tag": "text",
+          "text": "Although he is rather unwell, the speaker will take part in the seminar"
+        },
+        {
+          "tag": "text",
+          "text": "Although rather unwell, the speaker will take part in the seminar"
+        },
+        {
+          "tag": "text",
+          "text": "When you are ready, you can begin your speech"
+        },
+        {
+          "tag": "text",
+          "text": "When ready, you can begin your speech"
+        },
+        {
+          "tag": "text",
+          "text": "Apabila clause itu menggunakan subject dan verb, maka subject dihilangkan dan verb ditambahkan -ing. Contoh :"
+        },
+        {
+          "tag": "text",
+          "text": "Although he feels rather sick, the speaker will take part in the seminar"
+        },
+        {
+          "tag": "text",
+          "text": "Although feeling rather sick, the speaker will take part in the seminar"
+        },
+        {
+          "tag": "text",
+          "text": "When you give your speech, you should speak loudly and distinctly"
+        },
+        {
+          "tag": "text",
+          "text": "When giving your speech, you should speak loudly and distinctly"
+        },
+        {
+          "tag": "img",
+          "text": "assets/skill14-pola.png",
+          "alt": "Tabel pola reduced adverb clauses (active vs passive)"
+        },
+        {
+          "tag": "text",
+          "text": "Untuk beberapa adverb connector diatas hanya bisa di reduced dalam bentuk passive. Contoh :"
+        },
+        {
+          "tag": "text",
+          "text": "Once you submit your thesis, you will graduate (tidak bisa reduce karena aktif)"
+        },
+        {
+          "tag": "text",
+          "text": "Once it is submitted, your thesis will be reviewed (bisa di reduce karena pasif)"
+        },
+        {
+          "tag": "text",
+          "text": "Once submitted, your thesis will be reviewed"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "ci",
+          "text": "If not completely satisfied, you can return the product to the manufacturer",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Steve has had to learn how to cook and clean since left home",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The ointment can be applied where needed",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Tom began to look for a job after completing his master’s degree in engineering",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Although not selecting for the team, he attends all of the games as a fan",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        }
+      ]
+    }
+  ]
+}

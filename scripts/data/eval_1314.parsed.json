@@ -1,0 +1,191 @@
+{
+  "skills": [
+    {
+      "number": null,
+      "title": "EVALUASI SKILL 13 DAN 14",
+      "theory": [],
+      "exercises": [
+        {
+          "type": "ci",
+          "text": "The suspect can be seen in the photographs were just released by the police",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The food placing on the picnic table attracted a large number of flies",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Impressed with everything she had heard about the course, Marie signed her children up for it",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The passengers in the airport waiting room, heard the announcement of the cancelled flight, groaned audibly",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Dissatisfied with the service at the restaurant, the meal really was not really enjoyable",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "When purchased at this store, the buyer gets a guarantee on all items",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The medicine is not effective unless taken as directed",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "You should negotiate a lot before buy a new car",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Once purchased, the swimsuits cannot be returned",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Though located near the coast, the town does not get much of an ocean breeze",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "When ___ nests during spring nesting season, Canadian geese are fiercely territorial",
+          "options": [
+            "Building",
+            "Are building",
+            "Built",
+            "Are built"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "In 1870, Calvin, along with Adirondack hunter Alvah Dunning, made the first known ascent of Seward Mountain, ____ far from roads or trails.",
+          "options": [
+            "A remote peak",
+            "It is a remote peak",
+            "A remote peak is",
+            "Which a remote peak"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "Kokanee Salmon begin to deteriorated and die soon ___ at the age of four.",
+          "options": [
+            "They spawn",
+            "After spawning",
+            "Spawn",
+            "Spawned the salmon"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "___ behind government secrecy for nearly half a century, the Hanford plant in central Washington produced plutonium for the nuclear weapons of the cold war.",
+          "options": [
+            "It is hidden",
+            "Hidden",
+            "Which is hidden",
+            "The plant is hiding"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "Until ___ incorrect, astronomers had assumed that the insides of white dwarfs were uniform",
+          "options": [
+            "They",
+            "Their proof",
+            "The astronomers recently proven",
+            "Recently proven"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "___ artifacts from the early Chinese dynasties, numerous archaeologists have explored the southern Silk Road.",
+          "options": [
+            "They were searching for",
+            "It was a search for",
+            "Searched for",
+            "Searching for"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "In Hailey, the best-known lecturer was women’s right activist Abigail Scott Duniway of Portland, Oregon, who could usually be persuaded to speak ___ town visiting her son.",
+          "options": [
+            "She was in",
+            "While in’",
+            "While she was",
+            "Was in"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "The National Restaurant ___ Washington, says that federal efforts to regulate workplace smoking would limit restaurants’ ability to respond to the desires of their patrons.",
+          "options": [
+            "Association in",
+            "Association is in",
+            "Association which is in",
+            "Association, based in"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "___ in North American waterways a little over a decade ago, zebra mussels have already earned a nasty reputation for their expensive habit of clogging water pipes in the Great Lakes area.",
+          "options": [
+            "The first sighting",
+            "Although first sighted",
+            "Zebra mussels were first sighted",
+            "First sighting"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "Small companies may take their goods abroad for trade shows without paying foreign value added taxes by acquiring ___ an ATA carnet.",
+          "options": [
+            "A document calls",
+            "A document called",
+            "Calls a document",
+            "Called a document"
+          ]
+        }
+      ]
+    }
+  ]
+}
