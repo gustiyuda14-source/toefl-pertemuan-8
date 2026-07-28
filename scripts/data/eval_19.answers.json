@@ -1,0 +1,122 @@
+[
+  {
+    "ref": "The town council is not ",
+    "answer": 1,
+    "expl": "Salah. 'why have they land developers changed their plans' adalah embedded question (noun clause) setelah 'not sure' — subject dan verb TIDAK boleh ditukar, seharusnya urutan normal tanpa auxiliary di depan subject.",
+    "flagged": false
+  },
+  {
+    "ref": "Never in the world I bel",
+    "answer": 1,
+    "expl": "Salah. 'Never' di awal kalimat adalah ekspresi negatif yang memicu inversion — seharusnya subject dan helping verb ditukar: 'Never in the world did I believe that this would happen'.",
+    "flagged": false
+  },
+  {
+    "ref": "The day might have been ",
+    "answer": 0,
+    "expl": "Benar. 'had the sun been out a little more' adalah reduced conditional (inversion) dari 'if the sun had been out a little more' — 'if' dihilangkan dan 'had' ditukar ke depan subject.",
+    "flagged": false
+  },
+  {
+    "ref": "Only once did the judge ",
+    "answer": 0,
+    "expl": "Benar. 'Only once' adalah ekspresi pembatas di awal kalimat yang memicu inversion, dan 'did the judge take' sudah benar ditukar.",
+    "flagged": false
+  },
+  {
+    "ref": "Down the Hall to the lef",
+    "answer": 1,
+    "expl": "Salah. Ekspresi tempat 'Down the hall to the left' memicu inversion verb+subject — seharusnya '...are the offices that need to be painted', bukan 'the offices are that need to be painted'.",
+    "flagged": false
+  },
+  {
+    "ref": "Did the scientist explai",
+    "answer": 0,
+    "expl": "Benar. Kalimat tanya utama 'Did the scientist explain' sudah benar di-invert, dan 'what he put in the beaker' adalah embedded question yang benar TIDAK di-invert.",
+    "flagged": false
+  },
+  {
+    "ref": "Hardly ever it snows in ",
+    "answer": 1,
+    "expl": "Salah. 'Hardly ever' adalah ekspresi negatif di awal kalimat yang memicu inversion, seharusnya 'Hardly ever does it snow...' bukan 'Hardly ever it snows...'.",
+    "flagged": false
+  },
+  {
+    "ref": "Elijah scored more point",
+    "answer": 0,
+    "expl": "Benar. 'than had any other player in history' adalah inversion opsional setelah comparison ('more points than'), subject dan helping verb ditukar dengan benar dan agreement-nya (singular) sesuai.",
+    "flagged": false
+  },
+  {
+    "ref": "In the state of Californ",
+    "answer": 0,
+    "expl": "Benar. Ekspresi tempat di awal kalimat bersifat opsional untuk di-invert — kalimat dengan urutan subject-verb normal ('earthquakes occur') tetap benar.",
+    "flagged": false
+  },
+  {
+    "ref": "He should ever call agai",
+    "answer": 1,
+    "expl": "Salah. Kata 'ever' mengindikasikan conditional yang 'if'-nya dihilangkan — seharusnya subject dan 'should' ditukar: 'Should he ever call again, please tell him...'.",
+    "flagged": false
+  },
+  {
+    "ref": "Rarely ____ located near",
+    "answer": 3,
+    "expl": "Benar. 'Rarely' di awal kalimat memicu inversion verb+subject: 'Rarely are observatories located...'.",
+    "flagged": false
+  },
+  {
+    "ref": "There are Geographic, Ec",
+    "answer": 0,
+    "expl": "Benar. Setelah connector 'why' (embedded/noun clause), subject dan verb TIDAK di-invert: 'why diets differ around the world'.",
+    "flagged": false
+  },
+  {
+    "ref": "Were ___ millions of dol",
+    "answer": 0,
+    "expl": "Benar. 'Were' di awal klausa adalah reduced conditional (dari 'if...were not spending'), diikuti subject + 'not spending' (bentuk -ing sesuai idiom 'spend money V-ing').",
+    "flagged": false
+  },
+  {
+    "ref": "Nowhere ___ more skewed ",
+    "answer": 2,
+    "expl": "Benar. 'Nowhere' di awal kalimat memicu inversion verb+subject: 'Nowhere are retail trade figures more skewed...'.",
+    "flagged": false
+  },
+  {
+    "ref": "New York City’s Central ",
+    "answer": 3,
+    "expl": "Benar. Perbandingan kesetaraan formal 'as...as' dengan inversion: '...as large as is the second smallest country, Monaco' (as + verb + subject).",
+    "flagged": false
+  },
+  {
+    "ref": "Potassium has a valence ",
+    "answer": 1,
+    "expl": "Benar. Setelah 'when' (klausa keterangan waktu biasa, bukan pemicu inversion), subject dan verb tetap urutan normal: 'when it combines with other elements'.",
+    "flagged": false
+  },
+  {
+    "ref": "The Economic background ",
+    "answer": 2,
+    "expl": "Benar. Setelah 'nor' (kata sambung negatif), subject dan helping verb WAJIB ditukar: 'nor will trade unionism be treated'.",
+    "flagged": false
+  },
+  {
+    "ref": "___ test positive for an",
+    "answer": 0,
+    "expl": "Benar. Reduced conditional (dari 'if milk should test positive'), 'if' dihilangkan dan 'should' ditukar ke depan subject: 'Should milk test positive...'.",
+    "flagged": false
+  },
+  {
+    "ref": "Located behind ___ the t",
+    "answer": 2,
+    "expl": "Benar. Ekspresi tempat 'Located behind' di awal memicu inversion, dan subject 'the two lacrimal glands' (jamak) butuh verb 'are': 'Located behind each eyelid are the two lacrimal glands'.",
+    "flagged": false
+  },
+  {
+    "ref": "Only for a short period ",
+    "answer": 1,
+    "expl": "Benar. 'Only for a short period of time' di awal kalimat memicu inversion do-support: '...do cheetahs run at top speed'.",
+    "flagged": false
+  }
+]

@@ -6,7 +6,7 @@ dikembalikan adalah substring langsung dari paragraph.text milik python-docx.
 import re
 import docx
 
-SKILL_HEADER_RE = re.compile(r"^(?:TOEFL\s+)?SKILL\s+(\d+)\s*:\s*(.+)$")
+SKILL_HEADER_RE = re.compile(r"^(?:TOEFL\s+)?SKILL?\s+(\d+)\s*:\s*(.+)$")
 EVAL_HEADER_RE = re.compile(r"^(?:EVALUATION FOR SKILL|EVALUASI SKILL)\b.*$", re.IGNORECASE)
 
 # (regex pola instruksi, type, jumlah opsi). Daftar ini bisa ditambah untuk

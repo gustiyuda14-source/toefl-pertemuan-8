@@ -1,0 +1,137 @@
+{
+  "skills": [
+    {
+      "number": 19,
+      "title": "INVERT SUBJECT AND VERB WITH COMPARISON",
+      "theory": [
+        {
+          "tag": "text",
+          "text": "Penukaran pada ‘subject’ dan ‘verb’ dapat muncul pada clausa setelah ‘comparison.’ Penukaran tersebyt bersifat ‘opsional.’ Perhatikan contoh berikut"
+        },
+        {
+          "tag": "text",
+          "text": "My sister spends more hours in the office than John"
+        },
+        {
+          "tag": "text",
+          "text": "My sister spends more hours in the office than John does"
+        },
+        {
+          "tag": "text",
+          "text": "My sister spends more hours in the office than does John"
+        },
+        {
+          "tag": "text",
+          "text": "Pada kalimat-kalimat diatas ‘comparison’ yang digunakan adalah ’more … … than.’ Berikut adalah contoh soal TOEFL :"
+        },
+        {
+          "tag": "text",
+          "text": "The result of the current experiment appear to be more consistent than ____ the results of any previous tests."
+        },
+        {
+          "tag": "text",
+          "text": "Them"
+        },
+        {
+          "tag": "text",
+          "text": "Were"
+        },
+        {
+          "tag": "text",
+          "text": "They were"
+        },
+        {
+          "tag": "text",
+          "text": "Were they"
+        },
+        {
+          "tag": "img",
+          "text": "assets/skill19-pola.png",
+          "alt": "Pola inverted subject-verb dengan comparison"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "ci",
+          "text": "This candidate has received more votes than has any other candidate in previous years",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Obviously we were much more impressed with the performance than did the other members of the audience",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The film that we saw last night at the festival was far better than any of the other films",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The vegetables at the market this morning were far refresher than were those at the market yesterday",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "I’m afraid that is the condition of these tires as bad as the condition of the others",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "We firmly believed that our team could achieve a much faster time than any of the others",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "This apple pie is not as good as the last one that you made",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "On the fishing trip, Bobby caught twice as many fish as anyone else did",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The final speaker gave us more details than had any of the previous speaker",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Do you know why does he need to sleep so many more hours than do the others?",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        }
+      ]
+    }
+  ]
+}
