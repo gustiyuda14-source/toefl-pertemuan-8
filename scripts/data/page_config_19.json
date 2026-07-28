@@ -1,12 +1,12 @@
 {
   "site_url": "https://toefl-pertemuan-11.vercel.app",
   "og_image": "assets/og-preview.jpg",
-  "eval_title": "D Ajiks Akademi – Evaluasi TOEFL Skill 15-19 (CAT)",
-  "eval_hero_title": "TOEFL Structure — Skill 15-19",
-  "eval_h1": "Evaluasi Kumulatif Inverted Subject-Verb",
+  "eval_title": "D Ajiks Akademi – Evaluasi TOEFL Skill 19 (CAT)",
+  "eval_hero_title": "TOEFL Structure — Skill 19",
+  "eval_h1": "Evaluasi Inverted Subject-Verb with Comparison",
   "eval_sub": "Uji pemahamanmu • Computer Based Test",
-  "eval_intro": "Tes kumulatif ini menguji kemampuanmu mengenali kapan subject dan verb harus ditukar (inverted) — pada WH-question, frasa tempat, ekspresi negatif, conditional tanpa 'if', dan comparison ('than'/'as...as'). Belum siap? Pelajari materinya dulu.",
-  "stat_skills": 5,
+  "eval_intro": "Tes ini menguji pemahamanmu mengenali kapan subject dan verb harus ditukar (inverted) setelah comparison ('than'/'as...as') dari Skill 19, sekaligus mengulang pola-pola inversion lain (WH-question, frasa tempat, ekspresi negatif, conditional tanpa 'if') yang sudah dipelajari. Belum siap? Pelajari materinya dulu.",
+  "stat_skills": 1,
   "duration_minutes": 25,
   "section_names": {
     "A": "Bagian A — Correct/Incorrect",
