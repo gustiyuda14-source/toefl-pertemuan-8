@@ -200,7 +200,9 @@ function renderExercises(containerId, data, prefix){
     q.options.forEach((opt,i)=>{
       optsHtml += `<div class="ex-opt" data-i="${i}"><span class="mk">${LETTERS[i]}</span><span>${opt}</span></div>`;
     });
+    const passageHtml = q.img ? `<img src="${q.img}" alt="Passage" style="max-width:100%;border-radius:10px;margin:0 0 14px;display:block">` : ``;
     block.innerHTML = `
+      ${passageHtml}
       <div class="ex-q"><span class="n">${idx+1}.</span>${q.text} ${flag}</div>
       <div class="ex-opts">${optsHtml}</div>
       <div class="feedback"></div>

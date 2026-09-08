@@ -1,0 +1,77 @@
+{
+  "skills": [
+    {
+      "number": null,
+      "title": "EVALUASI SKILL 1 DAN 2",
+      "theory": [],
+      "exercises": [
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-eval-passage1.png",
+          "text": "What is the main idea of the passage?",
+          "options": [
+            "All calendars are the same.",
+            "The solar calendar is based on the Sun.",
+            "Different calendars have dissimilar bases.",
+            "The lunar month is twenty-nine and a half days long."
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-eval-passage1.png",
+          "text": "How is the information in the passage organized?",
+          "options": [
+            "Characteristics of the solar calendar are outlined.",
+            "Two types of calendars are described.",
+            "The strengths and weakness of the lunar calendar are described.",
+            "The length of each existing calendar is contrasted."
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-eval-passage2.png",
+          "text": "Which of the following expresses the main idea of the passage?",
+          "options": [
+            "Vaccines provide immunity to specific disease",
+            "Vaccines contain disease-causing microorganism",
+            "Vaccines are derived in different ways",
+            "New approaches in administering vaccines are being developed"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-eval-passage2.png",
+          "text": "How many types of vaccines are presented in the passage?",
+          "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-eval-passage3.png",
+          "text": "The topic of this passage could be best described as?",
+          "options": [
+            "The Piltdown Man",
+            "Charles Dawson’s discovery",
+            "Eoanthropus dawsoni",
+            "A definition and example of a hoax"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-eval-passage3.png",
+          "text": "The author’s main point is that",
+          "options": [
+            "Various types of hoaxes have been perpetrated",
+            "Charles Dawson discovered a human skull and jawbone",
+            "Charles Dawson was not an honest man",
+            "The human skull and jawbone were extremely old"
+          ]
+        }
+      ]
+    }
+  ]
+}

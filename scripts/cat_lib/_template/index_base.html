@@ -64,6 +64,7 @@
   .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));width:0;transition:.3s;box-shadow:0 0 12px var(--glow)}
   .qnum{color:var(--accent);font-weight:700;font-size:.82rem;letter-spacing:1px;text-transform:uppercase}
   .qtext{font-size:1.18rem;margin:10px 0 20px;font-weight:500;line-height:1.55}
+  .q-passage{max-width:100%;border-radius:10px;margin:0 0 16px;display:block;border:1px solid var(--border)}
   .opts{display:flex;flex-direction:column;gap:11px}
   .opt{display:flex;align-items:center;gap:13px;padding:14px 17px;border:1px solid var(--border);border-radius:14px;cursor:pointer;background:rgba(255,255,255,.03);transition:.15s}
   .opt:hover{border-color:rgba(52,211,153,.45);background:rgba(255,255,255,.06)}
@@ -136,6 +137,7 @@
     <div class="bar"><i id="bar-fill"></i></div>
     <div class="card" style="margin-top:16px">
       <div class="qnum" id="q-section">Bagian A</div>
+      <img class="q-passage hidden" id="q-passage" alt="Passage">
       <div class="qtext" id="q-text">—</div>
       <div class="opts" id="q-opts"></div>
       <div class="btn-row">
@@ -333,6 +335,9 @@ function updateTimerDisplay(){
 function renderQuestion(){
   const q = QUESTIONS[current];
   document.getElementById("q-section").textContent = SECTION_NAMES[q.section];
+  const passageEl = document.getElementById("q-passage");
+  if(q.img){ passageEl.src = q.img; passageEl.classList.remove("hidden"); }
+  else{ passageEl.classList.add("hidden"); }
   document.getElementById("q-text").textContent = (current+1)+". "+q.text;
   const letters = ["A","B","C","D","E"];
   const optsEl = document.getElementById("q-opts");
@@ -411,6 +416,7 @@ function showReview(){
     list.innerHTML += `
       <div class="rev">
         <div class="qn">SOAL ${i+1} • ${SECTION_NAMES[q.section]} ${statusPill}</div>
+        ${q.img ? `<img class="q-passage" src="${q.img}" alt="Passage">` : ``}
         <div class="qt">${q.text}</div>
         <div>
           <span class="pill ${isCorrect?'ok':'bad'}">Jawabanmu: ${userText}</span>

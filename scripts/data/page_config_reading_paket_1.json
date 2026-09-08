@@ -1,0 +1,22 @@
+{
+  "site_url": "https://toefl-pertemuan-11.vercel.app",
+  "og_image": "assets/og-preview.jpg",
+  "eval_title": "D Ajiks Akademi – Evaluasi TOEFL Reading Paket 1 (CAT)",
+  "eval_hero_title": "TOEFL Reading — Paket 1",
+  "eval_h1": "Evaluasi Reading Skill 1 & 2",
+  "eval_sub": "Uji pemahamanmu • Computer Based Test",
+  "eval_intro": "Tes ini menguji kemampuanmu menemukan <em>main idea</em> (ide pokok) dan mengenali <em>organization of ideas</em> (organisasi teks) dari sebuah passage — dua skill dasar reading TOEFL. Belum siap? Pelajari materinya dulu.",
+  "stat_skills": 2,
+  "duration_minutes": 12,
+  "section_names": {
+    "C": "Bagian C — Pemahaman Bacaan"
+  },
+  "materi_href": "materi-reading-paket-1.html",
+  "index_href": "index-reading-paket-1.html",
+  "footer_eval": "© Bimbel D Ajiks Akademi — Computer Based Test",
+  "materi_title": "Materi TOEFL Reading Paket 1 — Skill 1 & 2 | D Ajiks Akademi",
+  "materi_hero_title": "TOEFL Reading — Paket 1",
+  "materi_h1": "Understanding Main Idea & Organization of Ideas",
+  "materi_sub": "Pelajari teori lalu uji dengan latihan interaktif (feedback langsung).",
+  "footer_materi": "© Bimbel D Ajiks Akademi — Materi &amp; Latihan TOEFL"
+}

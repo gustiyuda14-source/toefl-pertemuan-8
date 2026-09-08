@@ -1,0 +1,74 @@
+[
+  {
+    "ref": "Which of the following bes",
+    "answer": 1,
+    "expl": "Topik paling spesifik & akurat adalah depository emasnya sendiri — paragraf secara eksplisit mengoreksi kesan awal ('even more renowned for...') dari sekadar pos militer menjadi depository emas federal.",
+    "flagged": false
+  },
+  {
+    "ref": "Which of the following wou",
+    "answer": 2,
+    "expl": "Judul terbaik mencakup keseluruhan isi paragraf (lokasi + fungsi penyimpanan emas), bukan hanya satu detail seperti brankas beton atau soal keamanan saja.",
+    "flagged": false
+  },
+  {
+    "ref": "Which of the following bes",
+    "answer": 1,
+    "expl": "Kalimat pertama paragraf langsung menyatakan kekerasan mineral 'can be determined by scratching one mineral with another' — inilah subjek utamanya, uji gores (scratch test).",
+    "flagged": false
+  },
+  {
+    "ref": "The main idea of this pass",
+    "answer": 0,
+    "expl": "Opsi B, C, D adalah detail pendukung/contoh spesifik dari skala Mohs; opsi A adalah pernyataan umum (topic sentence) yang merangkum keseluruhan paragraf.",
+    "flagged": false
+  },
+  {
+    "ref": "The passage mainly discuss",
+    "answer": 3,
+    "expl": "Paragraf membahas dua hal tentang badai di Atlantik Utara: kapan terjadi (musim) dan seberapa kuat anginnya — opsi D mencakup keduanya tanpa terlalu sempit (A, B) atau salah fokus (C, karena topiknya badai bukan cuaca secara umum).",
+    "flagged": false
+  },
+  {
+    "ref": "The best title for this pa",
+    "answer": 1,
+    "expl": "Judul harus menyebut 'badai' (bukan sekadar samudranya) dan wilayah Atlantik Utara; paragraf sama sekali tidak membahas kerusakan/destruksi (C), dan opsi D hanya mencakup soal musim, bukan kekuatan angin.",
+    "flagged": false
+  },
+  {
+    "ref": "Which of the following bes",
+    "answer": 2,
+    "expl": "Kalimat pembuka paragraf pertama langsung menyatakan tesisnya: gaya penulisan yang jelas dan penekanan pada nilai-nilai zaman itulah yang membuat Longfellow populer di masyarakat umum.",
+    "flagged": false
+  },
+  {
+    "ref": "The best title of the pass",
+    "answer": 0,
+    "expl": "Sejalan dengan main idea-nya (popularitas Longfellow karena penekanan pada nilai-nilai), judul yang paling pas menyoroti daya tarik popularitasnya, bukan sekadar genre puisi atau soal kritikus.",
+    "flagged": false
+  },
+  {
+    "ref": "The subject of the fourth",
+    "answer": 1,
+    "expl": "Sama seperti paragraf 2 dan 3 yang subjeknya adalah alur cerita masing-masing puisi, sebagian besar paragraf keempat menceritakan alur segitiga cinta Miles Standish — bukan sekadar latar waktunya atau catatan popularitas di kalimat penutup.",
+    "flagged": false
+  },
+  {
+    "ref": "How is the information in",
+    "answer": 1,
+    "expl": "Paragraf secara eksplisit memaparkan dua pandangan yang berlawanan: pandangan tradisional (konflik itu buruk) versus pandangan interaksionis (konflik bisa bermanfaat).",
+    "flagged": false
+  },
+  {
+    "ref": "What type of information i",
+    "answer": 1,
+    "expl": "Kalimat pertama paragraf langsung mendefinisikan istilah 'IQ' ('is defined as the ratio of...') — ini definisi, bukan argumen, opini, atau teori.",
+    "flagged": false
+  },
+  {
+    "ref": "How is the information in",
+    "answer": 0,
+    "expl": "Paragraf membahas dua karakteristik berbeda dari Great Salt Lake: kadar garamnya (paragraf 2) dan variasi ukurannya (paragraf 3) — bukan hanya salah satu dari keduanya.",
+    "flagged": false
+  }
+]
