@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/", "destination": "/index-reading-paket-1.html" }
+    { "source": "/", "destination": "/index-reading-paket-2.html" }
   ]
 }

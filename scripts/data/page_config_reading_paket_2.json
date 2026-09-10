@@ -1,0 +1,22 @@
+{
+  "site_url": "https://toefl-pertemuan-9.vercel.app",
+  "og_image": "assets/og-preview.jpg",
+  "eval_title": "D Ajiks Akademi – Evaluasi TOEFL Reading Paket 2 (CAT)",
+  "eval_hero_title": "TOEFL Reading — Paket 2",
+  "eval_h1": "Evaluasi Reading Skill 3, 4 & 5",
+  "eval_sub": "Uji pemahamanmu • Computer Based Test",
+  "eval_intro": "Tes ini menguji kemampuanmu menjawab <em>stated detail question</em> (detail yang tersurat), <em>unstated detail question</em> (detail yang tidak disebutkan), dan <em>pronoun reference</em> (rujukan kata ganti) dari sebuah passage — tiga skill dasar reading TOEFL. Belum siap? Pelajari materinya dulu.",
+  "stat_skills": 3,
+  "duration_minutes": 20,
+  "section_names": {
+    "C": "Bagian C — Pemahaman Bacaan"
+  },
+  "materi_href": "materi-reading-paket-2.html",
+  "index_href": "index-reading-paket-2.html",
+  "footer_eval": "© Bimbel D Ajiks Akademi — Computer Based Test",
+  "materi_title": "Materi TOEFL Reading Paket 2 — Skill 3, 4 & 5 | D Ajiks Akademi",
+  "materi_hero_title": "TOEFL Reading — Paket 2",
+  "materi_h1": "Stated Detail, Unstated Detail & Pronoun Reference",
+  "materi_sub": "Pelajari teori lalu uji dengan latihan interaktif (feedback langsung).",
+  "footer_materi": "© Bimbel D Ajiks Akademi — Materi &amp; Latihan TOEFL"
+}

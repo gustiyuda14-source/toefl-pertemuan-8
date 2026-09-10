@@ -1,0 +1,104 @@
+[
+  {
+    "ref": "According to the pass",
+    "answer": 2,
+    "expl": "Passage: 'Ice ages... periods when ice covered extensive areas of the Earth'. Yang TERJADI selama ice age adalah es menutupi sebagian besar permukaan bumi; opsi lain menjelaskan cara ice age itu DIKENALI, bukan apa yang terjadi.",
+    "flagged": false
+  },
+  {
+    "ref": "The passage covers how",
+    "answer": 1,
+    "expl": "Passage menyebut dua cara mengenali ice age: dari rock strata, dan dari land formations (U-shaped valleys dll) — dua metode.",
+    "flagged": false
+  },
+  {
+    "ref": "According to the pass",
+    "answer": 3,
+    "expl": "Passage: rock strata menunjukkan 'evidence of foreign materials deposited by moving walls of ice' — substansi dari daerah lain, bukan U-shaped valleys (itu land formation, bukan rock strata).",
+    "flagged": false
+  },
+  {
+    "ref": "The passage indicates",
+    "answer": 3,
+    "expl": "Passage: ventricles 'push it into the arteries with each contraction' — mendorong darah ke arteri. Dinding ventricle tebal (bukan tipis), posisinya di bawah atria (bukan di atas), dan menerima darah dari atria (bukan mengirim ke atria).",
+    "flagged": false
+  },
+  {
+    "ref": "According to the pass",
+    "answer": 0,
+    "expl": "Passage: ventricles mendorong darah ke arteri 'with each contraction of the heart' — yaitu saat jantung berdetak.",
+    "flagged": false
+  },
+  {
+    "ref": "According to the pass",
+    "answer": 1,
+    "expl": "Passage: Golden Age of Railroads adalah periode ketika 'railroads flourished and maintained a near monopoly in mass transportation in the United States'.",
+    "flagged": false
+  },
+  {
+    "ref": "The passage mentions t",
+    "answer": 1,
+    "expl": "Passage: keseragaman track gauge selesai pada 1886, menghasilkan 'increased efficiency and economy in the rail system'. Standardisasi zona waktu adalah perkembangan terpisah, bukan akibat dari track gauge.",
+    "flagged": false
+  },
+  {
+    "ref": "The passage indicates",
+    "answer": 3,
+    "expl": "Standard time diterapkan tahun 1883, sementara standardisasi track gauge baru selesai 1 Juni 1886 — jadi standard time terjadi SEBELUM track gauge terstandardisasi penuh di seluruh AS.",
+    "flagged": false
+  },
+  {
+    "ref": "All of the following a",
+    "answer": 0,
+    "expl": "Passage: 'Blood plasma is a clear, almost colorless liquid' — jadi 'deeply colored liquid' adalah pengecualian (tidak benar), sesuai yang diminta soal (EXCEPT).",
+    "flagged": false
+  },
+  {
+    "ref": "Which of the following",
+    "answer": 3,
+    "expl": "Passage menyebutkan whole blood berbeda dari plasma dan tidak bisa dikeringkan/disimpan lama — semua itu dinyatakan. Bahwa whole blood 'jernih tak berwarna' justru ciri PLASMA, tidak pernah dinyatakan tentang whole blood.",
+    "flagged": false
+  },
+  {
+    "ref": "Which of the following",
+    "answer": 1,
+    "expl": "Passage: Nellie Bly 'faked mental illness' — berpura-pura sakit jiwa, artinya dia TIDAK benar-benar sakit jiwa.",
+    "flagged": false
+  },
+  {
+    "ref": "Which of the following",
+    "answer": 3,
+    "expl": "Passage menyebut dia berpura-pura jadi pencuri (ditangkap) dan berpura-pura sakit jiwa (dirawat sebagai pasien) — tidak pernah disebut dia bekerja sebagai dokter.",
+    "flagged": false
+  },
+  {
+    "ref": "According to the pass",
+    "answer": 3,
+    "expl": "Passage: orang tuanya mencoba menenggelamkannya tapi Dekanawida 'was to survive this attempted drowning' — ia selamat, tidak tenggelam.",
+    "flagged": false
+  },
+  {
+    "ref": "Which of the following",
+    "answer": 0,
+    "expl": "Passage hanya menyebut wampum dipakai dalam budaya Iroquois (nilai tinggi, dibuat dari kerang, dibayarkan ke keluarga korban) — penggunaan oleh suku Huron tidak pernah disebutkan.",
+    "flagged": false
+  },
+  {
+    "ref": "The pronoun ‘it’ in li",
+    "answer": 2,
+    "expl": "'...has become known as the harvest moon. It is a bright moon which allows farmers...' — 'It' merujuk ke 'the harvest moon' yang baru disebut di kalimat sebelumnya.",
+    "flagged": false
+  },
+  {
+    "ref": "The pronoun ‘it’ in li",
+    "answer": 0,
+    "expl": "'Mardi Gras...was introduced to America...From that time it has grown in popularity' — 'it' merujuk ke Mardi Gras, subjek yang tumbuh populer.",
+    "flagged": false
+  },
+  {
+    "ref": "The pronoun ‘they’ in ",
+    "answer": 1,
+    "expl": "'...these statistics are known as the Dow Jones averages. They are based on a select group of stocks and bonds...' — 'They' merujuk ke 'these statistics' (=Dow Jones averages), bukan ke stocks/bonds yang jadi dasar perhitungannya.",
+    "flagged": false
+  }
+]

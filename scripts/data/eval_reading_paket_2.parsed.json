@@ -1,0 +1,165 @@
+{
+  "skills": [
+    {
+      "number": null,
+      "title": "EVALUASI SKILL 3-5",
+      "theory": [],
+      "exercises": [
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-eval-passage1.png",
+          "text": "According to the passage, the national university of the United States",
+          "options": [
+            "has been around for a while",
+            "does not exist",
+            "is a very recent idea",
+            "is an idea that developed during the present century"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-eval-passage1.png",
+          "text": "The word ‘he’ in the passage refers to",
+          "options": [
+            "George Washington",
+            "Congress",
+            "the idea",
+            "the site"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-eval-passage1.png",
+          "text": "The passage indicates that George Washington did NOT do which of the following?",
+          "options": [
+            "He suggested the concept for a national university to Congress.",
+            "He chose a location for the national university.",
+            "He left money in his will for a national university.",
+            "He succeeded in establishing a national university."
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-eval-passage1.png",
+          "text": "Which of the following is NOT mentioned in the passage about Andrew Carnegie?",
+          "options": [
+            "He was interested in doing charity work and good deeds for the public.",
+            "He was a member of Congress.",
+            "He was interested in the idea of a national university.",
+            "He was active in the early twentieth century."
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-eval-passage1.png",
+          "text": "The pronoun ‘it’ in line 7 refers to",
+          "options": [
+            "the cause",
+            "the beginning of the present century",
+            "the original idea",
+            "Congress"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-eval-passage2.png",
+          "text": "Which of the following is NOT true about the La Brea tarpits?",
+          "options": [
+            "They contain fossils that are quite old",
+            "They are found in Hancock Park",
+            "They have existed since the ice age",
+            "They are located under a swimming pool"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-eval-passage2.png",
+          "text": "The pronoun ‘they’ in line 3 refers to",
+          "options": [
+            "The La Brea tarpits",
+            "Ice age fossils",
+            "Shallow pools of water",
+            "Animals"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-eval-passage2.png",
+          "text": "When did archaeologists become aware of the possible value of the contents of the tarpits?",
+          "options": [
+            "During the ice age",
+            "Thousands and thousands of years ago",
+            "Early in the twentieth century",
+            "Within the past decade"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-eval-passage2.png",
+          "text": "Which of the following is NOT mentioned as an example of a skeleton found in the tarpits?",
+          "options": [
+            "A bear",
+            "A sloth",
+            "A horse",
+            "A snake"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-eval-passage3.png",
+          "text": "Which of the following is NOT discussed about camp David?",
+          "options": [
+            "Its location",
+            "Its cost",
+            "Its facilities",
+            "Its uses"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-eval-passage3.png",
+          "text": "According to the passage, who founded camp David?",
+          "options": [
+            "George Washington",
+            "The first family",
+            "Franklin Delano Roosevelt",
+            "Dwight David Eisenhower"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-eval-passage3.png",
+          "text": "The pronoun ‘he’ in line 10 refers to?",
+          "options": [
+            "Camp David",
+            "Roosevelt",
+            "James Hilton",
+            "President Dwight David Eisenhower"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-eval-passage3.png",
+          "text": "Which of the following is NOT true about President Eisenhower?",
+          "options": [
+            "He had a grandson named David",
+            "He attended a conference with Nikita Khrushchev",
+            "He named the presidential retreat Shangri-La",
+            "He visited Camp David"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-eval-passage3.png",
+          "text": "Khrushchev was at camp David in",
+          "options": [
+            "1942",
+            "1943",
+            "1959",
+            "1978"
+          ]
+        }
+      ]
+    }
+  ]
+}
