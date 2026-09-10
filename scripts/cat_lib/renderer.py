@@ -46,7 +46,7 @@ def _merge_exercises(parsed_skills, answers):
                     raise ValueError(
                         f"Answer key tidak sejajar di index {ai}:\n  ref   = {ref!r}\n  soal  = {ex['text']!r}"
                     )
-            merged.append({
+            q = {
                 "section": TYPE_TO_SECTION[ex["type"]],
                 "type": ex["type"],
                 "text": ex["text"],
@@ -54,7 +54,10 @@ def _merge_exercises(parsed_skills, answers):
                 "answer": ans["answer"],
                 "expl": ans["expl"],
                 "flagged": bool(ans.get("flagged", False)),
-            })
+            }
+            if ex.get("img"):
+                q["img"] = ex["img"]
+            merged.append(q)
             ai += 1
     if ai != len(answers):
         raise ValueError(f"Jumlah soal hasil parse ({ai}) != jumlah entri answer key ({len(answers)})")
@@ -259,6 +262,8 @@ def _build_materi_script_data(parsed, answers):
             entry = {"text": ex["text"], "options": ex["options"], "answer": ans["answer"], "expl": ans["expl"]}
             if ans.get("flagged"):
                 entry["flagged"] = True
+            if ex.get("img"):
+                entry["img"] = ex["img"]
             items.append(entry)
             ai += 1
         var_name = f"SKILL{skill['number']}"

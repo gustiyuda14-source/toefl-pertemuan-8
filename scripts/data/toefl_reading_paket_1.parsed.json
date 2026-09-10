@@ -1,0 +1,202 @@
+{
+  "skills": [
+    {
+      "number": 1,
+      "title": "UNDERSTANDING MAIN IDEA",
+      "theory": [
+        {
+          "tag": "text",
+          "text": "Didalam TOEFL khususnya reading ada akan diminta untuk mencari IDE POKOK dari sebuah teks atau paragraph. Pertanyaan berupa topik, judul, dan ide pokok akan selalu di tanyakan. Karena Text didalam TOEFL di susun secara terorganisir maka relatif ”mudah” mencari jawabannya yaitu dengan mencari topic sentence yang biasanya dapat dilihat di awal setiap paragraph. Apabila jumlah paragraphnya lebih dari satu maka anda harus memahami topic sentence di setiap paragraph tersebut. Contoh :"
+        },
+        {
+          "tag": "img",
+          "text": "assets/reading-paket-1-s1-example1.png",
+          "alt": "Contoh soal Main Idea — satu paragraph (John Dewey)"
+        },
+        {
+          "tag": "label",
+          "text": "Contoh apabila paragraph lebih dari satu :"
+        },
+        {
+          "tag": "img",
+          "text": "assets/reading-paket-1-s1-example2.png",
+          "alt": "Contoh soal Main Idea — lebih dari satu paragraph (Nitrogen Fixation)"
+        },
+        {
+          "tag": "label",
+          "text": "Kesimpulan"
+        },
+        {
+          "tag": "img",
+          "text": "assets/reading-paket-1-s1-summary.png",
+          "alt": "Ringkasan strategi Main Idea Questions"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-s1-passage1.png",
+          "text": "Which of the following best describes the topic of the passage?",
+          "options": [
+            "The city of Fort Knox, Kentucky",
+            "The federal gold depository",
+            "The U.S army post at Fort Knox",
+            "Gold bullion"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-s1-passage1.png",
+          "text": "Which of the following would be the best title for this passage?",
+          "options": [
+            "The Massive concrete Vault",
+            "Fort Knox Security",
+            "Where the United States Keeps Its Gold",
+            "A Visit to Kentucky"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-s1-passage2.png",
+          "text": "Which of the following best states the subject of this passage?",
+          "options": [
+            "The hardness of diamonds",
+            "Identifying minerals by means of a scratch test",
+            "Feldspar on the Mohs’ Scale",
+            "Recognizing minerals in their natural state"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-s1-passage2.png",
+          "text": "The main idea of this passage is that?",
+          "options": [
+            "The hardness of a mineral can be determined by its ability to make a mark on other minerals",
+            "Diamonds, with a hardness of 10 on the Mohs’ scale, can scratch all other minerals",
+            "A softer mineral cannot be scratched by a harder mineral",
+            "Talc is the first mineral listed on the Mohs’ scale"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-s1-passage3.png",
+          "text": "The passage mainly discusses",
+          "options": [
+            "how many hurricanes occur each year",
+            "the strength of hurricanes",
+            "the weather in the North Atlantic",
+            "hurricanes in one part of the world"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-s1-passage3.png",
+          "text": "The best title for this passage would be",
+          "options": [
+            "The North Atlantic Ocean",
+            "Storms of the Northern Atlantic",
+            "Hurricanes: The Damage and Destruction",
+            "What Happens from May through November"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-s1-passage4.png",
+          "text": "Which of the following best describes the main idea of the passage?",
+          "options": [
+            "American history is often depicted in poetry.",
+            "Longfellow described American history even though people really did not enjoy it.",
+            "The popularity of Longfellow's poems results from his stress on the values of the people.",
+            "Longfellow wrote long narrative poems that were not always popular with the critics."
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-s1-passage4.png",
+          "text": "The best title of the passage is",
+          "options": [
+            "Longfellow's Popular Appeal",
+            "Historical Narrative Poems",
+            "The Lyric, Dramatic, and Narrative Poems of Longfellow",
+            "Longfellow and the Critics"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-s1-passage4.png",
+          "text": "The subject of the fourth paragraph is",
+          "options": [
+            "nobility and honor in the poems of Longfellow",
+            "the love triangle involving Miles Standish",
+            "the popular appeal of The Courtship of Miles Standish",
+            "the period of the early settlement of New England"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "RECOGNIZE THE ORGANIZATION OF IDEAS",
+      "theory": [
+        {
+          "tag": "text",
+          "text": "Didalam test reading TOEFL seringkali kita jumpai pertanyaan yang menanyakan organisasi terkait text, dalam hal ini bagaimana teks itu disusun. Contohnya adalah anda akan diminta untuk menentukan bagaimana paragraph yang satu dengan yang lainnya saling terhubung. Contoh"
+        },
+        {
+          "tag": "img",
+          "text": "assets/reading-paket-1-s2-example1.png",
+          "alt": "Contoh passage — Organization of Ideas (Abner Doubleday)"
+        },
+        {
+          "tag": "img",
+          "text": "assets/reading-paket-1-s2-example2.png",
+          "alt": "Contoh soal — Organization of Ideas (Abner Doubleday)"
+        },
+        {
+          "tag": "label",
+          "text": "Kesimpulan"
+        },
+        {
+          "tag": "img",
+          "text": "assets/reading-paket-1-s2-summary.png",
+          "alt": "Ringkasan strategi Organization of Ideas"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-s2-passage1.png",
+          "text": "How is the information in the passage organized?",
+          "options": [
+            "The origin of ideas about the conflict is presented",
+            "Contrasting views of conflicts are presented",
+            "Two theorists discuss the strengths and weakness of their views on conflict",
+            "Examples of conflict within the organizations are presented"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-s2-passage2.png",
+          "text": "What type of information is included in the first paragraph?",
+          "options": [
+            "An argument",
+            "A definition",
+            "An opinion",
+            "A theory"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-1-s2-passage3.png",
+          "text": "How is the information in the passage organized?",
+          "options": [
+            "Two unusual characteristics of the Great Salt Lake are discussed",
+            "Contrasting theories about the Great Salt Lake’s salt levels are presented",
+            "The process by which the Great Salt Lake gets its salt is outlined",
+            "The reasons for the variations in the Great Salt Lake’s size are given"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>D Ajiks Akademi – Evaluasi TOEFL Reading Paket 2 (CAT)</title>
+<title>D Ajiks Akademi – Evaluasi TOEFL Reading Paket 1 (CAT)</title>
 <meta property="og:type" content="website">
-<meta property="og:title" content="D Ajiks Akademi – Evaluasi TOEFL Reading Paket 2 (CAT)">
+<meta property="og:title" content="D Ajiks Akademi – Evaluasi TOEFL Reading Paket 1 (CAT)">
 <meta property="og:description" content="Uji pemahamanmu • Computer Based Test">
 <meta property="og:image" content="https://toefl-pertemuan-9.vercel.app/assets/og-preview.jpg">
 <meta property="og:url" content="https://toefl-pertemuan-9.vercel.app/">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="D Ajiks Akademi – Evaluasi TOEFL Reading Paket 2 (CAT)">
+<meta name="twitter:title" content="D Ajiks Akademi – Evaluasi TOEFL Reading Paket 1 (CAT)">
 <meta name="twitter:description" content="Uji pemahamanmu • Computer Based Test">
 <meta name="twitter:image" content="https://toefl-pertemuan-9.vercel.app/assets/og-preview.jpg">
 <style>
@@ -110,24 +110,24 @@
       <img src="assets/ipdn-banner.jpg" alt="Kampus IPDN">
       <div class="hero-cap">
         <span class="tag">D Ajiks Akademi</span>
-        <h1>TOEFL Reading — Paket 2</h1>
+        <h1>TOEFL Reading — Paket 1</h1>
       </div>
     </div>
     <div class="card">
-      <h1>Evaluasi Reading Skill 3, 4 & 5</h1>
+      <h1>Evaluasi Reading Skill 1 & 2</h1>
       <p class="sub">Uji pemahamanmu • Computer Based Test</p>
       <div class="stats">
-        <div class="stat"><b>14</b><span>Total Soal</span></div>
-        <div class="stat"><b>3</b><span>Skill Diuji</span></div>
-        <div class="stat"><b>20'</b><span>Durasi</span></div>
+        <div class="stat"><b>6</b><span>Total Soal</span></div>
+        <div class="stat"><b>2</b><span>Skill Diuji</span></div>
+        <div class="stat"><b>12'</b><span>Durasi</span></div>
       </div>
-      <p style="color:var(--muted)">Tes ini menguji kemampuanmu menjawab <em>stated detail question</em> (detail yang tersurat), <em>unstated detail question</em> (detail yang tidak disebutkan), dan <em>pronoun reference</em> (rujukan kata ganti) dari sebuah passage — tiga skill dasar reading TOEFL. Belum siap? Pelajari materinya dulu.</p>
+      <p style="color:var(--muted)">Tes ini menguji kemampuanmu menemukan <em>main idea</em> (ide pokok) dan mengenali <em>organization of ideas</em> (organisasi teks) dari sebuah passage — dua skill dasar reading TOEFL. Belum siap? Pelajari materinya dulu.</p>
       <label for="nama">Nama Peserta</label>
       <input type="text" id="nama" placeholder="Tulis nama kamu di sini..." autocomplete="off">
       <div class="err" id="nameErr"></div>
       <div class="btn-row">
         <button class="btn btn-primary" onclick="startTest()">Mulai Tes</button>
-        <a class="btn btn-ghost" href="materi-reading-paket-2.html">Pelajari Materi Dulu</a>
+        <a class="btn btn-ghost" href="materi-reading-paket-1.html">Pelajari Materi Dulu</a>
       </div>
     </div>
     <footer>© Bimbel D Ajiks Akademi — Computer Based Test</footer>
@@ -199,212 +199,92 @@ const QUESTIONS = [
   {
     "section": "C",
     "type": "mcq",
-    "text": "According to the passage, the national university of the United States",
+    "text": "What is the main idea of the passage?",
     "options": [
-      "has been around for a while",
-      "does not exist",
-      "is a very recent idea",
-      "is an idea that developed during the present century"
+      "All calendars are the same.",
+      "The solar calendar is based on the Sun.",
+      "Different calendars have dissimilar bases.",
+      "The lunar month is twenty-nine and a half days long."
     ],
-    "answer": 1,
-    "expl": "Kalimat pembuka: 'The United States does not have a national university' — subjek 'the national university' itu sendiri memang tidak ada; yang 'sudah ada sejak lama' adalah IDE-nya, bukan universitasnya.",
+    "answer": 2,
+    "expl": "Paragraf membandingkan dua jenis kalender (solar vs lunar) yang berbasis pada acuan berbeda (matahari vs bulan) — inti gagasannya adalah perbedaan basis tersebut, bukan detail satu kalender saja.",
     "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage1.png"
+    "img": "assets/reading-paket-1-eval-passage1.png"
   },
   {
     "section": "C",
     "type": "mcq",
-    "text": "The word ‘he’ in the passage refers to",
+    "text": "How is the information in the passage organized?",
     "options": [
-      "George Washington",
-      "Congress",
-      "the idea",
-      "the site"
+      "Characteristics of the solar calendar are outlined.",
+      "Two types of calendars are described.",
+      "The strengths and weakness of the lunar calendar are described.",
+      "The length of each existing calendar is contrasted."
+    ],
+    "answer": 1,
+    "expl": "Paragraf pertama menjelaskan kalender solar, paragraf kedua menjelaskan kalender lunar — dua jenis kalender dijelaskan berurutan.",
+    "flagged": false,
+    "img": "assets/reading-paket-1-eval-passage1.png"
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "Which of the following expresses the main idea of the passage?",
+    "options": [
+      "Vaccines provide immunity to specific disease",
+      "Vaccines contain disease-causing microorganism",
+      "Vaccines are derived in different ways",
+      "New approaches in administering vaccines are being developed"
+    ],
+    "answer": 2,
+    "expl": "Kalimat kedua paragraf pertama menyatakan vaksin 'are classified according to the method by which they are derived', lalu tiga paragraf berikutnya masing-masing menjelaskan satu metode berbeda — inilah inti gagasannya.",
+    "flagged": false,
+    "img": "assets/reading-paket-1-eval-passage2.png"
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "How many types of vaccines are presented in the passage?",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "answer": 1,
+    "expl": "Paragraf menyebutkan tiga jenis vaksin: 'the most basic class' (mikroorganisme mati), 'a second type' (toksin), dan 'a final type' (mikroorganisme hidup yang dilemahkan).",
+    "flagged": false,
+    "img": "assets/reading-paket-1-eval-passage2.png"
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "The topic of this passage could be best described as?",
+    "options": [
+      "The Piltdown Man",
+      "Charles Dawson’s discovery",
+      "Eoanthropus dawsoni",
+      "A definition and example of a hoax"
+    ],
+    "answer": 3,
+    "expl": "Paragraf pertama mendefinisikan 'hoax' secara umum, lalu paragraf berikutnya memberikan Piltdown Man sebagai contoh spesifiknya — topiknya adalah definisi plus contoh sebuah hoax, bukan sekadar detail Piltdown Man saja.",
+    "flagged": false,
+    "img": "assets/reading-paket-1-eval-passage3.png"
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "The author’s main point is that",
+    "options": [
+      "Various types of hoaxes have been perpetrated",
+      "Charles Dawson discovered a human skull and jawbone",
+      "Charles Dawson was not an honest man",
+      "The human skull and jawbone were extremely old"
     ],
     "answer": 0,
-    "expl": "'George Washington first recommended the idea to Congress; he even selected an actual site...' — 'he' merujuk ke George Washington, subjek kalimat sebelumnya.",
+    "expl": "Opsi B, C, D adalah detail spesifik dari contoh Piltdown Man saja; opsi A sejalan dengan kalimat pembuka paragraf yang menyatakan hoax bisa terjadi di berbagai bidang (politik, agama, sains, seni, sastra) — pernyataan umum yang jadi inti gagasan penulis.",
     "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage1.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "The passage indicates that George Washington did NOT do which of the following?",
-    "options": [
-      "He suggested the concept for a national university to Congress.",
-      "He chose a location for the national university.",
-      "He left money in his will for a national university.",
-      "He succeeded in establishing a national university."
-    ],
-    "answer": 3,
-    "expl": "Washington mengusulkan ide, memilih lokasi, dan meninggalkan dana lewat wasiatnya — tapi universitasnya sendiri tidak pernah berdiri ('does not have a national university').",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage1.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "Which of the following is NOT mentioned in the passage about Andrew Carnegie?",
-    "options": [
-      "He was interested in doing charity work and good deeds for the public.",
-      "He was a member of Congress.",
-      "He was interested in the idea of a national university.",
-      "He was active in the early twentieth century."
-    ],
-    "answer": 1,
-    "expl": "Carnegie disebut sebagai philanthropist yang mendukung ide universitas nasional di awal abad ini — tidak pernah disebut sebagai anggota Congress.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage1.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "The pronoun ‘it’ in line 7 refers to",
-    "options": [
-      "the cause",
-      "the beginning of the present century",
-      "the original idea",
-      "Congress"
-    ],
-    "answer": 2,
-    "expl": "'...Although the original idea has not yet been acted upon, it continues to be proposed...' — 'it' merujuk ke 'the original idea'.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage1.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "Which of the following is NOT true about the La Brea tarpits?",
-    "options": [
-      "They contain fossils that are quite old",
-      "They are found in Hancock Park",
-      "They have existed since the ice age",
-      "They are located under a swimming pool"
-    ],
-    "answer": 3,
-    "expl": "Passage menyebut tarpits berisi fosil ice age lama, berada di Hancock Park, dan sudah ada sejak zaman ice age — tidak pernah disebut berada di bawah kolam renang.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage2.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "The pronoun ‘they’ in line 3 refers to",
-    "options": [
-      "The La Brea tarpits",
-      "Ice age fossils",
-      "Shallow pools of water",
-      "Animals"
-    ],
-    "answer": 3,
-    "expl": "'...when animals came there to drink, they got caught in the sticky tar...' — 'they' merujuk ke 'animals'.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage2.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "When did archaeologists become aware of the possible value of the contents of the tarpits?",
-    "options": [
-      "During the ice age",
-      "Thousands and thousands of years ago",
-      "Early in the twentieth century",
-      "Within the past decade"
-    ],
-    "answer": 2,
-    "expl": "'In 1906, the remains of a huge prehistoric bear discovered in the tarpits alerted archeologists...' — 1906 termasuk awal abad ke-20.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage2.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "Which of the following is NOT mentioned as an example of a skeleton found in the tarpits?",
-    "options": [
-      "A bear",
-      "A sloth",
-      "A horse",
-      "A snake"
-    ],
-    "answer": 3,
-    "expl": "Passage menyebut skeleton camels, horses, wolves, tigers, sloths, dan dinosaurs (plus bear yang disebut di paragraf sebelumnya) — ular (snake) tidak pernah disebut.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage2.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "Which of the following is NOT discussed about camp David?",
-    "options": [
-      "Its location",
-      "Its cost",
-      "Its facilities",
-      "Its uses"
-    ],
-    "answer": 1,
-    "expl": "Passage membahas lokasi, fasilitas, dan kegunaan Camp David secara detail — biaya (cost) tidak pernah disinggung.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage3.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "According to the passage, who founded camp David?",
-    "options": [
-      "George Washington",
-      "The first family",
-      "Franklin Delano Roosevelt",
-      "Dwight David Eisenhower"
-    ],
-    "answer": 2,
-    "expl": "'Camp David was established by President Franklin Delano Roosevelt in 1942.'",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage3.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "The pronoun ‘he’ in line 10 refers to?",
-    "options": [
-      "Camp David",
-      "Roosevelt",
-      "James Hilton",
-      "President Dwight David Eisenhower"
-    ],
-    "answer": 1,
-    "expl": "'When Roosevelt first established the retreat, he called it Shangri-La...' — 'he' merujuk ke Roosevelt.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage3.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "Which of the following is NOT true about President Eisenhower?",
-    "options": [
-      "He had a grandson named David",
-      "He attended a conference with Nikita Khrushchev",
-      "He named the presidential retreat Shangri-La",
-      "He visited Camp David"
-    ],
-    "answer": 2,
-    "expl": "Nama 'Shangri-La' diberikan oleh Roosevelt, bukan Eisenhower — Eisenhower justru yang MENGGANTI namanya menjadi 'Camp David' (dari nama cucunya).",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage3.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "Khrushchev was at camp David in",
-    "options": [
-      "1942",
-      "1943",
-      "1959",
-      "1978"
-    ],
-    "answer": 2,
-    "expl": "'...in 1959 at the height of the Cold War, President Eisenhower met there with Soviet Premier Nikita Khrushchev.'",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage3.png"
+    "img": "assets/reading-paket-1-eval-passage3.png"
   }
 ];
 
@@ -413,7 +293,7 @@ const SECTION_NAMES = {"C": "Bagian C — Pemahaman Bacaan"};
 /* ====================== STATE ====================== */
 let answers = new Array(QUESTIONS.length).fill(null);
 let current = 0;
-let timeLeft = 1200;
+let timeLeft = 720;
 let timerId = null;
 let pesertaName = "";
 
@@ -438,7 +318,7 @@ function startTest(){
   pesertaName = name;
   answers = new Array(QUESTIONS.length).fill(null);
   current = 0;
-  timeLeft = 1200;
+  timeLeft = 720;
   document.getElementById("peserta-label").textContent = "👤 " + pesertaName;
   show("screen-test");
   renderQuestion();

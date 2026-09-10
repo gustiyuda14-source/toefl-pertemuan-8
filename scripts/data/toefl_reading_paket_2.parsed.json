@@ -1,0 +1,279 @@
+{
+  "skills": [
+    {
+      "number": 3,
+      "title": "ANSWER STATED DETAIL QUESTIONS CORRECTLY",
+      "theory": [
+        {
+          "tag": "text",
+          "text": "A stated detail question maksudnya adalah pertanyaan-pertanyaan yang meminta pembaca untuk mencari informasi spesifik yang ada didalam teks. Jawaban dari pertanyaan ini tidak selalu persis sama dengan kalimat-kalimat didalam teks tetapi bisa saja merupakan ”restatement.” ”restatment” adalah formulasi kalimat berbeda tetapi idenya tetap sama. Contohnya :"
+        },
+        {
+          "tag": "img",
+          "text": "assets/reading-paket-2-s3-example1.png",
+          "alt": "Contoh soal Stated Detail Question (Williamsburg)"
+        },
+        {
+          "tag": "img",
+          "text": "assets/reading-paket-2-s3-example2.png",
+          "alt": "Contoh soal Stated Detail Question versi CBT (Williamsburg)"
+        },
+        {
+          "tag": "label",
+          "text": "Kesimpulan"
+        },
+        {
+          "tag": "img",
+          "text": "assets/reading-paket-2-s3-summary.png",
+          "alt": "Ringkasan strategi Stated Detail Questions"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s3-passage1.png",
+          "text": "According to the passage, what happens during an ice age?",
+          "options": [
+            "Rock strata are recognized by geologist",
+            "Evidence of foreign materials is found",
+            "Ice covers a large portion of the Earth’s surface",
+            "Ice melts six times"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s3-passage1.png",
+          "text": "The passage covers how many different methods of recognizing past ice ages?",
+          "options": [
+            "One",
+            "Two",
+            "Three",
+            "Four"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s3-passage1.png",
+          "text": "According to the passage, what in the rock strata is a clue to geologists of a past ice age?",
+          "options": [
+            "Ice",
+            "Melting glaciers",
+            "U-shaped valleys",
+            "Substances from other areas"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s3-passage2.png",
+          "text": "The passage indicates that the ventricles?",
+          "options": [
+            "Have relatively thin walls",
+            "Send blood to the atria",
+            "Are above the atria",
+            "Force blood into the arteries"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s3-passage2.png",
+          "text": "According to the passage, when is blood pushed into the arteries from the ventricles?",
+          "options": [
+            "As the heart beats",
+            "Between heartbeats",
+            "Before each contraction of the heart",
+            "Before it is received by the atria"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s3-passage3.png",
+          "text": "According to the passage, the Golden Age of Railroads",
+          "options": [
+            "Was a result of world war I",
+            "Was a period when most of U.S. mass transportation was controlled by the railroads",
+            "Resulted in a decrease in uniformity of track gauge",
+            "Resulted in standardization of train stations"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s3-passage3.png",
+          "text": "The passage mentions that which of the following occurred as a result of uniformity of track gauge?",
+          "options": [
+            "The civil war",
+            "Improved economy in the transportation system",
+            "Standardization of time zones",
+            "Railroad schedules"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s3-passage3.png",
+          "text": "The passage indicates that standard time was implemented",
+          "options": [
+            "Before the civil war",
+            "On June 1, 1886",
+            "After World War I",
+            "Before standardized track gauge was established throughout the United States"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "title": "“UNSTATED” DETAIL QUESTIONS",
+      "theory": [
+        {
+          "tag": "text",
+          "text": "Terkadang didalam test anda akan ditanya tentang pertanyaan yang jawabannya tidak tercantum, tidak disebutkan ataupun tidak benar. Apabila ada pertanyaan seperti ini berarti akan ada 3 jawaban benar dan 1 jawaban salah atau tidak dicantumkan atau disebutkan dalam teks."
+        },
+        {
+          "tag": "img",
+          "text": "assets/reading-paket-2-s4-example1.png",
+          "alt": "Contoh soal Unstated Detail Question (gadget)"
+        },
+        {
+          "tag": "img",
+          "text": "assets/reading-paket-2-s4-example2.png",
+          "alt": "Contoh soal Unstated Detail Question versi CBT (gadget)"
+        },
+        {
+          "tag": "label",
+          "text": "Kesimpulan"
+        },
+        {
+          "tag": "img",
+          "text": "assets/reading-paket-2-s4-summary.png",
+          "alt": "Ringkasan strategi Unstated Detail Questions"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s4-passage1.png",
+          "text": "All of the following are true about blood plasma EXCEPT that",
+          "options": [
+            "it is a deeply colored liquid",
+            "blood cells have been taken out of it",
+            "patients are often transfused with it",
+            "it is generally more important to the patient than other parts of whole blood"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s4-passage1.png",
+          "text": "Which of the following is NOT stated about whole blood?",
+          "options": [
+            "It is different from plasma.",
+            "It cannot be dried.",
+            "It is impossible to keep it in storage for a long time.",
+            "It is a clear, colorless liquid."
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s4-passage2.png",
+          "text": "Which of the following is NOT true about Nellie Bly?",
+          "options": [
+            "Nellie Bly’s real name was Elizabeth Cochrane Seaman.",
+            "Nellie Bly was mentally ill.",
+            "The name Nellie Bly came from a song.",
+            "The name Nellie Bly was used on articles that Seaman wrote."
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s4-passage2.png",
+          "text": "Which of the following is NOT mentioned as something that Nellie Bly did to get a good story?",
+          "options": [
+            "She acted like a thief.",
+            "She got arrested by the police.",
+            "She pretended to be ill.",
+            "She worked as a doctor in a mental hospital."
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s4-passage3.png",
+          "text": "According to the passage, Dekanawida was NOT",
+          "options": [
+            "a lawmaker",
+            "a Huron by birth",
+            "a near deity",
+            "drowned when he was young"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s4-passage3.png",
+          "text": "Which of the following is NOT mentioned in the passage about wampum?",
+          "options": [
+            "It was used extensively by the Huron.",
+            "It had a high value to the Iroquois.",
+            "It was given to a murder victim’s family.",
+            "It was made of polished shells."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "title": "PRONOUN REFERENCE QUESTIONS",
+      "theory": [
+        {
+          "tag": "text",
+          "text": "Didalam test anda akan ditanyakan tentang rujukan kata dari sebuah kata yang dimaksud didalam teks. Untuk menjawab pertanyaan tersebut maka anda dapat mencari katanya ‘sebelum’ rujukan kalimatnya."
+        },
+        {
+          "tag": "img",
+          "text": "assets/reading-paket-2-s5-example1.png",
+          "alt": "Contoh soal Pronoun Reference (carnivorous plants)"
+        },
+        {
+          "tag": "label",
+          "text": "Kesimpulan"
+        },
+        {
+          "tag": "img",
+          "text": "assets/reading-paket-2-s5-summary.png",
+          "alt": "Ringkasan strategi Pronoun Referents"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s5-passage1.png",
+          "text": "The pronoun ‘it’ in line 2 refers to …",
+          "options": [
+            "The equinox",
+            "The sun",
+            "The harvest moon",
+            "The night"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s5-passage2.png",
+          "text": "The pronoun ‘it’ in line 2 refers to …",
+          "options": [
+            "Mardi Gras",
+            "French",
+            "That time",
+            "New Orleans"
+          ]
+        },
+        {
+          "type": "mcq",
+          "img": "assets/reading-paket-2-s5-passage3.png",
+          "text": "The pronoun ‘they’ in line 3 refers to …",
+          "options": [
+            "The business day",
+            "These statistics",
+            "Stocks and bonds",
+            "Four different types"
+          ]
+        }
+      ]
+    }
+  ]
+}

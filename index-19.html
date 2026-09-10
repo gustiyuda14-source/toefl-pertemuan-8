@@ -3,16 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>D Ajiks Akademi – Evaluasi TOEFL Reading Paket 2 (CAT)</title>
+<title>D Ajiks Akademi – Evaluasi TOEFL Skill 19 (CAT)</title>
 <meta property="og:type" content="website">
-<meta property="og:title" content="D Ajiks Akademi – Evaluasi TOEFL Reading Paket 2 (CAT)">
+<meta property="og:title" content="D Ajiks Akademi – Evaluasi TOEFL Skill 19 (CAT)">
 <meta property="og:description" content="Uji pemahamanmu • Computer Based Test">
-<meta property="og:image" content="https://toefl-pertemuan-9.vercel.app/assets/og-preview.jpg">
-<meta property="og:url" content="https://toefl-pertemuan-9.vercel.app/">
+<meta property="og:image" content="https://toefl-pertemuan-11.vercel.app/assets/og-preview.jpg">
+<meta property="og:url" content="https://toefl-pertemuan-11.vercel.app/">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="D Ajiks Akademi – Evaluasi TOEFL Reading Paket 2 (CAT)">
+<meta name="twitter:title" content="D Ajiks Akademi – Evaluasi TOEFL Skill 19 (CAT)">
 <meta name="twitter:description" content="Uji pemahamanmu • Computer Based Test">
-<meta name="twitter:image" content="https://toefl-pertemuan-9.vercel.app/assets/og-preview.jpg">
+<meta name="twitter:image" content="https://toefl-pertemuan-11.vercel.app/assets/og-preview.jpg">
 <style>
   :root{
     --bg:#ffffff; --glass:rgba(52,211,153,.08); --glass2:rgba(52,211,153,.14);
@@ -72,7 +72,6 @@
   .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--accent),var(--accent2));width:0;transition:.3s;box-shadow:0 0 12px var(--glow)}
   .qnum{color:var(--accent);font-weight:700;font-size:.82rem;letter-spacing:1px;text-transform:uppercase}
   .qtext{font-size:1.18rem;margin:10px 0 20px;font-weight:500;line-height:1.55}
-  .q-passage{max-width:100%;border-radius:10px;margin:0 0 16px;display:block;border:1px solid var(--border)}
   .opts{display:flex;flex-direction:column;gap:11px}
   .opt{display:flex;align-items:center;gap:13px;padding:14px 17px;border:1px solid var(--border);border-radius:14px;cursor:pointer;background:rgba(255,255,255,.03);transition:.15s}
   .opt:hover{border-color:rgba(52,211,153,.45);background:rgba(255,255,255,.06)}
@@ -110,24 +109,24 @@
       <img src="assets/ipdn-banner.jpg" alt="Kampus IPDN">
       <div class="hero-cap">
         <span class="tag">D Ajiks Akademi</span>
-        <h1>TOEFL Reading — Paket 2</h1>
+        <h1>TOEFL Structure — Skill 19</h1>
       </div>
     </div>
     <div class="card">
-      <h1>Evaluasi Reading Skill 3, 4 & 5</h1>
+      <h1>Evaluasi Inverted Subject-Verb with Comparison</h1>
       <p class="sub">Uji pemahamanmu • Computer Based Test</p>
       <div class="stats">
-        <div class="stat"><b>14</b><span>Total Soal</span></div>
-        <div class="stat"><b>3</b><span>Skill Diuji</span></div>
-        <div class="stat"><b>20'</b><span>Durasi</span></div>
+        <div class="stat"><b>20</b><span>Total Soal</span></div>
+        <div class="stat"><b>1</b><span>Skill Diuji</span></div>
+        <div class="stat"><b>25'</b><span>Durasi</span></div>
       </div>
-      <p style="color:var(--muted)">Tes ini menguji kemampuanmu menjawab <em>stated detail question</em> (detail yang tersurat), <em>unstated detail question</em> (detail yang tidak disebutkan), dan <em>pronoun reference</em> (rujukan kata ganti) dari sebuah passage — tiga skill dasar reading TOEFL. Belum siap? Pelajari materinya dulu.</p>
+      <p style="color:var(--muted)">Tes ini menguji pemahamanmu mengenali kapan subject dan verb harus ditukar (inverted) setelah comparison ('than'/'as...as') dari Skill 19, sekaligus mengulang pola-pola inversion lain (WH-question, frasa tempat, ekspresi negatif, conditional tanpa 'if') yang sudah dipelajari. Belum siap? Pelajari materinya dulu.</p>
       <label for="nama">Nama Peserta</label>
       <input type="text" id="nama" placeholder="Tulis nama kamu di sini..." autocomplete="off">
       <div class="err" id="nameErr"></div>
       <div class="btn-row">
         <button class="btn btn-primary" onclick="startTest()">Mulai Tes</button>
-        <a class="btn btn-ghost" href="materi-reading-paket-2.html">Pelajari Materi Dulu</a>
+        <a class="btn btn-ghost" href="materi-19.html">Pelajari Materi Dulu</a>
       </div>
     </div>
     <footer>© Bimbel D Ajiks Akademi — Computer Based Test</footer>
@@ -145,7 +144,6 @@
     <div class="bar"><i id="bar-fill"></i></div>
     <div class="card" style="margin-top:16px">
       <div class="qnum" id="q-section">Bagian A</div>
-      <img class="q-passage hidden" id="q-passage" alt="Passage">
       <div class="qtext" id="q-text">—</div>
       <div class="opts" id="q-opts"></div>
       <div class="btn-row">
@@ -197,223 +195,273 @@
 /* type "ci" = Correct/Incorrect ; type "mcq" = pilihan ganda 5 opsi      */
 const QUESTIONS = [
   {
-    "section": "C",
-    "type": "mcq",
-    "text": "According to the passage, the national university of the United States",
+    "section": "A",
+    "type": "ci",
+    "text": "The town council is not sure why have they land developers changed their plans",
     "options": [
-      "has been around for a while",
-      "does not exist",
-      "is a very recent idea",
-      "is an idea that developed during the present century"
+      "Correct",
+      "Incorrect"
     ],
     "answer": 1,
-    "expl": "Kalimat pembuka: 'The United States does not have a national university' — subjek 'the national university' itu sendiri memang tidak ada; yang 'sudah ada sejak lama' adalah IDE-nya, bukan universitasnya.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage1.png"
+    "expl": "Salah. 'why have they land developers changed their plans' adalah embedded question (noun clause) setelah 'not sure' — subject dan verb TIDAK boleh ditukar, seharusnya urutan normal tanpa auxiliary di depan subject.",
+    "flagged": false
   },
   {
-    "section": "C",
-    "type": "mcq",
-    "text": "The word ‘he’ in the passage refers to",
+    "section": "A",
+    "type": "ci",
+    "text": "Never in the world I believed that this would happen",
     "options": [
-      "George Washington",
-      "Congress",
-      "the idea",
-      "the site"
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 1,
+    "expl": "Salah. 'Never' di awal kalimat adalah ekspresi negatif yang memicu inversion — seharusnya subject dan helping verb ditukar: 'Never in the world did I believe that this would happen'.",
+    "flagged": false
+  },
+  {
+    "section": "A",
+    "type": "ci",
+    "text": "The day might have been a little more enjoyable had the sun been out a little more",
+    "options": [
+      "Correct",
+      "Incorrect"
     ],
     "answer": 0,
-    "expl": "'George Washington first recommended the idea to Congress; he even selected an actual site...' — 'he' merujuk ke George Washington, subjek kalimat sebelumnya.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage1.png"
+    "expl": "Benar. 'had the sun been out a little more' adalah reduced conditional (inversion) dari 'if the sun had been out a little more' — 'if' dihilangkan dan 'had' ditukar ke depan subject.",
+    "flagged": false
   },
   {
-    "section": "C",
-    "type": "mcq",
-    "text": "The passage indicates that George Washington did NOT do which of the following?",
+    "section": "A",
+    "type": "ci",
+    "text": "Only once did the judge take the defense lawyer’s suggestion",
     "options": [
-      "He suggested the concept for a national university to Congress.",
-      "He chose a location for the national university.",
-      "He left money in his will for a national university.",
-      "He succeeded in establishing a national university."
+      "Correct",
+      "Incorrect"
     ],
-    "answer": 3,
-    "expl": "Washington mengusulkan ide, memilih lokasi, dan meninggalkan dana lewat wasiatnya — tapi universitasnya sendiri tidak pernah berdiri ('does not have a national university').",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage1.png"
+    "answer": 0,
+    "expl": "Benar. 'Only once' adalah ekspresi pembatas di awal kalimat yang memicu inversion, dan 'did the judge take' sudah benar ditukar.",
+    "flagged": false
   },
   {
-    "section": "C",
-    "type": "mcq",
-    "text": "Which of the following is NOT mentioned in the passage about Andrew Carnegie?",
+    "section": "A",
+    "type": "ci",
+    "text": "Down the Hall to the left the offices are that need to be painted",
     "options": [
-      "He was interested in doing charity work and good deeds for the public.",
-      "He was a member of Congress.",
-      "He was interested in the idea of a national university.",
-      "He was active in the early twentieth century."
+      "Correct",
+      "Incorrect"
     ],
     "answer": 1,
-    "expl": "Carnegie disebut sebagai philanthropist yang mendukung ide universitas nasional di awal abad ini — tidak pernah disebut sebagai anggota Congress.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage1.png"
+    "expl": "Salah. Ekspresi tempat 'Down the hall to the left' memicu inversion verb+subject — seharusnya '...are the offices that need to be painted', bukan 'the offices are that need to be painted'.",
+    "flagged": false
   },
   {
-    "section": "C",
-    "type": "mcq",
-    "text": "The pronoun ‘it’ in line 7 refers to",
+    "section": "A",
+    "type": "ci",
+    "text": "Did the scientist explain what he put in the beaker?",
     "options": [
-      "the cause",
-      "the beginning of the present century",
-      "the original idea",
-      "Congress"
+      "Correct",
+      "Incorrect"
     ],
-    "answer": 2,
-    "expl": "'...Although the original idea has not yet been acted upon, it continues to be proposed...' — 'it' merujuk ke 'the original idea'.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage1.png"
+    "answer": 0,
+    "expl": "Benar. Kalimat tanya utama 'Did the scientist explain' sudah benar di-invert, dan 'what he put in the beaker' adalah embedded question yang benar TIDAK di-invert.",
+    "flagged": false
   },
   {
-    "section": "C",
-    "type": "mcq",
-    "text": "Which of the following is NOT true about the La Brea tarpits?",
+    "section": "A",
+    "type": "ci",
+    "text": "Hardly ever it snows in this section of the country",
     "options": [
-      "They contain fossils that are quite old",
-      "They are found in Hancock Park",
-      "They have existed since the ice age",
-      "They are located under a swimming pool"
-    ],
-    "answer": 3,
-    "expl": "Passage menyebut tarpits berisi fosil ice age lama, berada di Hancock Park, dan sudah ada sejak zaman ice age — tidak pernah disebut berada di bawah kolam renang.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage2.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "The pronoun ‘they’ in line 3 refers to",
-    "options": [
-      "The La Brea tarpits",
-      "Ice age fossils",
-      "Shallow pools of water",
-      "Animals"
-    ],
-    "answer": 3,
-    "expl": "'...when animals came there to drink, they got caught in the sticky tar...' — 'they' merujuk ke 'animals'.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage2.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "When did archaeologists become aware of the possible value of the contents of the tarpits?",
-    "options": [
-      "During the ice age",
-      "Thousands and thousands of years ago",
-      "Early in the twentieth century",
-      "Within the past decade"
-    ],
-    "answer": 2,
-    "expl": "'In 1906, the remains of a huge prehistoric bear discovered in the tarpits alerted archeologists...' — 1906 termasuk awal abad ke-20.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage2.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "Which of the following is NOT mentioned as an example of a skeleton found in the tarpits?",
-    "options": [
-      "A bear",
-      "A sloth",
-      "A horse",
-      "A snake"
-    ],
-    "answer": 3,
-    "expl": "Passage menyebut skeleton camels, horses, wolves, tigers, sloths, dan dinosaurs (plus bear yang disebut di paragraf sebelumnya) — ular (snake) tidak pernah disebut.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage2.png"
-  },
-  {
-    "section": "C",
-    "type": "mcq",
-    "text": "Which of the following is NOT discussed about camp David?",
-    "options": [
-      "Its location",
-      "Its cost",
-      "Its facilities",
-      "Its uses"
+      "Correct",
+      "Incorrect"
     ],
     "answer": 1,
-    "expl": "Passage membahas lokasi, fasilitas, dan kegunaan Camp David secara detail — biaya (cost) tidak pernah disinggung.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage3.png"
+    "expl": "Salah. 'Hardly ever' adalah ekspresi negatif di awal kalimat yang memicu inversion, seharusnya 'Hardly ever does it snow...' bukan 'Hardly ever it snows...'.",
+    "flagged": false
   },
   {
-    "section": "C",
-    "type": "mcq",
-    "text": "According to the passage, who founded camp David?",
+    "section": "A",
+    "type": "ci",
+    "text": "Elijah scored more points In yesterday’s basketball final than had any other player in history",
     "options": [
-      "George Washington",
-      "The first family",
-      "Franklin Delano Roosevelt",
-      "Dwight David Eisenhower"
+      "Correct",
+      "Incorrect"
     ],
-    "answer": 2,
-    "expl": "'Camp David was established by President Franklin Delano Roosevelt in 1942.'",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage3.png"
+    "answer": 0,
+    "expl": "Benar. 'than had any other player in history' adalah inversion opsional setelah comparison ('more points than'), subject dan helping verb ditukar dengan benar dan agreement-nya (singular) sesuai.",
+    "flagged": false
   },
   {
-    "section": "C",
-    "type": "mcq",
-    "text": "The pronoun ‘he’ in line 10 refers to?",
+    "section": "A",
+    "type": "ci",
+    "text": "In the state of California, earthquakes occur regularly",
     "options": [
-      "Camp David",
-      "Roosevelt",
-      "James Hilton",
-      "President Dwight David Eisenhower"
+      "Correct",
+      "Incorrect"
+    ],
+    "answer": 0,
+    "expl": "Benar. Ekspresi tempat di awal kalimat bersifat opsional untuk di-invert — kalimat dengan urutan subject-verb normal ('earthquakes occur') tetap benar.",
+    "flagged": false
+  },
+  {
+    "section": "A",
+    "type": "ci",
+    "text": "He should ever call again, please tell him that I am not at home",
+    "options": [
+      "Correct",
+      "Incorrect"
     ],
     "answer": 1,
-    "expl": "'When Roosevelt first established the retreat, he called it Shangri-La...' — 'he' merujuk ke Roosevelt.",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage3.png"
+    "expl": "Salah. Kata 'ever' mengindikasikan conditional yang 'if'-nya dihilangkan — seharusnya subject dan 'should' ditukar: 'Should he ever call again, please tell him...'.",
+    "flagged": false
   },
   {
     "section": "C",
     "type": "mcq",
-    "text": "Which of the following is NOT true about President Eisenhower?",
+    "text": "Rarely ____ located near city lights or at lower elevations",
     "options": [
-      "He had a grandson named David",
-      "He attended a conference with Nikita Khrushchev",
-      "He named the presidential retreat Shangri-La",
-      "He visited Camp David"
+      "Observatories are",
+      "Are",
+      "In the observatories",
+      "Are observatories"
     ],
-    "answer": 2,
-    "expl": "Nama 'Shangri-La' diberikan oleh Roosevelt, bukan Eisenhower — Eisenhower justru yang MENGGANTI namanya menjadi 'Camp David' (dari nama cucunya).",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage3.png"
+    "answer": 3,
+    "expl": "Benar. 'Rarely' di awal kalimat memicu inversion verb+subject: 'Rarely are observatories located...'.",
+    "flagged": false
   },
   {
     "section": "C",
     "type": "mcq",
-    "text": "Khrushchev was at camp David in",
+    "text": "There are Geographic, Economic, and cultural reasons why ___ around the world",
     "options": [
-      "1942",
-      "1943",
-      "1959",
-      "1978"
+      "Diets differ",
+      "Do diets differ",
+      "Are diets different",
+      "To differ a diet"
+    ],
+    "answer": 0,
+    "expl": "Benar. Setelah connector 'why' (embedded/noun clause), subject dan verb TIDAK di-invert: 'why diets differ around the world'.",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "Were ___ millions of dollars each year replenishing eroding beaches, the coastline would be changing even more rapidly",
+    "options": [
+      "The U.S. Army Corps of Engineers not spending",
+      "The U.S. Army Corps of Engineers not spend",
+      "The U.S. Army Corps of Engineers does not spend",
+      "Not spending The U.S. Army Corps of Engineers"
+    ],
+    "answer": 0,
+    "expl": "Benar. 'Were' di awal klausa adalah reduced conditional (dari 'if...were not spending'), diikuti subject + 'not spending' (bentuk -ing sesuai idiom 'spend money V-ing').",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "Nowhere ___ more skewed than in the auto industry",
+    "options": [
+      "That retail trade figures",
+      "Retail trade figures are",
+      "Are retail trade figures",
+      "Retail trade figures"
     ],
     "answer": 2,
-    "expl": "'...in 1959 at the height of the Cold War, President Eisenhower met there with Soviet Premier Nikita Khrushchev.'",
-    "flagged": false,
-    "img": "assets/reading-paket-2-eval-passage3.png"
+    "expl": "Benar. 'Nowhere' di awal kalimat memicu inversion verb+subject: 'Nowhere are retail trade figures more skewed...'.",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "New York City’s Central Park is nearly twice as large ___ second smallest country, Monaco",
+    "options": [
+      "As",
+      "Is the",
+      "As is",
+      "As is the"
+    ],
+    "answer": 3,
+    "expl": "Benar. Perbandingan kesetaraan formal 'as...as' dengan inversion: '...as large as is the second smallest country, Monaco' (as + verb + subject).",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "Potassium has a valence of positive one because it usually loses one electron when ___ with other elements",
+    "options": [
+      "Does it combine",
+      "It combines",
+      "In combining",
+      "Combination"
+    ],
+    "answer": 1,
+    "expl": "Benar. Setelah 'when' (klausa keterangan waktu biasa, bukan pemicu inversion), subject dan verb tetap urutan normal: 'when it combines with other elements'.",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "The Economic background of labor legislation will not be mentioned in this course, ___ be treated",
+    "options": [
+      "Trade unionism will not",
+      "Nor trade unionism will",
+      "Nor will trade unionism",
+      "Neither trade unionism will"
+    ],
+    "answer": 2,
+    "expl": "Benar. Setelah 'nor' (kata sambung negatif), subject dan helping verb WAJIB ditukar: 'nor will trade unionism be treated'.",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "___ test positive for antibiotics when tanker trucks arrive at a milk processing plant, according to the federal law, the entire truckload must be discarded",
+    "options": [
+      "Should milk",
+      "If milk",
+      "If milk is",
+      "Milk should"
+    ],
+    "answer": 0,
+    "expl": "Benar. Reduced conditional (dari 'if milk should test positive'), 'if' dihilangkan dan 'should' ditukar ke depan subject: 'Should milk test positive...'.",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "Located behind ___ the two lacrimal glands.",
+    "options": [
+      "Each eyelid",
+      "Is each eyelid",
+      "Each eyelid are",
+      "Each eyelid which is"
+    ],
+    "answer": 2,
+    "expl": "Benar. Ekspresi tempat 'Located behind' di awal memicu inversion, dan subject 'the two lacrimal glands' (jamak) butuh verb 'are': 'Located behind each eyelid are the two lacrimal glands'.",
+    "flagged": false
+  },
+  {
+    "section": "C",
+    "type": "mcq",
+    "text": "Only for a short period of time ___ run at top speed",
+    "options": [
+      "Cheetahs",
+      "Do cheetahs",
+      "That a cheetahs can",
+      "Can"
+    ],
+    "answer": 1,
+    "expl": "Benar. 'Only for a short period of time' di awal kalimat memicu inversion do-support: '...do cheetahs run at top speed'.",
+    "flagged": false
   }
 ];
 
-const SECTION_NAMES = {"C": "Bagian C — Pemahaman Bacaan"};
+const SECTION_NAMES = {"A": "Bagian A — Correct/Incorrect", "C": "Bagian C — Pilihan Ganda"};
 
 /* ====================== STATE ====================== */
 let answers = new Array(QUESTIONS.length).fill(null);
 let current = 0;
-let timeLeft = 1200;
+let timeLeft = 1500;
 let timerId = null;
 let pesertaName = "";
 
@@ -438,7 +486,7 @@ function startTest(){
   pesertaName = name;
   answers = new Array(QUESTIONS.length).fill(null);
   current = 0;
-  timeLeft = 1200;
+  timeLeft = 1500;
   document.getElementById("peserta-label").textContent = "👤 " + pesertaName;
   show("screen-test");
   renderQuestion();
@@ -470,9 +518,6 @@ function updateTimerDisplay(){
 function renderQuestion(){
   const q = QUESTIONS[current];
   document.getElementById("q-section").textContent = SECTION_NAMES[q.section];
-  const passageEl = document.getElementById("q-passage");
-  if(q.img){ passageEl.src = q.img; passageEl.classList.remove("hidden"); }
-  else{ passageEl.classList.add("hidden"); }
   document.getElementById("q-text").textContent = (current+1)+". "+q.text;
   const letters = ["A","B","C","D","E"];
   const optsEl = document.getElementById("q-opts");
@@ -514,7 +559,7 @@ function finishTest(auto){
   show("screen-result");
 }
 function computeResult(){
-  const groups = { C:{c:0,t:0} };
+  const groups = { A:{c:0,t:0}, C:{c:0,t:0} };
   let totalCorrect = 0;
   QUESTIONS.forEach((q,i)=>{
     groups[q.section].t++;
@@ -551,7 +596,6 @@ function showReview(){
     list.innerHTML += `
       <div class="rev">
         <div class="qn">SOAL ${i+1} • ${SECTION_NAMES[q.section]} ${statusPill}${q.flagged ? ' <span class="badge">perlu verifikasi</span>' : ''}</div>
-        ${q.img ? `<img class="q-passage" src="${q.img}" alt="Passage">` : ``}
         <div class="qt">${q.text}</div>
         <div>
           <span class="pill ${isCorrect?'ok':'bad'}">Jawabanmu: ${userText}</span>

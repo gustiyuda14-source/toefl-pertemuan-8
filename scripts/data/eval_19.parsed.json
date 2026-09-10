@@ -1,0 +1,191 @@
+{
+  "skills": [
+    {
+      "number": null,
+      "title": "EVALUASI SKILL 15 – 19",
+      "theory": [],
+      "exercises": [
+        {
+          "type": "ci",
+          "text": "The town council is not sure why have they land developers changed their plans",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Never in the world I believed that this would happen",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The day might have been a little more enjoyable had the sun been out a little more",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Only once did the judge take the defense lawyer’s suggestion",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Down the Hall to the left the offices are that need to be painted",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Did the scientist explain what he put in the beaker?",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Hardly ever it snows in this section of the country",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Elijah scored more points In yesterday’s basketball final than had any other player in history",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "In the state of California, earthquakes occur regularly",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "He should ever call again, please tell him that I am not at home",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "Rarely ____ located near city lights or at lower elevations",
+          "options": [
+            "Observatories are",
+            "Are",
+            "In the observatories",
+            "Are observatories"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "There are Geographic, Economic, and cultural reasons why ___ around the world",
+          "options": [
+            "Diets differ",
+            "Do diets differ",
+            "Are diets different",
+            "To differ a diet"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "Were ___ millions of dollars each year replenishing eroding beaches, the coastline would be changing even more rapidly",
+          "options": [
+            "The U.S. Army Corps of Engineers not spending",
+            "The U.S. Army Corps of Engineers not spend",
+            "The U.S. Army Corps of Engineers does not spend",
+            "Not spending The U.S. Army Corps of Engineers"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "Nowhere ___ more skewed than in the auto industry",
+          "options": [
+            "That retail trade figures",
+            "Retail trade figures are",
+            "Are retail trade figures",
+            "Retail trade figures"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "New York City’s Central Park is nearly twice as large ___ second smallest country, Monaco",
+          "options": [
+            "As",
+            "Is the",
+            "As is",
+            "As is the"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "Potassium has a valence of positive one because it usually loses one electron when ___ with other elements",
+          "options": [
+            "Does it combine",
+            "It combines",
+            "In combining",
+            "Combination"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "The Economic background of labor legislation will not be mentioned in this course, ___ be treated",
+          "options": [
+            "Trade unionism will not",
+            "Nor trade unionism will",
+            "Nor will trade unionism",
+            "Neither trade unionism will"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "___ test positive for antibiotics when tanker trucks arrive at a milk processing plant, according to the federal law, the entire truckload must be discarded",
+          "options": [
+            "Should milk",
+            "If milk",
+            "If milk is",
+            "Milk should"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "Located behind ___ the two lacrimal glands.",
+          "options": [
+            "Each eyelid",
+            "Is each eyelid",
+            "Each eyelid are",
+            "Each eyelid which is"
+          ]
+        },
+        {
+          "type": "mcq",
+          "text": "Only for a short period of time ___ run at top speed",
+          "options": [
+            "Cheetahs",
+            "Do cheetahs",
+            "That a cheetahs can",
+            "Can"
+          ]
+        }
+      ]
+    }
+  ]
+}

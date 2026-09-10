@@ -1,0 +1,62 @@
+[
+  {
+    "ref": "This candidate has recei",
+    "answer": 0,
+    "expl": "Benar. 'than has any other candidate' adalah inversion opsional setelah comparison ('more votes than') — subject dan helping verb 'has' ditukar dengan benar dan agreement-nya (singular) sudah sesuai.",
+    "flagged": false
+  },
+  {
+    "ref": "Obviously we were much m",
+    "answer": 1,
+    "expl": "Salah. Klausa utama pakai 'were' (be-verb), tapi klausa comparison memakai 'did' — auxiliary-nya tidak match. Seharusnya 'than were the other members of the audience' (menyamakan bentuk 'were').",
+    "flagged": false
+  },
+  {
+    "ref": "The film that we saw las",
+    "answer": 0,
+    "expl": "Benar. 'than any of the other films' adalah perbandingan elliptical tanpa verb (verb 'was' dihilangkan) — bentuk ini valid dan tidak wajib di-invert.",
+    "flagged": false
+  },
+  {
+    "ref": "The vegetables at the ma",
+    "answer": 1,
+    "expl": "Salah. 'refresher' adalah kata benda (noun), bukan bentuk komparatif dari 'fresh'. Seharusnya 'fresher'.",
+    "flagged": false
+  },
+  {
+    "ref": "I’m afraid that is the c",
+    "answer": 1,
+    "expl": "Salah. Inversion 'is' + subject terjadi di klausa utama tanpa pemicu yang sah (comparison 'as bad as' ada di akhir kalimat, bukan memicu klausa ini) — seharusnya urutan normal: 'that the condition of these tires is as bad as the condition of the others'.",
+    "flagged": false
+  },
+  {
+    "ref": "We firmly believed that ",
+    "answer": 0,
+    "expl": "Benar. 'than any of the others' adalah perbandingan elliptical tanpa verb, valid dan tidak perlu di-invert.",
+    "flagged": false
+  },
+  {
+    "ref": "This apple pie is not as",
+    "answer": 0,
+    "expl": "Benar. Kalimat 'as...as' standar tanpa inversion, sudah benar.",
+    "flagged": false
+  },
+  {
+    "ref": "On the fishing trip, Bob",
+    "answer": 0,
+    "expl": "Benar. 'as anyone else did' tidak di-invert (opsional), dan 'did' menggantikan 'caught' dengan benar.",
+    "flagged": false
+  },
+  {
+    "ref": "The final speaker gave u",
+    "answer": 1,
+    "expl": "Salah. Dua masalah: (1) 'speaker' seharusnya jamak 'speakers' setelah 'any of the previous', (2) auxiliary 'had' (past perfect) tidak sesuai dengan 'gave' (simple past) di klausa utama — seharusnya 'than did any of the previous speakers'.",
+    "flagged": false
+  },
+  {
+    "ref": "Do you know why does he ",
+    "answer": 1,
+    "expl": "Salah. 'why does he need' adalah embedded question (noun clause) setelah 'Do you know' — subject dan verb TIDAK boleh ditukar, seharusnya 'why he needs'.",
+    "flagged": false
+  }
+]

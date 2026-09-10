@@ -1,0 +1,38 @@
+[
+  {
+    "ref": "What is the main idea of t",
+    "answer": 2,
+    "expl": "Paragraf membandingkan dua jenis kalender (solar vs lunar) yang berbasis pada acuan berbeda (matahari vs bulan) — inti gagasannya adalah perbedaan basis tersebut, bukan detail satu kalender saja.",
+    "flagged": false
+  },
+  {
+    "ref": "How is the information in",
+    "answer": 1,
+    "expl": "Paragraf pertama menjelaskan kalender solar, paragraf kedua menjelaskan kalender lunar — dua jenis kalender dijelaskan berurutan.",
+    "flagged": false
+  },
+  {
+    "ref": "Which of the following exp",
+    "answer": 2,
+    "expl": "Kalimat kedua paragraf pertama menyatakan vaksin 'are classified according to the method by which they are derived', lalu tiga paragraf berikutnya masing-masing menjelaskan satu metode berbeda — inilah inti gagasannya.",
+    "flagged": false
+  },
+  {
+    "ref": "How many types of vaccines",
+    "answer": 1,
+    "expl": "Paragraf menyebutkan tiga jenis vaksin: 'the most basic class' (mikroorganisme mati), 'a second type' (toksin), dan 'a final type' (mikroorganisme hidup yang dilemahkan).",
+    "flagged": false
+  },
+  {
+    "ref": "The topic of this passage",
+    "answer": 3,
+    "expl": "Paragraf pertama mendefinisikan 'hoax' secara umum, lalu paragraf berikutnya memberikan Piltdown Man sebagai contoh spesifiknya — topiknya adalah definisi plus contoh sebuah hoax, bukan sekadar detail Piltdown Man saja.",
+    "flagged": false
+  },
+  {
+    "ref": "The author’s main point is",
+    "answer": 0,
+    "expl": "Opsi B, C, D adalah detail spesifik dari contoh Piltdown Man saja; opsi A sejalan dengan kalimat pembuka paragraf yang menyatakan hoax bisa terjadi di berbagai bidang (politik, agama, sains, seni, sastra) — pernyataan umum yang jadi inti gagasan penulis.",
+    "flagged": false
+  }
+]
