@@ -1,0 +1,171 @@
+{
+  "skills": [
+    {
+      "number": null,
+      "title": "EVALUASI SKILL 15 – 18",
+      "theory": [],
+      "exercises": [
+        {
+          "type": "ci",
+          "text": "What type of security does he prefer for his investments?",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Not even the bank president knows when the vault will be opened",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "How long it has been since you arrived in the United States",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The jury doubts what the witness said under cross-examination",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Do you know why he wants to take an extended leave of absence?",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "At the Italian restaurant was the food to spicy for my taste",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Nowhere in the world farmers can grow such delicious food",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "In the backyard the two trees are that need to be pruned",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Around the recreation hall and down the path are the tents where we will be staying this week",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "In the apartment next to mine a man and a woman were having a heated discussion",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Seldom their secretary has made such mistakes",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "No sooner had she hung up the phone than it rang again",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Shiela did not arrive late for work, nor she left early",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Barely had he finished the exam when the graduate assistant collected the papers",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The police did not arrive in time to save the girl, and neither did the paramedics",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "He would have been in big trouble had not he remembered the assignment at the last minute",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "If your friends come to visit, will they stay in a hotel or at your house?",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "He might be a little more successful today were he a little more willing to do some hard work",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Should you ever visit this town again, I would be delighted to show you around",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Do you think that she would give the speech were she asked to do so?",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        }
+      ]
+    }
+  ]
+}

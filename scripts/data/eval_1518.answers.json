@@ -1,0 +1,122 @@
+[
+  {
+    "ref": "What type of security",
+    "answer": 0,
+    "expl": "Benar. Kalimat tanya langsung, 'does he prefer' sudah benar ditukar (helping verb 'does' di depan subject 'he').",
+    "flagged": false
+  },
+  {
+    "ref": "Not even the bank",
+    "answer": 0,
+    "expl": "Benar. 'Not even the bank president' adalah subject kalimat utama (bukan ekspresi negatif yang memicu inversion), jadi 'knows' tetap di posisi normal. 'when the vault will be opened' adalah embedded question, juga benar tidak di-invert.",
+    "flagged": false
+  },
+  {
+    "ref": "How long it has",
+    "answer": 0,
+    "expl": "Benar (tanpa tanda tanya, diperlakukan sebagai klausa yang tidak berdiri sebagai direct question) — subject 'it' tetap di depan verb 'has been', tidak di-invert, sesuai pola embedded question.",
+    "flagged": true
+  },
+  {
+    "ref": "The jury doubts what",
+    "answer": 0,
+    "expl": "Benar. 'what the witness said' adalah embedded question setelah 'doubts' — subject 'the witness' tetap di depan verb 'said', tidak di-invert.",
+    "flagged": false
+  },
+  {
+    "ref": "Do you know why",
+    "answer": 0,
+    "expl": "Benar. Klausa utama 'Do you know' adalah kalimat tanya langsung yang benar di-invert; 'why he wants to take...' adalah embedded question yang benar tidak di-invert.",
+    "flagged": false
+  },
+  {
+    "ref": "At the Italian restaurant",
+    "answer": 1,
+    "expl": "Salah. Inversion setelah frasa tempat hanya berlaku untuk makna eksistensial/lokasi ('be' = ada/terletak), bukan untuk 'to be + adjective' yang mendeskripsikan sifat (rasa makanan). Seharusnya tanpa invert: 'The food at the Italian restaurant was too spicy for my taste.'",
+    "flagged": true
+  },
+  {
+    "ref": "Nowhere in the world",
+    "answer": 1,
+    "expl": "Salah. 'Nowhere' adalah ekspresi negatif di awal kalimat yang memicu inversion. Seharusnya: 'Nowhere in the world can farmers grow such delicious food.'",
+    "flagged": false
+  },
+  {
+    "ref": "In the backyard the",
+    "answer": 1,
+    "expl": "Salah. Setelah frasa tempat 'In the backyard', subject-verb seharusnya ditukar dan klausa relatif tetap menempel ke subject. Seharusnya: 'In the backyard are the two trees that need to be pruned.'",
+    "flagged": false
+  },
+  {
+    "ref": "Around the recreation hall",
+    "answer": 0,
+    "expl": "Benar. Frasa tempat gabungan + verb 'are' + subject 'the tents' terbalik dengan benar, klausa relatif 'where we will be staying' menempel pas ke subject.",
+    "flagged": false
+  },
+  {
+    "ref": "In the apartment next",
+    "answer": 0,
+    "expl": "Benar. 'were having a heated discussion' adalah verb aktivitas (bukan makna eksistensial 'ada/terletak'), jadi tidak wajib di-invert — mirip pola 'In the forest I walked for many hours' pada teori. Subject 'a man and a woman' boleh tetap di depan verb.",
+    "flagged": false
+  },
+  {
+    "ref": "Seldom their secretary has",
+    "answer": 1,
+    "expl": "Salah. 'Seldom' adalah ekspresi negatif di awal kalimat yang memicu inversion. Seharusnya: 'Seldom has their secretary made such mistakes.'",
+    "flagged": false
+  },
+  {
+    "ref": "No sooner had she",
+    "answer": 0,
+    "expl": "Benar. 'No sooner...than' memicu inversion, dan 'had she hung up' sudah benar ditukar.",
+    "flagged": false
+  },
+  {
+    "ref": "Shiela did not arrive",
+    "answer": 1,
+    "expl": "Salah. Setelah 'nor', subject dan verb wajib ditukar. Seharusnya: 'nor did she leave early', bukan 'nor she left early'.",
+    "flagged": false
+  },
+  {
+    "ref": "Barely had he finished",
+    "answer": 0,
+    "expl": "Benar. 'Barely...when' memicu inversion, dan 'had he finished' sudah benar ditukar.",
+    "flagged": false
+  },
+  {
+    "ref": "The police did not",
+    "answer": 0,
+    "expl": "Benar. Setelah 'neither', subject dan verb wajib ditukar: 'neither did the paramedics' sudah benar.",
+    "flagged": false
+  },
+  {
+    "ref": "He would have been",
+    "answer": 1,
+    "expl": "Salah. Urutan yang benar untuk inverted negative conditional adalah helping verb + subject + not: 'had he not remembered', bukan 'had not he remembered'.",
+    "flagged": false
+  },
+  {
+    "ref": "If your friends come",
+    "answer": 0,
+    "expl": "Benar. 'if' tetap dipakai (tidak dihilangkan), jadi tidak perlu pola invert khusus Skill 18 — 'will they stay' adalah inversion standar untuk kalimat tanya, sudah tepat.",
+    "flagged": false
+  },
+  {
+    "ref": "He might be a",
+    "answer": 0,
+    "expl": "Benar. 'if' dihilangkan, 'were' dipindah ke depan subject: 'were he a little more willing' = 'if he were a little more willing'. Sesuai pola.",
+    "flagged": false
+  },
+  {
+    "ref": "Should you ever visit",
+    "answer": 0,
+    "expl": "Benar. 'if' dihilangkan, 'should' dipindah ke depan subject: 'Should you ever visit' = 'If you should ever visit'. Sesuai pola.",
+    "flagged": false
+  },
+  {
+    "ref": "Do you think that",
+    "answer": 0,
+    "expl": "Benar. Klausa utama 'Do you think' adalah kalimat tanya langsung yang benar di-invert; 'that she would give the speech' adalah noun clause yang benar tidak di-invert; 'were she asked' adalah conditional if-dihilangkan yang benar di-invert ('if she were asked').",
+    "flagged": false
+  }
+]

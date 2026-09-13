@@ -1,0 +1,480 @@
+{
+  "skills": [
+    {
+      "number": 15,
+      "title": "INVERT SUBJECT AND VERB WITH QUESTION WODS",
+      "theory": [
+        {
+          "tag": "text",
+          "text": "Subject and verb dapat di ‘tukar’ dalam beberapa kondisi. Subject dan helping verb biasanya di ‘tukar’ dalam format kalimat tanya. Helping Verb yang dimaksud adalah be, have, can, could, will, would, dst."
+        },
+        {
+          "tag": "text",
+          "text": "He can go to the movies"
+        },
+        {
+          "tag": "text",
+          "text": "Can he go to the movies?"
+        },
+        {
+          "tag": "text",
+          "text": "He is ok"
+        },
+        {
+          "tag": "text",
+          "text": "Is he ok?"
+        },
+        {
+          "tag": "text",
+          "text": "Apabila tidak menggunakan helping verb diatas maka kita dapat menggunakan do, does, did"
+        },
+        {
+          "tag": "text",
+          "text": "He goes to the movie"
+        },
+        {
+          "tag": "text",
+          "text": "Does he go to the movie?"
+        },
+        {
+          "tag": "text",
+          "text": "He went to the movie"
+        },
+        {
+          "tag": "text",
+          "text": "Did he go to the movie?"
+        },
+        {
+          "tag": "text",
+          "text": "Penukaran antara subject dan verb dalam WH-question dapat memiliki lebih dari 1 pola perhatikan contoh :"
+        },
+        {
+          "tag": "text",
+          "text": "what is the homework?"
+        },
+        {
+          "tag": "text",
+          "text": "where are you going?"
+        },
+        {
+          "tag": "text",
+          "text": "I do not know what the homework is"
+        },
+        {
+          "tag": "text",
+          "text": "Do you know where you are going"
+        },
+        {
+          "tag": "img",
+          "text": "assets/skill15-pola.png",
+          "alt": "Tabel pola inversion dengan question words"
+        },
+        {
+          "tag": "label",
+          "text": "Contoh dalam soal TOEFL :"
+        },
+        {
+          "tag": "text",
+          "text": "The lawyer asked the client why ___ it?"
+        },
+        {
+          "tag": "text",
+          "text": "Did he do"
+        },
+        {
+          "tag": "text",
+          "text": "Did he"
+        },
+        {
+          "tag": "text",
+          "text": "He did"
+        },
+        {
+          "tag": "text",
+          "text": "Did"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "ci",
+          "text": "The phone company is not certain when will the new directories be ready",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "The professor does not understand why so many students did poorly on exam",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "How new students can get information about parking?",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Where is the cheapest to get typeset copies printed?",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Only the pilot can tell you how far can the plane go on one tank of fuel",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "title": "INVERT THE SUBJECT AND VERB WITH PLACE EXPRESSION",
+      "theory": [
+        {
+          "tag": "text",
+          "text": "kalimat yang memuat keterangan tempat kadang subject dan verb dapat ditukar. Yang paling umum, ketika menggunakan kata seperti here, there, nowhere."
+        },
+        {
+          "tag": "text",
+          "text": "Here is the book that you lent me"
+        },
+        {
+          "tag": "text",
+          "text": "There are the keys that I thought I lost"
+        },
+        {
+          "tag": "text",
+          "text": "Subject dan verb juga dapat ditukar setelah prepositional phrases expressing place. Contoh :"
+        },
+        {
+          "tag": "text",
+          "text": "In the closet are the clothes that you want"
+        },
+        {
+          "tag": "text",
+          "text": "Around the corner is Sam’s house"
+        },
+        {
+          "tag": "text",
+          "text": "Beyond the mountains lies the town where you will live"
+        },
+        {
+          "tag": "text",
+          "text": "CATATAN! Penukaran antara subject dan verb dapat dilakukan hanya apabila prepositional phrases of place tersebu digunakan untuk melengkapi kalimat. Contoh :"
+        },
+        {
+          "tag": "text",
+          "text": "In the forest are many exotic birds"
+        },
+        {
+          "tag": "text",
+          "text": "In the forest I walked for many hours"
+        },
+        {
+          "tag": "label",
+          "text": "Contoh dalam soal TOEFL :"
+        },
+        {
+          "tag": "text",
+          "text": "On the second level of the parking lot ___ ."
+        },
+        {
+          "tag": "text",
+          "text": "Is empty"
+        },
+        {
+          "tag": "text",
+          "text": "Are empty"
+        },
+        {
+          "tag": "text",
+          "text": "Some empty stalls are"
+        },
+        {
+          "tag": "text",
+          "text": "Are some empty stalls"
+        },
+        {
+          "tag": "img",
+          "text": "assets/skill16-pola.png",
+          "alt": "Tabel pola inversion dengan place expression"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "ci",
+          "text": "In front of the house were some giant trees",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "There a big house is on the corner",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "In the cave was a vast treasure of gems and jewels",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "To the north the stream is that the settlers will have to cross",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Around the corner are the officers that you are trying to find",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "title": "INVERT THE SUBJECT AND VERB WITH NEGATIVES",
+      "theory": [
+        {
+          "tag": "text",
+          "text": "Subject dan verb dapat ditukar tempatnya setelah beberapa ekspresi yang memuat makna negative. Ketika awal kalimat memuat no, not never maka subject dan verb ditukar. Contoh :"
+        },
+        {
+          "tag": "text",
+          "text": "Not once did I miss a question"
+        },
+        {
+          "tag": "text",
+          "text": "Never has Mr. Jones taken a vacation"
+        },
+        {
+          "tag": "text",
+          "text": "At no time can the woman talk on the telephone"
+        },
+        {
+          "tag": "text",
+          "text": "Selain contoh diatas ada juga hardly, barely, scarcely, only juga dapat diartikan sebagai negative. Contoh :"
+        },
+        {
+          "tag": "text",
+          "text": "Hardly ever does he take time off"
+        },
+        {
+          "tag": "text",
+          "text": "Only once did the manager issue overtime paychecks"
+        },
+        {
+          "tag": "text",
+          "text": "Ketika makna negative ada ditengah juga bisa dilakukan penukaran antara subjcet dan verb. Seperti penggunaan niether atau nor"
+        },
+        {
+          "tag": "text",
+          "text": "I do not want to go, and neither does Tom"
+        },
+        {
+          "tag": "text",
+          "text": "The secretary is not attending the meeting, nor is her boss"
+        },
+        {
+          "tag": "label",
+          "text": "Contoh dalam TOEFL :"
+        },
+        {
+          "tag": "text",
+          "text": "Only in extremely dangerous situations ___ stopped"
+        },
+        {
+          "tag": "text",
+          "text": "Will be the printing presses"
+        },
+        {
+          "tag": "text",
+          "text": "The printing presses will be"
+        },
+        {
+          "tag": "text",
+          "text": "That the printing presses will be"
+        },
+        {
+          "tag": "text",
+          "text": "Will the printing presses be"
+        },
+        {
+          "tag": "img",
+          "text": "assets/skill17-pola.png",
+          "alt": "Tabel pola inversion dengan ekspresi negatif"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "ci",
+          "text": "Never the boy wrote to his sister",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "On no occasion did they say that to me",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Steve did not win the prize, nor did he expect to do so",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Only once in my life gone I have to New York City",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Did he go out of the house at no time",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "title": "INVERT THE SUBJECT AND VERB WITH CONDITIONALS",
+      "theory": [
+        {
+          "tag": "text",
+          "text": "Dalam beberapa conditional sentence subject dan verb juga dapat ditukar. Hal bisa dilakukan apabila helping verb nya adalah had, should, were maka conditional connector yaitu if dihilangkan. Contoh :"
+        },
+        {
+          "tag": "text",
+          "text": "If he had taken more time, the results would have been better."
+        },
+        {
+          "tag": "text",
+          "text": "Had he taken more time, the results would have been better"
+        },
+        {
+          "tag": "text",
+          "text": "I would help you if I were in a position to help"
+        },
+        {
+          "tag": "text",
+          "text": "I would help you were I in a position to help"
+        },
+        {
+          "tag": "text",
+          "text": "If you should arrive before 6.00, just give me a call"
+        },
+        {
+          "tag": "text",
+          "text": "Should you arrive before 6.00, just give me a call"
+        },
+        {
+          "tag": "text",
+          "text": "Soal dalam TOEFL :"
+        },
+        {
+          "tag": "text",
+          "text": "The report would have been accepted ___ in checking its accuracy"
+        },
+        {
+          "tag": "text",
+          "text": "If more care"
+        },
+        {
+          "tag": "text",
+          "text": "More care had been taken"
+        },
+        {
+          "tag": "text",
+          "text": "Had taken more care"
+        },
+        {
+          "tag": "text",
+          "text": "Had more care been taken"
+        },
+        {
+          "tag": "img",
+          "text": "assets/skill18-pola.png",
+          "alt": "Tabel pola inversion pada conditional sentences"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "ci",
+          "text": "Were our neighbours a bit more friendly, it would be somewhat easier to get to know them",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "There are plenty of blankets in the closet if should you get cold during the night",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Has he enough vacation days left this year, he will take two full weeks off in December",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "Had we been informed of the decision, we might have had something to say about it",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        },
+        {
+          "type": "ci",
+          "text": "I would like to know could you help me packed these boxes",
+          "options": [
+            "Correct",
+            "Incorrect"
+          ]
+        }
+      ]
+    }
+  ]
+}

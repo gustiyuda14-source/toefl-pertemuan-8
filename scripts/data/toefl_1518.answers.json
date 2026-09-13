@@ -1,0 +1,122 @@
+[
+  {
+    "ref": "The phone company is not",
+    "answer": 1,
+    "expl": "Salah. Klausa ini adalah embedded question (noun clause) setelah 'is not certain' — subject dan verb TIDAK boleh ditukar. Seharusnya: 'when the new directories will be ready' (urutan normal subject-verb).",
+    "flagged": false
+  },
+  {
+    "ref": "The professor does not",
+    "answer": 0,
+    "expl": "Benar. 'why so many students did poorly' adalah embedded question setelah 'does not understand' — subject 'so many students' tetap di depan verb 'did', tidak ditukar. Sesuai aturan: WH-question yang jadi noun clause TIDAK di-invert.",
+    "flagged": false
+  },
+  {
+    "ref": "How new students can",
+    "answer": 1,
+    "expl": "Salah. Ini kalimat tanya langsung (ditandai '?'), maka subject dan helping verb harus ditukar. Seharusnya: 'How can new students get information about parking?'",
+    "flagged": false
+  },
+  {
+    "ref": "Where is the cheapest",
+    "answer": 0,
+    "expl": "Benar. Kalimat tanya langsung — helping verb 'is' sudah benar ditukar ke depan subject, sesuai pola WH-question standar.",
+    "flagged": false
+  },
+  {
+    "ref": "Only the pilot can",
+    "answer": 1,
+    "expl": "Salah. 'how far ... the plane go' adalah embedded question setelah 'tell you' — tidak boleh di-invert. Seharusnya: 'how far the plane can go' (subject 'the plane' sebelum 'can').",
+    "flagged": false
+  },
+  {
+    "ref": "In front of the house",
+    "answer": 0,
+    "expl": "Benar. Prepositional phrase tempat 'In front of the house' melengkapi kalimat (makna eksistensial: pohon-pohon ada di depan rumah), sehingga subject 'some giant trees' dan verb 'were' boleh ditukar.",
+    "flagged": false
+  },
+  {
+    "ref": "There a big house",
+    "answer": 1,
+    "expl": "Salah. Setelah 'there'/'here' subject dan verb harus ditukar. Seharusnya: 'There is a big house on the corner.'",
+    "flagged": false
+  },
+  {
+    "ref": "In the cave was",
+    "answer": 0,
+    "expl": "Benar. Frasa tempat 'In the cave' melengkapi makna eksistensial kalimat, subject 'a vast treasure...' dan verb 'was' benar ditukar.",
+    "flagged": false
+  },
+  {
+    "ref": "To the north the",
+    "answer": 1,
+    "expl": "Salah. Setelah frasa tempat 'To the north', subject-verb seharusnya ditukar dan klausa relatif tetap menempel ke 'the stream'. Seharusnya: 'To the north is the stream that the settlers will have to cross.'",
+    "flagged": false
+  },
+  {
+    "ref": "Around the corner are",
+    "answer": 0,
+    "expl": "Benar. Frasa tempat 'Around the corner' + verb 'are' + subject 'the officers' terbalik dengan benar, klausa relatif 'that you are trying to find' menempel pas ke subject.",
+    "flagged": false
+  },
+  {
+    "ref": "Never the boy wrote",
+    "answer": 1,
+    "expl": "Salah. 'Never' di awal kalimat memicu inversion (subject-verb ditukar). Seharusnya: 'Never did the boy write to his sister.'",
+    "flagged": false
+  },
+  {
+    "ref": "On no occasion did",
+    "answer": 0,
+    "expl": "Benar. Ekspresi negatif 'On no occasion' di awal kalimat memicu inversion, dan 'did they say' sudah benar ditukar.",
+    "flagged": false
+  },
+  {
+    "ref": "Steve did not win",
+    "answer": 0,
+    "expl": "Benar. Setelah 'nor', subject dan verb wajib ditukar: 'nor did he expect' sudah benar.",
+    "flagged": false
+  },
+  {
+    "ref": "Only once in my",
+    "answer": 1,
+    "expl": "Salah. Setelah 'Only once in my life' (ekspresi negatif), yang ditukar adalah subject-helping verb: seharusnya 'Only once in my life have I gone to New York City', bukan 'gone I have'.",
+    "flagged": false
+  },
+  {
+    "ref": "Did he go out",
+    "answer": 1,
+    "expl": "Salah. Ekspresi negatif 'at no time' hanya memicu inversion kalau ditaruh di awal klausa. Di sini 'at no time' ada di akhir, jadi tidak tepat memakai bentuk inverted 'Did he go...'. Bentuk benar: 'At no time did he go out of the house' (fronting + invert), atau 'He did not go out of the house at any time' (tanpa invert).",
+    "flagged": true
+  },
+  {
+    "ref": "Were our neighbours a",
+    "answer": 0,
+    "expl": "Benar. Conditional dengan 'if' dihilangkan dan helping verb 'were' dipindah ke depan subject: 'Were our neighbours...' = 'If our neighbours were...'. Sesuai pola.",
+    "flagged": false
+  },
+  {
+    "ref": "There are plenty of",
+    "answer": 1,
+    "expl": "Salah. 'if' dan inversion ('should you') tidak boleh dipakai bersamaan — pilih salah satu: 'if you should get cold' ATAU 'should you get cold' (tanpa if).",
+    "flagged": false
+  },
+  {
+    "ref": "Has he enough vacation",
+    "answer": 1,
+    "expl": "Salah. Inversion tanpa 'if' hanya berlaku untuk helping verb had, should, atau were — bukan has. Seharusnya tetap pakai 'if': 'If he has enough vacation days...'.",
+    "flagged": false
+  },
+  {
+    "ref": "Had we been informed",
+    "answer": 0,
+    "expl": "Benar. 'If' dihilangkan, 'had' dipindah ke depan subject: 'Had we been informed...' = 'If we had been informed...'. Sesuai pola.",
+    "flagged": false
+  },
+  {
+    "ref": "I would like to",
+    "answer": 1,
+    "expl": "Salah. 'could you help me...' adalah embedded question setelah 'know' — tidak boleh di-invert. Seharusnya: 'I would like to know if/whether you could help me pack these boxes' (juga 'packed' seharusnya 'pack').",
+    "flagged": false
+  }
+]
