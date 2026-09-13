@@ -1,0 +1,182 @@
+[
+  {
+    "ref": "What does the man mean",
+    "answer": 0,
+    "expl": "Pria bilang \"I'm on my way now\" — artinya dia sudah dalam perjalanan / berangkat sekarang.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman assu",
+    "answer": 2,
+    "expl": "Wanita bilang dia sengaja meninggalkan pintu tidak terkunci untuk Steve, artinya dia berasumsi Steve bisa masuk / membuka pintu.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman mean",
+    "answer": 3,
+    "expl": "\"That doesn't sound good to me\" setelah mendengar menu makan malam berarti dia lebih suka menu lain.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man imply",
+    "answer": 1,
+    "expl": "\"Sorry, I'm busy tonight\" — pria menyiratkan dia tidak bisa membantu malam ini.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman mean",
+    "answer": 2,
+    "expl": "\"I couldn't keep my eyes open\" (hampir tertidur) berarti dia merasa kelasnya membosankan.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man mean",
+    "answer": 0,
+    "expl": "Pria hanya membayar telepon dan listrik, bukan kartu kredit — artinya belum semua tagihan lunas.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman say",
+    "answer": 3,
+    "expl": "\"I'll be back as quickly as I can\" — wanita berusaha kembali secepat mungkin, bukan janji pasti jam 4.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman say",
+    "answer": 2,
+    "expl": "\"He was here just a minute ago\" berarti Tim baru saja ada di situ sesaat yang lalu.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman mean",
+    "answer": 3,
+    "expl": "Karena tempat parkirnya sudah ditempati mobil lain, mereka jadi tidak bisa parkir di situ.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man mean",
+    "answer": 0,
+    "expl": "\"The refrigerator's about to burst\" (kulkas penuh sesak) — idiom yang berarti makanannya berlimpah/cukup banyak.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man mean",
+    "answer": 3,
+    "expl": "\"It was too easy\" berarti ujiannya tidak sulit sama sekali.",
+    "flagged": false
+  },
+  {
+    "ref": "How is the man feeling",
+    "answer": 0,
+    "expl": "\"I'm really feeling rather sick\" — synonim dari \"tidak enak badan\", jebakan di opsi B (\"sick of working\").",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman say",
+    "answer": 0,
+    "expl": "\"Just established last year\" berarti perusahaan itu baru didirikan sekitar setahun lalu.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man mean",
+    "answer": 2,
+    "expl": "\"The plane landed right on schedule\" = pesawat mendarat tepat waktu.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman impl",
+    "answer": 2,
+    "expl": "\"I'll just run and put my suit on\" (suit = baju renang) berarti dia akan cepat-cepat ganti baju lalu berenang; jebakan \"run\" bukan berarti lari.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman mean",
+    "answer": 3,
+    "expl": "\"At least the homes were saved\" berarti rumah-rumahnya tidak hancur/selamat dari kebakaran.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman mean",
+    "answer": 1,
+    "expl": "\"No, I think there's enough\" (bumbu sudah cukup) — synonim dari \"the spices are adequate\".",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man mean",
+    "answer": 0,
+    "expl": "\"I was fortunate to get a scholarship\" = beruntung mendapat beasiswa/hibah untuk studinya.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman say",
+    "answer": 1,
+    "expl": "\"It made quite a big profit\" berarti perusahaan itu meraih banyak keuntungan.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man mean",
+    "answer": 3,
+    "expl": "\"His bank account is overdrawn\" (minus/tekor) berarti uangnya tidak cukup di rekening.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman mean",
+    "answer": 2,
+    "expl": "\"I need to water the grass\" — dia harus menyiram rumput karena rumputnya kering; jebakan bunyi mirip \"wait for cash\"/\"glass of water\"/\"watch out for a crash\".",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman mean",
+    "answer": 0,
+    "expl": "\"It doesn't really seem to fit right\" berarti ukuran sweaternya salah/tidak pas; jebakan bunyi \"sweat\"/\"sweet\".",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man say ab",
+    "answer": 3,
+    "expl": "\"Commuting to Boston on a regular basis\" berarti bolak-balik ke Boston secara rutin; jebakan bunyi \"communities\"/\"communicates\".",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man say ab",
+    "answer": 1,
+    "expl": "\"He wasn't able to master the lesson\" berarti dia tidak bisa menguasai/mempelajari pelajaran itu; jebakan bunyi \"massive\" mirip \"master\".",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman mean",
+    "answer": 1,
+    "expl": "\"Whenever there's a forest fire, many animals die\" berarti hewan-hewan mati akibat kebakaran hutan; jebakan bunyi \"frost\" mirip \"forest\".",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man mean",
+    "answer": 2,
+    "expl": "\"The shoes are on sale for $20 a pair\" berarti sepatu itu seharga $20; jebakan bunyi \"pears\"/\"repaired\" mirip \"a pair\".",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man mean",
+    "answer": 2,
+    "expl": "\"He was attending a required biology lab\" berarti Tom sedang mengikuti (pergi ke) lab biologi wajib; jebakan bunyi \"tended\"/\"attendance\"/\"tendency\".",
+    "flagged": false
+  },
+  {
+    "ref": "Why is the man waiting",
+    "answer": 3,
+    "expl": "\"The mail should arrive at noon\" berarti dia menunggu surat/paket dikirim jam 12; jebakan bunyi \"meal\"/\"male\"/\"ice\" mirip \"mail\".",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man mean",
+    "answer": 0,
+    "expl": "\"A bad storm is heading in\" berarti cuaca akan memburuk; jebakan bunyi \"headline\"/\"headstrong\"/\"new bed\" mirip \"heading in\"/\"news\".",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man ask t",
+    "answer": 2,
+    "expl": "\"Would you mind chopping vegetables for salad?\" berarti dia minta bantuan menyiapkan salad; jebakan bunyi \"mind shopping\" mirip \"mind chopping\".",
+    "flagged": false
+  }
+]

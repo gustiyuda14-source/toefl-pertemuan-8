@@ -1,0 +1,62 @@
+[
+  {
+    "ref": "What does the man mean",
+    "answer": 2,
+    "expl": "\"Some coffee would be nice\" — pria setuju, artinya minum sesuatu (kopi) kedengarannya ide bagus.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman mean",
+    "answer": 0,
+    "expl": "Menolak jalan-jalan karena \"too cloudy and cold\" berarti wanita itu lebih suka cuaca cerah.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman sugg",
+    "answer": 3,
+    "expl": "\"You could try counting sheep\" (hitung domba, kegiatan monoton) adalah saran agar bisa tidur; jebakan bunyi \"account\"/\"ship\"/\"cheap\" mirip \"counting\"/\"sheep\".",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man mean",
+    "answer": 3,
+    "expl": "\"I just can't believe it\" berarti perubahan itu tidak bisa dipercaya/mengejutkan baginya.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman mean",
+    "answer": 0,
+    "expl": "\"We've been standing in line for almost an hour\" berarti antrean sudah berlangsung hampir satu jam.",
+    "flagged": false
+  },
+  {
+    "ref": "What is happening",
+    "answer": 3,
+    "expl": "\"He's collecting the train fare from the passengers\" berarti penumpang sedang membayar ongkos kereta; jebakan bunyi \"instructor/passages\" dan \"stamp collector/conducting\" mirip \"conductor/passengers/collecting\".",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man mean",
+    "answer": 1,
+    "expl": "\"It will start later this week\" berarti program pelatihan manajemen baru akan segera dimulai.",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman mean",
+    "answer": 2,
+    "expl": "\"It must have started in the attic\" (loteng = bagian atas rumah) berarti api diperkirakan mulai dari atap/bagian atas bangunan; jebakan bunyi \"attacker/attack\" mirip \"attic\".",
+    "flagged": false
+  },
+  {
+    "ref": "What does the man mean",
+    "answer": 2,
+    "expl": "\"I assumed that you already knew the truth\" berarti pria mengira wanita itu sudah tahu apa yang terjadi; jebakan bunyi \"assured\"/\"isn't new\"/\"soon will know\" mirip \"assumed\"/\"already knew\".",
+    "flagged": false
+  },
+  {
+    "ref": "What does the woman say",
+    "answer": 1,
+    "expl": "\"They were fantastic\" berarti sketsa/gambar Dave itu bagus sekali; jebakan bunyi \"fans\"/\"catches\"/\"fantasy\" mirip \"professor\"/\"sketches\"/\"fantastic\".",
+    "flagged": false
+  }
+]

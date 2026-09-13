@@ -1,0 +1,432 @@
+{
+  "skills": [
+    {
+      "number": 1,
+      "title": "FOCUS ON THE LAST LINE",
+      "theory": [
+        {
+          "tag": "text",
+          "text": "Percakapan akan melibatkan dua orang (percakapan pendek). Untuk mencari jawabannya kadangkala kita harus memperhatikan di akhir percakapan."
+        },
+        {
+          "tag": "img",
+          "text": "assets/listening-1-3-s1-example.png",
+          "alt": "Contoh soal dari TOEFL Paper dan Computer Test — dialog tentang Billy"
+        },
+        {
+          "tag": "img",
+          "text": "assets/listening-1-3-s1-strategy.png",
+          "alt": "Strategy #1: Focus on the Last Line"
+        },
+        {
+          "tag": "label",
+          "text": "Contoh:"
+        },
+        {
+          "tag": "img",
+          "text": "assets/listening-1-3-s1-contoh.png",
+          "alt": "Contoh soal Skill 1 — 3 dialog latihan"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill1-latihan-q1.mp3",
+          "text": "What does the man mean?",
+          "options": [
+            "He is leaving now.",
+            "He has to go out of his way.",
+            "He will not be leaving soon.",
+            "He will do it his own way."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill1-latihan-q2.mp3",
+          "text": "What does the woman assume Steve did?",
+          "options": [
+            "He locked the door.",
+            "He tried unsuccessfully to get into the house.",
+            "He was able to open the door.",
+            "He left the house without locking the door."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill1-latihan-q3.mp3",
+          "text": "What does the woman mean?",
+          "options": [
+            "She doesn't like to listen to turkeys.",
+            "She thinks the dinner sounds special.",
+            "She especially likes the roast turkey.",
+            "She'd prefer a different dinner."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill1-latihan-q4.mp3",
+          "text": "What does the man imply?",
+          "options": [
+            "He'll be busy with her homework tonight.",
+            "He can't help her tonight.",
+            "He's sorry he can't ever help her.",
+            "He'll help her with her physics."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill1-latihan-q5.mp3",
+          "text": "What does the woman mean?",
+          "options": [
+            "Her eyes hurt.",
+            "She thought the lecture was great.",
+            "The class was boring.",
+            "She didn't want to watch Professor Martin."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill1-latihan-q6.mp3",
+          "text": "What does the man mean?",
+          "options": [
+            "Not all the bills have been paid.",
+            "They don't have enough credit to pay the bills.",
+            "What she said on the phone was not credible.",
+            "He used a credit card to pay some of the bills."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill1-latihan-q7.mp3",
+          "text": "What does the woman say that she'll do?",
+          "options": [
+            "She'll call back quickly.",
+            "She'll definitely be back by 4:00.",
+            "She'll give it back by 4:00.",
+            "She'll try to return fast."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill1-latihan-q8.mp3",
+          "text": "What does the woman say about Tim?",
+          "options": [
+            "She hasn't seen Tim.",
+            "Tim was there only for a moment.",
+            "Tim was around a short time ago.",
+            "Tim will return in a minute."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill1-latihan-q9.mp3",
+          "text": "What does the woman mean?",
+          "options": [
+            "She doesn't like the place he chose.",
+            "She doesn't want to get into the car.",
+            "She's glad the spot is reserved.",
+            "They can't park the car there."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill1-latihan-q10.mp3",
+          "text": "What does the man mean?",
+          "options": [
+            "There's plenty to eat.",
+            "The refrigerator's broken.",
+            "The food isn't in the refrigerator.",
+            "He's not sure if there's enough."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "title": "CHOOSE ANSWER WITH SYNONYMS",
+      "theory": [
+        {
+          "tag": "text",
+          "text": "Seringkali jawaban yang benar dalam dialog pendek itu berisi synonim yang menjadi kata kuncinya."
+        },
+        {
+          "tag": "img",
+          "text": "assets/listening-1-3-s2-example.png",
+          "alt": "Contoh soal dari TOEFL Paper dan Computer Test — dialog tentang Barbara"
+        },
+        {
+          "tag": "img",
+          "text": "assets/listening-1-3-s2-strategy.png",
+          "alt": "Strategy #2: Choose Answers with Synonyms"
+        },
+        {
+          "tag": "label",
+          "text": "Contoh:"
+        },
+        {
+          "tag": "img",
+          "text": "assets/listening-1-3-s2-contoh1.png",
+          "alt": "Contoh soal Skill 2 nomor 1"
+        },
+        {
+          "tag": "img",
+          "text": "assets/listening-1-3-s2-contoh2.png",
+          "alt": "Contoh soal Skill 2 nomor 2 dan 3"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill2-latihan-q1.mp3",
+          "text": "What does the man mean?",
+          "options": [
+            "The final exam was harder than the others.",
+            "There were two exams rather than one.",
+            "He thought the exam would be easier.",
+            "The exam was not very difficult."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill2-latihan-q2.mp3",
+          "text": "How is the man feeling?",
+          "options": [
+            "He's not feeling very well.",
+            "He's rather sick of working.",
+            "He's feeling better today than yesterday.",
+            "He'd really rather not answer the question."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill2-latihan-q3.mp3",
+          "text": "What does the woman say about the family business?",
+          "options": [
+            "The company was founded about a year ago.",
+            "It was just established that he could go into business.",
+            "The family is well-established.",
+            "The business only lasted a year."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill2-latihan-q4.mp3",
+          "text": "What does the man mean?",
+          "options": [
+            "He did not look at the right schedule.",
+            "The plane landed in the right place.",
+            "The plane arrived on time.",
+            "He had to wait for the plane to land."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill2-latihan-q5.mp3",
+          "text": "What does the woman imply?",
+          "options": [
+            "She'd rather go running.",
+            "She doesn't want to go into the pool.",
+            "She'll change clothes quickly and go swimming.",
+            "She needs a sweatsuit to go running."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill2-latihan-q6.mp3",
+          "text": "What does the woman mean?",
+          "options": [
+            "The firefighters saved the homes for last.",
+            "A firefighter saved the hillside last night.",
+            "The homes on the hillside were burned.",
+            "The houses weren't destroyed."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill2-latihan-q7.mp3",
+          "text": "What does the woman mean?",
+          "options": [
+            "There's enough soup.",
+            "The spices are adequate.",
+            "She thinks the soup's too salty.",
+            "The man should add more salt and pepper."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill2-latihan-q8.mp3",
+          "text": "What does the man mean?",
+          "options": [
+            "He was lucky to receive a grant for his studies.",
+            "He used his fortune to pay his fees.",
+            "He is a scholar at a college with low fees.",
+            "He paid to get a scholarship."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill2-latihan-q9.mp3",
+          "text": "What does the woman say about the corporation?",
+          "options": [
+            "It profited from previous mistakes.",
+            "It earned a lot of money.",
+            "This was the last year that it would make a profit.",
+            "It was not so successful."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill2-latihan-q10.mp3",
+          "text": "What does the man mean?",
+          "options": [
+            "Chuck's bank account has too much money in it.",
+            "He thinks Chuck has the wrong kind of bank account.",
+            "He thinks that Chuck is on his way home from the bank.",
+            "There isn't enough money in Chuck's account."
+          ]
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "title": "AVOID SIMILAR SOUND",
+      "theory": [
+        {
+          "tag": "text",
+          "text": "Biasanya dalam percakapan pendek jawaban yang mengandung 'bunyi' yang sama itu harus dihindari."
+        },
+        {
+          "tag": "img",
+          "text": "assets/listening-1-3-s3-example.png",
+          "alt": "Contoh soal dari TOEFL Paper dan Computer Test — dialog tentang Mark"
+        },
+        {
+          "tag": "img",
+          "text": "assets/listening-1-3-s3-strategy.png",
+          "alt": "Strategy #3: Avoid Similar Sounds"
+        },
+        {
+          "tag": "label",
+          "text": "Contoh:"
+        },
+        {
+          "tag": "img",
+          "text": "assets/listening-1-3-s3-contoh.png",
+          "alt": "Contoh soal Skill 3 — 3 dialog latihan"
+        }
+      ],
+      "exercises": [
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill3-latihan-q1.mp3",
+          "text": "What does the woman mean?",
+          "options": [
+            "She has to wait for some cash.",
+            "The waiter is bringing a glass of water.",
+            "The lawn is too dry.",
+            "She needs to watch out for a crash."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill3-latihan-q2.mp3",
+          "text": "What does the woman mean?",
+          "options": [
+            "The sweater's the wrong size.",
+            "The man's feet aren't sweating.",
+            "The sweater makes the man seem fat.",
+            "The sweet girl doesn't feel right."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill3-latihan-q3.mp3",
+          "text": "What does the man say about Walter?",
+          "options": [
+            "He has been regularly using a computer.",
+            "He communicates with a Boston company.",
+            "He regularly goes to communities around Boston.",
+            "He has been traveling back and forth to Boston."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill3-latihan-q4.mp3",
+          "text": "What does the man say about Bob?",
+          "options": [
+            "He thought the lesson didn't matter.",
+            "He couldn't learn the lesson.",
+            "He learned a massive number of details.",
+            "He didn't like most of the lesson."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill3-latihan-q5.mp3",
+          "text": "What does the woman mean?",
+          "options": [
+            "Some animals started the first fire.",
+            "Animals are killed by forest fires.",
+            "In the first frost, animals die.",
+            "Frost can kill animals."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill3-latihan-q6.mp3",
+          "text": "What does the man mean?",
+          "options": [
+            "Twenty pairs of shoes are on sale.",
+            "The shoe salesclerk spent twenty dollars on pears.",
+            "The shoes cost twenty dollars.",
+            "The shoes could be repaired for twenty dollars."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill3-latihan-q7.mp3",
+          "text": "What does the man mean?",
+          "options": [
+            "Tom tended to dislike biology lab.",
+            "Attendance wasn't necessary at biology lab.",
+            "Tom went to biology lab.",
+            "There was a tendency to require biology lab."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill3-latihan-q8.mp3",
+          "text": "Why is the man waiting?",
+          "options": [
+            "The meal will be served at noon.",
+            "The males should be driven there by noon.",
+            "He's expecting the ice to melt before noon.",
+            "The letters ought to be delivered at 12:00."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill3-latihan-q9.mp3",
+          "text": "What does the man mean?",
+          "options": [
+            "The weather will probably get worse later.",
+            "The newspaper headlines described a bad storm.",
+            "There was news about a headstrong man.",
+            "He had a new bed."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-skill3-latihan-q10.mp3",
+          "text": "What does the man ask the woman?",
+          "options": [
+            "If she could do the grocery shopping.",
+            "If she prefers cooked vegetables or salad.",
+            "If she could help prepare the salad.",
+            "If she minds shopping for vegetables."
+          ]
+        }
+      ]
+    }
+  ]
+}

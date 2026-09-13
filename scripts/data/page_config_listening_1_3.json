@@ -1,0 +1,22 @@
+{
+  "site_url": "https://toefl-pertemuan-9.vercel.app",
+  "og_image": "assets/og-preview.jpg",
+  "eval_title": "D Ajiks Akademi – Evaluasi TOEFL Listening Skill 1-3 (CAT)",
+  "eval_hero_title": "TOEFL Listening — Skill 1-3",
+  "eval_h1": "Evaluasi Listening Skill 1, 2 & 3",
+  "eval_sub": "Uji pemahamanmu • Computer Based Test",
+  "eval_intro": "Tes ini menguji kemampuanmu memahami percakapan pendek TOEFL Listening — fokus pada baris terakhir dialog (<em>focus on the last line</em>), memilih jawaban bersinonim (<em>choose answers with synonyms</em>), dan menghindari jebakan bunyi mirip (<em>avoid similar sounds</em>). Dengarkan audio tiap soal lalu pilih jawaban terbaik. Belum siap? Pelajari materinya dulu.",
+  "stat_skills": 3,
+  "duration_minutes": 15,
+  "section_names": {
+    "C": "Bagian C — Listening Comprehension"
+  },
+  "materi_href": "materi-listening-1-3.html",
+  "index_href": "index-listening-1-3.html",
+  "footer_eval": "© Bimbel D Ajiks Akademi — Computer Based Test",
+  "materi_title": "Materi TOEFL Listening Skill 1-3 | D Ajiks Akademi",
+  "materi_hero_title": "TOEFL Listening — Skill 1-3",
+  "materi_h1": "Focus on the Last Line, Synonyms & Avoid Similar Sounds",
+  "materi_sub": "Pelajari teori lalu uji dengan latihan interaktif (dengarkan audio, feedback langsung).",
+  "footer_materi": "© Bimbel D Ajiks Akademi — Materi &amp; Latihan TOEFL"
+}

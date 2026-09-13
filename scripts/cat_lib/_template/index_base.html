@@ -65,6 +65,7 @@
   .qnum{color:var(--accent);font-weight:700;font-size:.82rem;letter-spacing:1px;text-transform:uppercase}
   .qtext{font-size:1.18rem;margin:10px 0 20px;font-weight:500;line-height:1.55}
   .q-passage{max-width:100%;border-radius:10px;margin:0 0 16px;display:block;border:1px solid var(--border)}
+  .q-audio{width:100%;margin:0 0 16px}
   .opts{display:flex;flex-direction:column;gap:11px}
   .opt{display:flex;align-items:center;gap:13px;padding:14px 17px;border:1px solid var(--border);border-radius:14px;cursor:pointer;background:rgba(255,255,255,.03);transition:.15s}
   .opt:hover{border-color:rgba(52,211,153,.45);background:rgba(255,255,255,.06)}
@@ -138,6 +139,7 @@
     <div class="card" style="margin-top:16px">
       <div class="qnum" id="q-section">Bagian A</div>
       <img class="q-passage hidden" id="q-passage" alt="Passage">
+      <audio class="q-audio hidden" id="q-audio" controls></audio>
       <div class="qtext" id="q-text">—</div>
       <div class="opts" id="q-opts"></div>
       <div class="btn-row">
@@ -338,6 +340,10 @@ function renderQuestion(){
   const passageEl = document.getElementById("q-passage");
   if(q.img){ passageEl.src = q.img; passageEl.classList.remove("hidden"); }
   else{ passageEl.classList.add("hidden"); }
+  const audioEl = document.getElementById("q-audio");
+  audioEl.pause();
+  if(q.audio){ audioEl.src = q.audio; audioEl.classList.remove("hidden"); }
+  else{ audioEl.removeAttribute("src"); audioEl.classList.add("hidden"); }
   document.getElementById("q-text").textContent = (current+1)+". "+q.text;
   const letters = ["A","B","C","D","E"];
   const optsEl = document.getElementById("q-opts");
@@ -417,6 +423,7 @@ function showReview(){
       <div class="rev">
         <div class="qn">SOAL ${i+1} • ${SECTION_NAMES[q.section]} ${statusPill}</div>
         ${q.img ? `<img class="q-passage" src="${q.img}" alt="Passage">` : ``}
+        ${q.audio ? `<audio class="q-audio" controls src="${q.audio}"></audio>` : ``}
         <div class="qt">${q.text}</div>
         <div>
           <span class="pill ${isCorrect?'ok':'bad'}">Jawabanmu: ${userText}</span>

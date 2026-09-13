@@ -57,6 +57,8 @@ def _merge_exercises(parsed_skills, answers):
             }
             if ex.get("img"):
                 q["img"] = ex["img"]
+            if ex.get("audio"):
+                q["audio"] = ex["audio"]
             merged.append(q)
             ai += 1
     if ai != len(answers):
@@ -264,6 +266,8 @@ def _build_materi_script_data(parsed, answers):
                 entry["flagged"] = True
             if ex.get("img"):
                 entry["img"] = ex["img"]
+            if ex.get("audio"):
+                entry["audio"] = ex["audio"]
             items.append(entry)
             ai += 1
         var_name = f"SKILL{skill['number']}"

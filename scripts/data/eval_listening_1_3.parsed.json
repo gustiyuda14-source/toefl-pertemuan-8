@@ -1,0 +1,121 @@
+{
+  "skills": [
+    {
+      "number": null,
+      "title": "EVALUASI SKILL 1-3",
+      "theory": [],
+      "exercises": [
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-eval-q1.mp3",
+          "text": "What does the man mean?",
+          "options": [
+            "He would like some iced coffee.",
+            "He wants to stop drinking coffee.",
+            "A drink seems like a good idea.",
+            "He needs to drink something to stop his coughing."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-eval-q2.mp3",
+          "text": "What does the woman mean?",
+          "options": [
+            "She would prefer a sunny day.",
+            "The park is too crowded.",
+            "She would like a place that is not so loud.",
+            "She cannot walk because she's too old."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-eval-q3.mp3",
+          "text": "What does the woman suggest to the man?",
+          "options": [
+            "He should open an account.",
+            "He should take a ride on a ship.",
+            "He should try to keep the cost cheap.",
+            "He should try something monotonous to get to sleep."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-eval-q4.mp3",
+          "text": "What does the man mean?",
+          "options": [
+            "The department is not changing the requirements.",
+            "He hasn't heard about the change.",
+            "The changes are believable.",
+            "What has happened is incredible to him."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-eval-q5.mp3",
+          "text": "What does the woman mean?",
+          "options": [
+            "The wait has taken close to an hour.",
+            "They were stranded in their car.",
+            "Most of the people have been in line for hours.",
+            "They made a line in the sand."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-eval-q6.mp3",
+          "text": "What is happening?",
+          "options": [
+            "The instructor is selecting several passages.",
+            "The conductor is fair to the passengers.",
+            "The stamp collector is conducting his business.",
+            "The riders are paying for the train trip."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-eval-q7.mp3",
+          "text": "What does the man mean?",
+          "options": [
+            "The managers will take the train to the program.",
+            "A program to develop new managers will commence soon.",
+            "The new management program is very weak.",
+            "The program will be maintained to the letter."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-eval-q8.mp3",
+          "text": "What does the woman mean?",
+          "options": [
+            "The fire started to attack the building.",
+            "The firefighter stared at the attacker.",
+            "The fire probably began at the top of the building.",
+            "The firefighter started to attack the fire."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-eval-q9.mp3",
+          "text": "What does the man mean?",
+          "options": [
+            "He assured the woman that he knew the truth.",
+            "He is sure that it isn't new.",
+            "He thought that the woman was aware of what happened.",
+            "He soon will know the truth."
+          ]
+        },
+        {
+          "type": "mcq",
+          "audio": "assets/listening-1-3-eval-q10.mp3",
+          "text": "What does the woman say about Dave?",
+          "options": [
+            "The art professor is not one of his fans.",
+            "His drawings were amazing.",
+            "The catches that he made were fantastic.",
+            "His sketches showed a fantasy world."
+          ]
+        }
+      ]
+    }
+  ]
+}
